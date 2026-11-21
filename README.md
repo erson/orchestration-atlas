@@ -9,26 +9,30 @@ Filter by task, feature, language, or activity and compare up to four projects s
 ```text
 +----- [ INDEX SNAPSHOT ] ----+
 |                             |
-|  Available projects   631   |
-|  Active in 30 days    450   |
+|  Available projects   640   |
+|  Active in 30 days    455   |
 |  Combined stars       3.7M  |
 |                             |
 +-----------------------------+
 ```
 
-*Metrics collected 2026-11-15 to 2026-11-21 (UTC). The index tracks 636 projects across 9 categories.*
+*Metrics collected 2026-11-15 to 2026-11-21 (UTC). The index tracks 645 projects across 9 categories.*
 
 ## Choose a task
+
+- [Orchestrator.inc](https://github.com/OrchestratorInc/agent-orchestrator) — Route failed CI checks and review comments to the agent that owns the branch.
+- [Emdash](https://github.com/generalaction/emdash) — Run agents in separate Git worktrees and compare their diffs.
+- [Mission Control](https://github.com/builderz-labs/mission-control) _(new)_ — Track spending alongside agent runs in a self-hosted dashboard.
 
 | I want to… | Indexed | Commit within 90 days |
 |---|---:|---:|
 | [Run parallel coding sessions in a terminal](#parallel-coding-agents--terminal-tuicli) | 61 | 52 |
-| [Manage coding agents in a desktop or web UI](#parallel-coding-agents--desktop--web) | 188 | 166 |
-| [Coordinate a team of agents](#multi-agent-swarms) | 114 | 88 |
+| [Manage coding agents in a desktop or web UI](#parallel-coding-agents--desktop--web) | 192 | 169 |
+| [Coordinate a team of agents](#multi-agent-swarms) | 116 | 89 |
 | [Repeat an agent loop until a condition is met](#autonomous-loop-runners) | 31 | 21 |
 | [Delegate a task to an autonomous runner](#autonomous-task-runners) | 58 | 46 |
-| [Build on orchestration infrastructure](#agent-infrastructure--primitives) | 82 | 70 |
-| [Set up a personal assistant](#personal-assistants) | 57 | 48 |
+| [Build on orchestration infrastructure](#agent-infrastructure--primitives) | 84 | 72 |
+| [Set up a personal assistant](#personal-assistants) | 58 | 49 |
 | [Explore the resting collection](#resting) | 17 | 1 |
 | [Build with a general-purpose agent SDK](#adjacent-frameworks-general-purpose-agent-sdks) | 28 | 23 |
 
@@ -40,11 +44,11 @@ Use **last commit** for recency, **latest release** for shipping cadence, and **
 
 | Projects tracked | Total stars | Median contributors | Median days since last commit |
 |:-:|:-:|:-:|:-:|
-| **636** | **3,697,459** | **7** | **3** |
+| **645** | **3,706,794** | **7** | **3** |
 
 | 🟢 Active | 🟡 Recent | 🟠 Slow | 🔴 Stale | 📦 Archived | ⚫ Unavailable |
 |:-:|:-:|:-:|:-:|:-:|:-:|
-| **450** | **65** | **109** | **3** | **4** | **5** |
+| **455** | **67** | **111** | **3** | **4** | **5** |
 
 Status is the age of the last commit on the default branch: Active up to 30 days, Recent up to 90, Slow up to a year, Stale beyond that. See [Methodology](#methodology).
 
@@ -52,12 +56,12 @@ Status is the age of the last commit on the default branch: Active up to 30 days
 
 <details><summary>Features</summary>
 
-Share of the 631 projects whose README, description, or topics mention each feature. Keyword matching, so treat it as a rough guide; see [Methodology](#methodology). Per-project features are in the interactive explorer and in `data/projects.csv`.
+Share of the 640 projects whose README, description, or topics mention each feature. Keyword matching, so treat it as a rough guide; see [Methodology](#methodology). Per-project features are in the interactive explorer and in `data/projects.csv`.
 
 | Group | Mentioned by |
 |---|---|
 | **Agents** | Claude Code **78%** · Codex **74%** · OpenCode **49%** · Cursor **39%** · Copilot **25%** · Gemini CLI **23%** · Kiro **8%** · Qwen Code **7%** · Aider **7%** · Cline **7%** · Goose **5%** · Amp **3%** |
-| **Isolation** | Git worktrees **45%** · Containers **42%** · Sandbox / VM **38%** · tmux **22%** |
+| **Isolation** | Git worktrees **45%** · Containers **41%** · Sandbox / VM **38%** · tmux **21%** |
 | **Interface** | Desktop app **35%** · Web UI **29%** · TUI **25%** · Mobile **14%** · IDE extension **2%** |
 | **Protocols** | MCP **55%** · ACP **15%** · A2A **5%** |
 | **Workflow** | Scheduled runs **21%** · Kanban / task board **17%** |
@@ -68,16 +72,16 @@ Share of the 631 projects whose README, description, or topics mention each feat
 
 | Main language | Projects | Share | |
 |---|--:|--:|---|
-| TypeScript | 293 | 47% | `████████████████████` |
-| Python | 107 | 17% | `███████░░░░░░░░░░░░░` |
+| TypeScript | 296 | 47% | `████████████████████` |
+| Python | 110 | 17% | `███████░░░░░░░░░░░░░` |
 | Rust | 74 | 12% | `█████░░░░░░░░░░░░░░░` |
-| Go | 60 | 10% | `████░░░░░░░░░░░░░░░░` |
-| JavaScript | 34 | 5% | `██░░░░░░░░░░░░░░░░░░` |
-| Shell | 21 | 3% | `█░░░░░░░░░░░░░░░░░░░` |
+| Go | 60 | 9% | `████░░░░░░░░░░░░░░░░` |
+| JavaScript | 35 | 6% | `██░░░░░░░░░░░░░░░░░░` |
+| Shell | 22 | 3% | `█░░░░░░░░░░░░░░░░░░░` |
 | Swift | 15 | 2% | `█░░░░░░░░░░░░░░░░░░░` |
 | Elixir | 5 | 1% | `█░░░░░░░░░░░░░░░░░░░` |
+| C# | 4 | 1% | `█░░░░░░░░░░░░░░░░░░░` |
 | Zig | 4 | 1% | `█░░░░░░░░░░░░░░░░░░░` |
-| C# | 3 | <1% | `█░░░░░░░░░░░░░░░░░░░` |
 
 </details>
 
@@ -107,21 +111,21 @@ Share of the 631 projects whose README, description, or topics mention each feat
 
 | # | Project | Category | Last commit | Commits (90d) | Status |
 |--:|---|---|---|--:|---|
-| 1 | [t3code](https://github.com/pingdotgg/t3code) | Desktop & web | 2026-11-21 | 10,123 | 🟢 Active |
-| 2 | [ordewell](https://github.com/ordewell/ordewell) | Loop runners | 2026-11-21 | 3,490 | 🟢 Active |
-| 3 | [OpenChamber](https://github.com/openchamber/openchamber) | Desktop & web | 2026-11-21 | 4,801 | 🟢 Active |
-| 4 | [row-bot](https://github.com/siddsachar/row-bot) | Assistants | 2026-11-21 | 3,932 | 🟢 Active |
-| 5 | [paperclip](https://github.com/paperclipai/paperclip) | Swarms | 2026-11-21 | 4,619 | 🟢 Active |
-| 6 | [sortie](https://github.com/sortie-ai/sortie) | Task runners | 2026-11-21 | 1,963 | 🟢 Active |
-| 7 | [bernstein](https://github.com/sipyourdrink-ltd/bernstein) | Loop runners | 2026-11-21 | 1,991 | 🟢 Active |
-| 8 | [Speakeasy control plane](https://github.com/speakeasy-api/gram) | Infrastructure | 2026-11-21 | 2,753 | 🟢 Active |
-| 9 | [MulmoTerminal](https://github.com/receptron/mulmoterminal) | Desktop & web | 2026-11-21 | 3,877 | 🟢 Active |
-| 10 | [Claudexor](https://github.com/razzant/claudexor) | Infrastructure | 2026-11-21 | 1,847 | 🟢 Active |
-| 11 | [Superagent](https://github.com/pungme/superagent-desktop) | Desktop & web | 2026-11-21 | 957 | 🟢 Active |
-| 12 | [Agentbox](https://github.com/savannahfeder/agentbox) | Desktop & web | 2026-11-21 | 5,402 | 🟢 Active |
-| 13 | [switch](https://github.com/sandbox-quantum/switch) _(new)_ | Assistants | 2026-11-21 | 2,292 | 🟢 Active |
-| 14 | [Sno Station](https://github.com/sno-ai/sno-station) | Swarms | 2026-11-21 | 1,810 | 🟢 Active |
-| 15 | [Machinist](https://github.com/owainlewis/machinist) | Task runners | 2026-11-21 | 430 | 🟢 Active |
+| 1 | [Loushang](https://github.com/zhnt/loushang) _(new)_ | Infrastructure | 2026-11-21 | 3,122 | 🟢 Active |
+| 2 | [t3code](https://github.com/pingdotgg/t3code) | Desktop & web | 2026-11-21 | 10,123 | 🟢 Active |
+| 3 | [ordewell](https://github.com/ordewell/ordewell) | Loop runners | 2026-11-21 | 3,490 | 🟢 Active |
+| 4 | [OpenChamber](https://github.com/openchamber/openchamber) | Desktop & web | 2026-11-21 | 4,801 | 🟢 Active |
+| 5 | [row-bot](https://github.com/siddsachar/row-bot) | Assistants | 2026-11-21 | 3,932 | 🟢 Active |
+| 6 | [paperclip](https://github.com/paperclipai/paperclip) | Swarms | 2026-11-21 | 4,619 | 🟢 Active |
+| 7 | [sortie](https://github.com/sortie-ai/sortie) | Task runners | 2026-11-21 | 1,963 | 🟢 Active |
+| 8 | [bernstein](https://github.com/sipyourdrink-ltd/bernstein) | Loop runners | 2026-11-21 | 1,991 | 🟢 Active |
+| 9 | [Speakeasy control plane](https://github.com/speakeasy-api/gram) | Infrastructure | 2026-11-21 | 2,753 | 🟢 Active |
+| 10 | [MulmoTerminal](https://github.com/receptron/mulmoterminal) | Desktop & web | 2026-11-21 | 3,877 | 🟢 Active |
+| 11 | [Althar](https://github.com/AltharIDE/althar) _(new)_ | Desktop & web | 2026-11-21 | 850 | 🟢 Active |
+| 12 | [Claudexor](https://github.com/razzant/claudexor) | Infrastructure | 2026-11-21 | 1,847 | 🟢 Active |
+| 13 | [Superagent](https://github.com/pungme/superagent-desktop) | Desktop & web | 2026-11-21 | 957 | 🟢 Active |
+| 14 | [Agentbox](https://github.com/savannahfeder/agentbox) | Desktop & web | 2026-11-21 | 5,402 | 🟢 Active |
+| 15 | [switch](https://github.com/sandbox-quantum/switch) _(new)_ | Assistants | 2026-11-21 | 2,292 | 🟢 Active |
 
 </details>
 
@@ -220,13 +224,14 @@ Run and supervise several agent sessions side by side from a terminal — tmux p
 
 The same parallel-sessions workflow as a desktop app or browser/mobile dashboard, with diff review and merge.
 
-<details><summary>Browse 188 projects by name</summary>
+<details><summary>Browse 192 projects by name</summary>
 
 | Project | Activity | Main language |
 |---|---|---|
 | [ADE](https://github.com/arul28/ADE) _(new)_ | 🟢 Active | TypeScript |
 | [ADHDev](https://github.com/vilmire/adhdev) _(new)_ | 🟢 Active | TypeScript |
 | [Agent Console](https://github.com/cyl-castillo/agent-console) | 🟢 Active | Rust |
+| [Agent Flow](https://github.com/patoles/agent-flow) _(new)_ | 🟢 Active | TypeScript |
 | [agent-session-manager-desktop](https://github.com/izll/agent-session-manager-desktop) | 🟢 Active | Go |
 | [agent-squid](https://github.com/agent-squid/squid) | 🟢 Active | Python |
 | [Agentbox](https://github.com/savannahfeder/agentbox) | 🟢 Active | TypeScript |
@@ -246,6 +251,7 @@ The same parallel-sessions workflow as a desktop app or browser/mobile dashboard
 | [alas](https://github.com/mrmans0n/alas) | 🟢 Active | Swift |
 | [Alchemist Coder](https://github.com/Alekla0126/alchemist-coder) | 🟢 Active | TypeScript |
 | [Alethe](https://github.com/Kc1t/alethe-agents) | 🟢 Active | TypeScript |
+| [Althar](https://github.com/AltharIDE/althar) _(new)_ | 🟢 Active | TypeScript |
 | [Antumi](https://github.com/flyhero/antumi) | 🟢 Active | TypeScript |
 | [Aperant](https://github.com/AndyMik90/Aperant) | 🟠 Slow | TypeScript |
 | [Arbor](https://github.com/penso/arbor) _(new)_ | 🟢 Active | Rust |
@@ -264,6 +270,7 @@ The same parallel-sessions workflow as a desktop app or browser/mobile dashboard
 | [Claude Control](https://github.com/sverrirsig/claude-control) _(new)_ | 🟡 Recent | TypeScript |
 | [Claudette](https://github.com/utensils/claudette) | 🟢 Active | TypeScript |
 | [clave](https://github.com/antasphere/clave) | 🟡 Recent | TypeScript |
+| [ClawPort](https://github.com/JohnRiceML/clawport-ui) _(new)_ | 🟠 Slow | TypeScript |
 | [ClawSuite](https://github.com/outsourc-e/clawsuite) _(new)_ | 🟠 Slow | TypeScript |
 | [ClawX](https://github.com/ValueCell-ai/ClawX) _(new)_ | 🟢 Active | TypeScript |
 | [clideck](https://github.com/rustykuntz/clideck) | 🟢 Active | JavaScript |
@@ -384,6 +391,7 @@ The same parallel-sessions workflow as a desktop app or browser/mobile dashboard
 | [synara](https://github.com/Emanuele-web04/synara) | 🟢 Active | TypeScript |
 | [t3code](https://github.com/pingdotgg/t3code) | 🟢 Active | TypeScript |
 | [takopi](https://github.com/banteg/takopi) | 🟠 Slow | Python |
+| [Talavine Code](https://github.com/scrossen/talavine-code) _(new)_ | 🟢 Active | C# |
 | [TaskHandoff](https://github.com/edgestorage/task-handoff) | 🟢 Active | TypeScript |
 | [Tempest](https://github.com/tempestai-dev/tempest) | 🟢 Active | TypeScript |
 | [Termexo](https://github.com/gemron/Termexo) _(new)_ | 🟢 Active | TypeScript |
@@ -421,7 +429,7 @@ The same parallel-sessions workflow as a desktop app or browser/mobile dashboard
 
 Systems where multiple specialized agents actively coordinate, communicate, and delegate toward a shared goal.
 
-<details><summary>Browse 114 projects by name</summary>
+<details><summary>Browse 116 projects by name</summary>
 
 | Project | Activity | Main language |
 |---|---|---|
@@ -458,6 +466,7 @@ Systems where multiple specialized agents actively coordinate, communicate, and 
 | [Codex Autopilot Kit](https://github.com/crunaldo/codex-autopilot-kit) | 🟡 Recent | JavaScript |
 | [Commonly](https://github.com/Team-Commonly/commonly) | 🟢 Active | JavaScript |
 | [CompanyHelm](https://github.com/CompanyHelm/companyhelm) | 🟠 Slow | TypeScript |
+| [CORAL](https://github.com/Human-Agent-Society/CORAL) _(new)_ | 🟡 Recent | Python |
 | [corellis](https://github.com/CorellisOrg/Corellis) | 🟠 Slow | Shell |
 | [Coworkers](https://github.com/fayazara/coworkers) | 🟢 Active | TypeScript |
 | [crewAI](https://github.com/crewAIInc/crewAI) | 🟢 Active | Python |
@@ -497,6 +506,7 @@ Systems where multiple specialized agents actively coordinate, communicate, and 
 | [OpenCode Agent Orchestration Kit](https://github.com/jcarlosrodicio/opencode-agent-orchestration-kit) _(new)_ | 🟢 Active | JavaScript |
 | [OpenCode Ensemble](https://github.com/hueyexe/opencode-ensemble) _(new)_ | 🟢 Active | TypeScript |
 | [OpenCode Swarm](https://github.com/ZaxbyHub/opencode-swarm) _(new)_ | 🟢 Active | TypeScript |
+| [OpenCrew](https://github.com/AlexAnys/opencrew) _(new)_ | 🟠 Slow | Shell |
 | [OpenMeld](https://github.com/amplifthq/openmeld) _(new)_ | 🟢 Active | TypeScript |
 | [OpenRig](https://github.com/mvschwarz/openrig) | 🟢 Active | TypeScript |
 | [openswarm](https://github.com/openswarm-ai/openswarm) | 🟡 Recent | JavaScript |
@@ -663,7 +673,7 @@ Unattended agents driven by an external source — an issue queue, a work board,
 
 Control planes, coordination protocols, harness adapters, and runtimes — the layer beneath your agents rather than the surface you work in.
 
-<details><summary>Browse 82 projects by name</summary>
+<details><summary>Browse 84 projects by name</summary>
 
 | Project | Activity | Main language |
 |---|---|---|
@@ -684,6 +694,7 @@ Control planes, coordination protocols, harness adapters, and runtimes — the l
 | [Archon](https://github.com/coleam00/Archon) | 🟢 Active | TypeScript |
 | [aweb](https://github.com/awebai/aweb) _(new)_ | 🟢 Active | Python |
 | [AX](https://github.com/google/ax) | 🟢 Active | Go |
+| [Babysitter](https://github.com/a5c-ai/babysitter) _(new)_ | 🟡 Recent | JavaScript |
 | [Citadel](https://github.com/SethGammon/Citadel) _(new)_ | 🟢 Active | JavaScript |
 | [claude-bulkhead](https://github.com/dooly6276/claude-bulkhead) | 🟢 Active | JavaScript |
 | [ClaudeCTL](https://github.com/mercurialsolo/claudectl) _(new)_ | 🟢 Active | Rust |
@@ -718,6 +729,7 @@ Control planes, coordination protocols, harness adapters, and runtimes — the l
 | [LazyMind](https://github.com/LazyAGI/LazyMind) | 🟢 Active | Go |
 | [LionClaw](https://github.com/moshthepitt/lionclaw) | 🟠 Slow | Rust |
 | [LoopForge](https://github.com/Tencent/LoopForge) _(new)_ | 🟢 Active | Go |
+| [Loushang](https://github.com/zhnt/loushang) _(new)_ | 🟢 Active | Python |
 | [MAIster](https://github.com/maister-dev/maister) | 🟢 Active | TypeScript |
 | [MCP Agent Mail](https://github.com/Dicklesworthstone/mcp_agent_mail) _(new)_ | 🟢 Active | Python |
 | [MCP Agent Mail (Rust)](https://github.com/Dicklesworthstone/mcp_agent_mail_rust) _(new)_ | 🟢 Active | Rust |
@@ -758,7 +770,7 @@ Control planes, coordination protocols, harness adapters, and runtimes — the l
 
 Always-on agents you reach over chat or a desktop app. They remember across sessions, run on their own schedule, and hand work off to tools and other agents — coding agents included, though the work isn't limited to code.
 
-<details><summary>Browse 57 projects by name</summary>
+<details><summary>Browse 58 projects by name</summary>
 
 | Project | Activity | Main language |
 |---|---|---|
@@ -806,6 +818,7 @@ Always-on agents you reach over chat or a desktop app. They remember across sess
 | [Overlay](https://github.com/LayerNorm/overlay-web) | 🟢 Active | HTML |
 | [OwnPilot](https://github.com/ownpilot/OwnPilot) _(new)_ | 🟡 Recent | TypeScript |
 | [picoclaw](https://github.com/sipeed/picoclaw) | 🟠 Slow | Go |
+| [PocketPaw](https://github.com/pocketpaw/pocketpaw) _(new)_ | 🟢 Active | Python |
 | [QwenPaw](https://github.com/agentscope-ai/QwenPaw) | 🟢 Active | TypeScript |
 | [Rakazo](https://github.com/elie222/rakazo) | 🟢 Active | TypeScript |
 | [rho](https://github.com/mikeyobrien/rho) | 🟠 Slow | TypeScript |
@@ -933,7 +946,7 @@ python3 scripts/update.py --check        # validate the data files without writi
 
 The script needs the GitHub CLI (`gh`) signed in. It runs GraphQL queries one at a time, and waits when GitHub's rate limits run low. To add a project, append an entry to `data/projects.json` with `repo`, `name`, `category`, `origin`, and `description`, then run the script. To stop a reviewed candidate from coming back, add it to `rejected` in `data/discovery.json`. Feature keywords live in `data/features.json`.
 
-A GitHub Actions workflow (`.github/workflows/update.yml`) refreshes about a seventh of the projects every day (`--spread`) and commits the result. Every Monday it runs discovery and rewrites the open issue labelled `candidates` with the projects to review. Projects that moved or disappeared are listed in the issue labelled `maintenance`. The daily job summary shows successful refreshes, seven-day coverage, and the age of the oldest snapshot. Weekly discovery resumes interrupted searches and samples older, recently active repositories once a month within the same eight-minute budget. The candidates issue lists new finds first and shows each candidate’s matching searches, evidence, and last observation. The discovery summary counts candidates found by each query, candidates found only by that query, and review outcomes. A weekly one-page README search and a monthly rotating search share the existing discovery budget. Acceptance rates use reviewed candidates only. Historical results cover the query matches still present when tracking began. Before pushing, the bot validates the generated files against the local cache. Pull requests that touch the data, script, or workflows run offline validation and show a README and CSV preview in the job summary.
+A GitHub Actions workflow (`.github/workflows/update.yml`) refreshes about a seventh of the projects every day (`--spread`) and commits the result. Every Monday it runs discovery and rewrites the open issue labelled `candidates` with the projects to review. Projects that moved or disappeared are listed in the issue labelled `maintenance`. The Monday discovery summary also counts moved, unavailable, and archived repositories using the latest daily snapshots. The daily job summary shows successful refreshes, seven-day coverage, and the age of the oldest snapshot. Weekly discovery resumes interrupted searches and samples older, recently active repositories once a month within the same eight-minute budget. The candidates issue lists new finds first and shows each candidate’s matching searches, evidence, and last observation. The discovery summary counts candidates found by each query, candidates found only by that query, and review outcomes. A weekly one-page README search and a monthly rotating search share the existing discovery budget. Acceptance rates use reviewed candidates only. Historical results cover the query matches still present when tracking began. Before pushing, the bot validates the generated files against the local cache. Pull requests that touch the data, script, or workflows run offline validation and show a README and CSV preview in the job summary.
 
 After successful Monday discovery, the README editor uses ZenMux to select and arrange verified findings for the weekly brief. The editor runs in the `Orchestrate` environment with `ZENMUX_API_KEY`. DeepSeek is the primary model and HY4 is the provider fallback. The editor sends at most 24 short facts in one request with a 512-token output limit. Daily renders reuse the last published brief. The editor can also switch the index snapshot between the Spec and Stat Markdown designs from [MDXCN](https://www.mdxcn.dev/docs).
 

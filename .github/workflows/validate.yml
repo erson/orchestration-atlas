@@ -33,7 +33,9 @@ jobs:
           fetch-depth: ${{ github.event_name == 'pull_request' && 2 || 1 }}
 
       - name: Check data files
-        run: python3 scripts/update.py --check
+        run: |
+          python3 scripts/update.py --check
+          python3 -m unittest scripts.test_catalog_guide
 
       - name: Preview generated index changes
         if: github.event_name == 'pull_request'
