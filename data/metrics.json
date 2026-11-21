@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T12:52:08+00:00",
+  "generated_at": "2026-11-21T14:20:10+00:00",
   "repos": {
     "0-ai-ug/cate": {
       "archived": false,
@@ -846,6 +846,112 @@
         "linux-foundation"
       ],
       "url": "https://github.com/a2aproject/A2A"
+    },
+    "a5c-ai/babysitter": {
+      "archived": false,
+      "bots": 4,
+      "closed_issues": 1187,
+      "commits_90d": 4,
+      "commits_all_time": 5895,
+      "contributors": 21,
+      "contributors_fetched_at": "2026-11-21T14:20:10+00:00",
+      "created_at": "2026-01-05T15:26:53Z",
+      "features": [
+        "Claude Code",
+        "Codex",
+        "Gemini CLI",
+        "Cursor",
+        "OpenCode",
+        "Copilot",
+        "Containers",
+        "TUI",
+        "MCP",
+        "Kanban / task board"
+      ],
+      "fetched_at": "2026-11-21T14:20:10+00:00",
+      "fork": false,
+      "forks": 123,
+      "full_name": "a5c-ai/babysitter",
+      "github_description": "Babysitter enforces obedience on agentic workforces and enables them to manage extremely complex tasks and workflows through deterministic, hallucination-free self-orchestration",
+      "homepage": "https://a5c.ai",
+      "language": "JavaScript",
+      "languages": [
+        {
+          "name": "JavaScript",
+          "share": 0.72
+        },
+        {
+          "name": "TypeScript",
+          "share": 0.258
+        },
+        {
+          "name": "HTML",
+          "share": 0.013
+        },
+        {
+          "name": "Python",
+          "share": 0.004
+        },
+        {
+          "name": "CSS",
+          "share": 0.004
+        },
+        {
+          "name": "Shell",
+          "share": 0.0
+        },
+        {
+          "name": "Mermaid",
+          "share": 0.0
+        },
+        {
+          "name": "Kotlin",
+          "share": 0.0
+        },
+        {
+          "name": "Swift",
+          "share": 0.0
+        },
+        {
+          "name": "Dockerfile",
+          "share": 0.0
+        }
+      ],
+      "last_commit_at": "2026-08-31T09:36:00Z",
+      "latest_release_at": "2026-06-26T10:46:10Z",
+      "latest_release_prerelease": false,
+      "latest_release_tag": "v0.0.188",
+      "license": "MIT",
+      "open_issues": 397,
+      "open_prs": 70,
+      "pushed_at": "2026-11-01T17:01:59Z",
+      "readme_found": true,
+      "releases_12m": 110,
+      "repo": "a5c-ai/babysitter",
+      "stars": 1927,
+      "top_author_share": 0.966,
+      "topics": [
+        "agent-orchestration",
+        "agent-skills",
+        "agentic-ai",
+        "agentic-workflow",
+        "ai-automation",
+        "babysitter",
+        "claude-code",
+        "claude-skills",
+        "trustworthy-ai",
+        "vibe-coding",
+        "ai-agents",
+        "claude-code-skills",
+        "codex-plugin",
+        "codex-skills",
+        "claude-code-workflows",
+        "claude-workflows",
+        "codex-workflow",
+        "hermes-plugin",
+        "pi-extension"
+      ],
+      "url": "https://github.com/a5c-ai/babysitter"
     },
     "aai-labs/agent-barn": {
       "archived": false,
@@ -4068,6 +4174,68 @@
       "topics": [],
       "url": "https://github.com/alekseyrozh/openclawdex"
     },
+    "alexanys/opencrew": {
+      "archived": false,
+      "bots": 0,
+      "closed_issues": 8,
+      "commits_90d": 0,
+      "commits_all_time": 88,
+      "contributors": 2,
+      "contributors_fetched_at": "2026-11-21T14:20:10+00:00",
+      "created_at": "2026-02-08T02:46:16Z",
+      "features": [
+        "A2A"
+      ],
+      "fetched_at": "2026-11-21T14:20:10+00:00",
+      "fork": false,
+      "forks": 70,
+      "full_name": "AlexAnys/opencrew",
+      "github_description": "Openclaw多智能体协同系统 | Multi-Agent OS for Decision Makers — 基于 OpenClaw (Clawbot) + Slack，让 AI 团队各司其职、自主稳定迭代。",
+      "homepage": "",
+      "language": "Shell",
+      "languages": [
+        {
+          "name": "Shell",
+          "share": 1.0
+        }
+      ],
+      "last_commit_at": "2026-04-05T07:49:56Z",
+      "latest_release_at": "2026-04-03T01:08:24Z",
+      "latest_release_prerelease": false,
+      "latest_release_tag": "v0.3.0",
+      "license": "MIT",
+      "open_issues": 9,
+      "open_prs": 2,
+      "pushed_at": "2026-04-05T07:49:56Z",
+      "readme_found": true,
+      "releases_12m": 6,
+      "repo": "AlexAnys/opencrew",
+      "stars": 498,
+      "top_author_share": 0.984,
+      "topics": [
+        "a2a-protocol",
+        "agent-orchestration",
+        "ai-agents",
+        "ai-team",
+        "autonomous-agents",
+        "knowledge-management",
+        "multi-agent",
+        "no-code",
+        "openclaw",
+        "slack",
+        "clawdbot",
+        "agent-deployment",
+        "ai-assistant",
+        "ai-productivity",
+        "context-management",
+        "llm",
+        "session-management",
+        "slack-bot",
+        "team-management",
+        "workflow-automation"
+      ],
+      "url": "https://github.com/AlexAnys/opencrew"
+    },
     "alexgreensh/outsourcerer": {
       "archived": false,
       "bots": 0,
@@ -4544,6 +4712,86 @@
         "tailscale"
       ],
       "url": "https://github.com/AltanS/collie"
+    },
+    "altharide/althar": {
+      "archived": false,
+      "bots": 0,
+      "closed_issues": 184,
+      "commits_90d": 850,
+      "commits_all_time": 850,
+      "contributors": 6,
+      "contributors_fetched_at": "2026-11-21T14:20:10+00:00",
+      "created_at": "2026-09-17T23:05:38Z",
+      "features": [
+        "Claude Code",
+        "Codex",
+        "Gemini CLI",
+        "Cursor",
+        "OpenCode",
+        "Copilot",
+        "Goose",
+        "Qwen Code",
+        "Git worktrees",
+        "Desktop app",
+        "MCP",
+        "ACP"
+      ],
+      "fetched_at": "2026-11-21T14:20:10+00:00",
+      "fork": false,
+      "forks": 4,
+      "full_name": "AltharIDE/althar",
+      "github_description": "Delightful project orchestration environment (IDE) for software engineering with AI agents. Bring your with subscription.",
+      "homepage": "https://althar.ai",
+      "language": "TypeScript",
+      "languages": [
+        {
+          "name": "TypeScript",
+          "share": 0.959
+        },
+        {
+          "name": "CSS",
+          "share": 0.029
+        },
+        {
+          "name": "HTML",
+          "share": 0.008
+        },
+        {
+          "name": "Rust",
+          "share": 0.002
+        },
+        {
+          "name": "Shell",
+          "share": 0.002
+        },
+        {
+          "name": "JavaScript",
+          "share": 0.001
+        },
+        {
+          "name": "Ruby",
+          "share": 0.0
+        },
+        {
+          "name": "MDX",
+          "share": 0.0
+        }
+      ],
+      "last_commit_at": "2026-11-21T09:28:34Z",
+      "latest_release_at": "2026-11-15T14:36:39Z",
+      "latest_release_prerelease": false,
+      "latest_release_tag": "v0.9.0",
+      "license": "Apache-2.0",
+      "open_issues": 34,
+      "open_prs": 8,
+      "pushed_at": "2026-11-21T14:12:27Z",
+      "readme_found": true,
+      "releases_12m": 11,
+      "repo": "AltharIDE/althar",
+      "stars": 22,
+      "top_author_share": 0.907,
+      "topics": [],
+      "url": "https://github.com/AltharIDE/althar"
     },
     "alvinunreal/oh-my-opencode-slim": {
       "archived": false,
@@ -19933,6 +20181,99 @@
       ],
       "url": "https://github.com/hueyexe/opencode-ensemble"
     },
+    "human-agent-society/coral": {
+      "archived": false,
+      "bots": 0,
+      "closed_issues": 35,
+      "commits_90d": 12,
+      "commits_all_time": 229,
+      "contributors": 21,
+      "contributors_fetched_at": "2026-11-21T14:20:10+00:00",
+      "created_at": "2026-03-16T08:25:25Z",
+      "features": [
+        "Claude Code",
+        "Codex",
+        "Cursor",
+        "OpenCode",
+        "Kiro",
+        "Git worktrees",
+        "Containers",
+        "MCP"
+      ],
+      "fetched_at": "2026-11-21T14:20:10+00:00",
+      "fork": false,
+      "forks": 144,
+      "full_name": "Human-Agent-Society/CORAL",
+      "github_description": "Open-source autoresearch powered by autonomous coding agents. Run Claude Code, OpenCode, and Codex with grading, shared knowledge, and multi-agent evolution. Accepted at COLM 2026.",
+      "homepage": "https://coral.compounding-intelligence.ai",
+      "language": "Python",
+      "languages": [
+        {
+          "name": "Python",
+          "share": 0.826
+        },
+        {
+          "name": "TypeScript",
+          "share": 0.087
+        },
+        {
+          "name": "HTML",
+          "share": 0.075
+        },
+        {
+          "name": "Shell",
+          "share": 0.005
+        },
+        {
+          "name": "Dockerfile",
+          "share": 0.004
+        },
+        {
+          "name": "CSS",
+          "share": 0.001
+        },
+        {
+          "name": "JavaScript",
+          "share": 0.0
+        }
+      ],
+      "last_commit_at": "2026-09-06T09:15:37Z",
+      "latest_release_at": "2026-09-06T09:16:08Z",
+      "latest_release_prerelease": false,
+      "latest_release_tag": "v0.7.21",
+      "license": "Apache-2.0",
+      "open_issues": 17,
+      "open_prs": 13,
+      "pushed_at": "2026-10-19T05:19:16Z",
+      "readme_found": true,
+      "releases_12m": 27,
+      "repo": "Human-Agent-Society/CORAL",
+      "stars": 1141,
+      "top_author_share": 0.642,
+      "topics": [
+        "alpha-evolve",
+        "autoresearch",
+        "claude-code",
+        "codex",
+        "coding-agent",
+        "large-language-models",
+        "opencode",
+        "self-evolving-agents",
+        "agent-framework",
+        "llm-agents",
+        "multi-agent",
+        "agentic-ai",
+        "autonomous-agents",
+        "code-generation",
+        "evolutionary-algorithm",
+        "self-evolving",
+        "agent-orchestration",
+        "ai-agents",
+        "scientific-discovery",
+        "open-source"
+      ],
+      "url": "https://github.com/Human-Agent-Society/CORAL"
+    },
     "humanlayer/humanlayer": {
       "archived": false,
       "bots": 2,
@@ -22345,6 +22686,54 @@
         "ai-tools"
       ],
       "url": "https://github.com/johannesjo/parallel-code"
+    },
+    "johnriceml/clawport-ui": {
+      "archived": false,
+      "bots": 0,
+      "closed_issues": 15,
+      "commits_90d": 0,
+      "commits_all_time": 107,
+      "contributors": 3,
+      "contributors_fetched_at": "2026-11-21T14:20:10+00:00",
+      "created_at": "2026-03-03T19:27:07Z",
+      "features": [
+        "Claude Code",
+        "Kanban / task board",
+        "Scheduled runs"
+      ],
+      "fetched_at": "2026-11-21T14:20:10+00:00",
+      "fork": false,
+      "forks": 122,
+      "full_name": "JohnRiceML/clawport-ui",
+      "github_description": "Open-source AI agent command center for Claude Code agent teams. Built on OpenClaw.",
+      "homepage": "https://clawport.dev",
+      "language": "TypeScript",
+      "languages": [
+        {
+          "name": "TypeScript",
+          "share": 0.971
+        },
+        {
+          "name": "JavaScript",
+          "share": 0.015
+        },
+        {
+          "name": "CSS",
+          "share": 0.014
+        }
+      ],
+      "last_commit_at": "2026-03-24T15:57:13Z",
+      "license": "MIT",
+      "open_issues": 4,
+      "open_prs": 0,
+      "pushed_at": "2026-03-24T15:57:14Z",
+      "readme_found": true,
+      "releases_12m": 0,
+      "repo": "JohnRiceML/clawport-ui",
+      "stars": 903,
+      "top_author_share": 0.981,
+      "topics": [],
+      "url": "https://github.com/JohnRiceML/clawport-ui"
     },
     "jonathanriche/verde": {
       "archived": false,
@@ -34948,6 +35337,67 @@
       "topics": [],
       "url": "https://github.com/paradigmxyz/centaur"
     },
+    "patoles/agent-flow": {
+      "archived": false,
+      "bots": 0,
+      "closed_issues": 25,
+      "commits_90d": 15,
+      "commits_all_time": 71,
+      "contributors": 10,
+      "contributors_fetched_at": "2026-11-21T14:20:10+00:00",
+      "created_at": "2026-03-21T08:53:27Z",
+      "features": [
+        "Claude Code",
+        "Codex",
+        "Cursor",
+        "Web UI",
+        "IDE extension",
+        "MCP"
+      ],
+      "fetched_at": "2026-11-21T14:20:10+00:00",
+      "fork": false,
+      "forks": 221,
+      "full_name": "patoles/agent-flow",
+      "github_description": "Real-time visualization of Claude Code agent orchestration — see your agents think, branch, and coordinate as they work.",
+      "homepage": "https://marketplace.visualstudio.com/items?itemName=simon-p.agent-flow",
+      "language": "TypeScript",
+      "languages": [
+        {
+          "name": "TypeScript",
+          "share": 0.964
+        },
+        {
+          "name": "JavaScript",
+          "share": 0.028
+        },
+        {
+          "name": "CSS",
+          "share": 0.008
+        }
+      ],
+      "last_commit_at": "2026-11-20T15:59:04Z",
+      "latest_release_at": "2026-11-20T15:47:30Z",
+      "latest_release_prerelease": false,
+      "latest_release_tag": "v0.9.6",
+      "license": "Apache-2.0",
+      "open_issues": 5,
+      "open_prs": 12,
+      "pushed_at": "2026-11-20T15:59:08Z",
+      "readme_found": true,
+      "releases_12m": 8,
+      "repo": "patoles/agent-flow",
+      "stars": 1803,
+      "top_author_share": 0.718,
+      "topics": [
+        "agent-visualization",
+        "ai-agents",
+        "claude-code",
+        "developer-tools",
+        "llm",
+        "vscode-extension"
+      ],
+      "url": "https://github.com/patoles/agent-flow"
+    },
     "peakflo/20x": {
       "archived": false,
       "bots": 1,
@@ -35444,6 +35894,101 @@
         "gemini-cli"
       ],
       "url": "https://github.com/PleasePrompto/ductor"
+    },
+    "pocketpaw/pocketpaw": {
+      "archived": false,
+      "bots": 0,
+      "closed_issues": 340,
+      "commits_90d": 6,
+      "commits_all_time": 1325,
+      "contributors": 68,
+      "contributors_fetched_at": "2026-11-21T14:20:10+00:00",
+      "created_at": "2026-02-02T19:48:57Z",
+      "features": [
+        "Codex",
+        "OpenCode",
+        "Copilot",
+        "Containers",
+        "Desktop app",
+        "Web UI",
+        "MCP"
+      ],
+      "fetched_at": "2026-11-21T14:20:10+00:00",
+      "fork": false,
+      "forks": 333,
+      "full_name": "pocketpaw/pocketpaw",
+      "github_description": "Your AI agent in 30 seconds. Not 30 hours. Self-hosted, open-source personal AI with desktop installer, multi-agent Command Center(Deep Work), and 7-layer security. Anthropic, OpenAI, or Ollama.",
+      "homepage": "http://pocketpaw.xyz/",
+      "language": "Python",
+      "languages": [
+        {
+          "name": "Python",
+          "share": 0.669
+        },
+        {
+          "name": "JavaScript",
+          "share": 0.148
+        },
+        {
+          "name": "Svelte",
+          "share": 0.079
+        },
+        {
+          "name": "HTML",
+          "share": 0.063
+        },
+        {
+          "name": "TypeScript",
+          "share": 0.023
+        },
+        {
+          "name": "Rust",
+          "share": 0.012
+        },
+        {
+          "name": "CSS",
+          "share": 0.002
+        },
+        {
+          "name": "Shell",
+          "share": 0.002
+        },
+        {
+          "name": "PowerShell",
+          "share": 0.001
+        },
+        {
+          "name": "Dockerfile",
+          "share": 0.001
+        }
+      ],
+      "last_commit_at": "2026-11-19T06:23:20Z",
+      "latest_release_at": "2026-04-29T07:20:12Z",
+      "latest_release_prerelease": false,
+      "latest_release_tag": "v0.4.18",
+      "license": "MIT",
+      "open_issues": 76,
+      "open_prs": 51,
+      "pushed_at": "2026-11-21T14:07:57Z",
+      "readme_found": true,
+      "releases_12m": 22,
+      "repo": "pocketpaw/pocketpaw",
+      "stars": 935,
+      "top_author_share": 0.475,
+      "topics": [
+        "ai-agents",
+        "cli",
+        "jarvis-assistant",
+        "multi-agent-systems",
+        "ollama",
+        "open-source",
+        "personal-assistant",
+        "python",
+        "security",
+        "self-hosted",
+        "telegram-bot-ai-assistant"
+      ],
+      "url": "https://github.com/pocketpaw/pocketpaw"
     },
     "porabuild/poracode": {
       "archived": false,
@@ -39667,6 +40212,91 @@
       "top_author_share": 0.992,
       "topics": [],
       "url": "https://github.com/scion-frontiers/farmtable"
+    },
+    "scrossen/talavine-code": {
+      "archived": false,
+      "bots": 0,
+      "closed_issues": 0,
+      "commits_90d": 22,
+      "commits_all_time": 22,
+      "contributors": 1,
+      "contributors_fetched_at": "2026-11-21T14:20:10+00:00",
+      "created_at": "2026-10-16T20:42:11Z",
+      "features": [
+        "Claude Code",
+        "Codex",
+        "Git worktrees",
+        "MCP"
+      ],
+      "fetched_at": "2026-11-21T14:20:10+00:00",
+      "fork": false,
+      "forks": 1,
+      "full_name": "scrossen/talavine-code",
+      "github_description": "Your AI said no. Get around it anyway. MIT-licensed coding harness with local Ollama models, BYOK/BYOCLI, automatic model selection, refusal handoff, model comparisons, memory, and a home for the apps you build.",
+      "homepage": "https://talavine.com/talavine-code",
+      "language": "C#",
+      "languages": [
+        {
+          "name": "C#",
+          "share": 0.949
+        },
+        {
+          "name": "HTML",
+          "share": 0.038
+        },
+        {
+          "name": "CSS",
+          "share": 0.009
+        },
+        {
+          "name": "JavaScript",
+          "share": 0.002
+        },
+        {
+          "name": "Shell",
+          "share": 0.001
+        },
+        {
+          "name": "Python",
+          "share": 0.001
+        }
+      ],
+      "last_commit_at": "2026-10-26T06:41:19Z",
+      "latest_release_at": "2026-10-25T05:47:55Z",
+      "latest_release_prerelease": true,
+      "latest_release_tag": "v1.0.3",
+      "license": "MIT",
+      "open_issues": 0,
+      "open_prs": 14,
+      "pushed_at": "2026-11-06T15:54:48Z",
+      "readme_found": true,
+      "releases_12m": 4,
+      "repo": "scrossen/talavine-code",
+      "stars": 2,
+      "top_author_share": 1.0,
+      "topics": [
+        "ai-agent",
+        "byok",
+        "coding-agent",
+        "csharp",
+        "developer-tools",
+        "dotnet",
+        "multi-model",
+        "ai-agents",
+        "maui",
+        "mit-license",
+        "app-builder",
+        "browser-automation",
+        "code-review",
+        "llm",
+        "local-llm",
+        "mcp",
+        "model-routing",
+        "ollama",
+        "byocli",
+        "cli"
+      ],
+      "url": "https://github.com/scrossen/talavine-code"
     },
     "seemseam/claude_codex_bridge": {
       "archived": false,
@@ -50489,6 +51119,103 @@
         "personal-agent"
       ],
       "url": "https://github.com/zhayujie/CowAgent"
+    },
+    "zhnt/loushang": {
+      "archived": false,
+      "bots": 0,
+      "closed_issues": 102,
+      "commits_90d": 3122,
+      "commits_all_time": 5112,
+      "contributors": 5,
+      "contributors_fetched_at": "2026-11-21T14:20:10+00:00",
+      "created_at": "2026-05-29T17:25:11Z",
+      "features": [
+        "Claude Code",
+        "Codex",
+        "TUI"
+      ],
+      "fetched_at": "2026-11-21T14:20:10+00:00",
+      "fork": false,
+      "forks": 326,
+      "full_name": "zhnt/loushang",
+      "github_description": "AI-native agent harness for coding workflows by python: multi-model LLM orchestration, stateful sessions, tool governance,   traceable delivery, and provider routing for GPT, Claude, DeepSeek, Qwen, Kimi, GLM, and MiniMax.",
+      "homepage": "",
+      "language": "Python",
+      "languages": [
+        {
+          "name": "Python",
+          "share": 0.975
+        },
+        {
+          "name": "TypeScript",
+          "share": 0.014
+        },
+        {
+          "name": "Rust",
+          "share": 0.008
+        },
+        {
+          "name": "CSS",
+          "share": 0.001
+        },
+        {
+          "name": "Makefile",
+          "share": 0.001
+        },
+        {
+          "name": "JavaScript",
+          "share": 0.0
+        },
+        {
+          "name": "C",
+          "share": 0.0
+        },
+        {
+          "name": "Shell",
+          "share": 0.0
+        },
+        {
+          "name": "PowerShell",
+          "share": 0.0
+        },
+        {
+          "name": "HTML",
+          "share": 0.0
+        }
+      ],
+      "last_commit_at": "2026-11-21T14:06:53Z",
+      "license": "Apache-2.0",
+      "open_issues": 48,
+      "open_prs": 3,
+      "pushed_at": "2026-11-21T14:06:53Z",
+      "readme_found": true,
+      "releases_12m": 0,
+      "repo": "zhnt/loushang",
+      "stars": 2104,
+      "top_author_share": 0.897,
+      "topics": [
+        "agent",
+        "claude",
+        "claude-code",
+        "codex",
+        "coding",
+        "deepseek",
+        "glm",
+        "harness",
+        "kimi",
+        "minimax",
+        "python",
+        "skills",
+        "workflow",
+        "agentic",
+        "ai",
+        "chatgpt",
+        "vibe-coding",
+        "agent-harness",
+        "dynamic-workflows",
+        "parallel-agents"
+      ],
+      "url": "https://github.com/zhnt/loushang"
     },
     "zippoxer/subtask": {
       "archived": true,

@@ -144,7 +144,7 @@ python3 scripts/update.py --check        # validate the data files without writi
 
 The script needs the GitHub CLI (`gh`) signed in. It runs GraphQL queries one at a time, and waits when GitHub's rate limits run low. To add a project, append an entry to `data/projects.json` with `repo`, `name`, `category`, `origin`, and `description`, then run the script. To stop a reviewed candidate from coming back, add it to `rejected` in `data/discovery.json`. Feature keywords live in `data/features.json`.
 
-A GitHub Actions workflow (`.github/workflows/update.yml`) refreshes about a seventh of the projects every day (`--spread`) and commits the result. Every Monday it runs discovery and rewrites the open issue labelled `candidates` with the projects to review. Projects that moved or disappeared are listed in the issue labelled `maintenance`. The daily job summary shows successful refreshes, seven-day coverage, and the age of the oldest snapshot. Weekly discovery resumes interrupted searches and samples older, recently active repositories once a month within the same eight-minute budget. The candidates issue lists new finds first and shows each candidate’s matching searches, evidence, and last observation. The discovery summary counts candidates found by each query, candidates found only by that query, and review outcomes. A weekly one-page README search and a monthly rotating search share the existing discovery budget. Acceptance rates use reviewed candidates only. Historical results cover the query matches still present when tracking began. Before pushing, the bot validates the generated files against the local cache. Pull requests that touch the data, script, or workflows run offline validation and show a README and CSV preview in the job summary.
+A GitHub Actions workflow (`.github/workflows/update.yml`) refreshes about a seventh of the projects every day (`--spread`) and commits the result. Every Monday it runs discovery and rewrites the open issue labelled `candidates` with the projects to review. Projects that moved or disappeared are listed in the issue labelled `maintenance`. The Monday discovery summary also counts moved, unavailable, and archived repositories using the latest daily snapshots. The daily job summary shows successful refreshes, seven-day coverage, and the age of the oldest snapshot. Weekly discovery resumes interrupted searches and samples older, recently active repositories once a month within the same eight-minute budget. The candidates issue lists new finds first and shows each candidate’s matching searches, evidence, and last observation. The discovery summary counts candidates found by each query, candidates found only by that query, and review outcomes. A weekly one-page README search and a monthly rotating search share the existing discovery budget. Acceptance rates use reviewed candidates only. Historical results cover the query matches still present when tracking began. Before pushing, the bot validates the generated files against the local cache. Pull requests that touch the data, script, or workflows run offline validation and show a README and CSV preview in the job summary.
 
 After successful Monday discovery, the README editor uses ZenMux to select and arrange verified findings for the weekly brief. The editor runs in the `Orchestrate` environment with `ZENMUX_API_KEY`. DeepSeek is the primary model and HY4 is the provider fallback. The editor sends at most 24 short facts in one request with a 512-token output limit. Daily renders reuse the last published brief. The editor can also switch the index snapshot between the Spec and Stat Markdown designs from [MDXCN](https://www.mdxcn.dev/docs).
 """
@@ -755,6 +755,18 @@ def maintenance_markdown(projects, cache):
     return "\n".join(lines)[:65000] + "\n"
 
 
+def weekly_link_summary(projects, cache):
+    counts = {title: len(items) for title, _, items in attention(projects, cache)}
+    statuses = [status_of(cache.get(p["repo"].lower())) for p in projects]
+    return ("## Catalog links\n\n"
+            f"Latest daily snapshots for {len(projects)} indexed repositories. "
+            f"Moved: {counts.get('Renamed or moved', 0)} · Unavailable: {counts.get('Unavailable', 0)} · "
+            f"Archived: {statuses.count('Archived')} · Fetch failed with a previous snapshot: "
+            f"{counts.get('Fetch failed', 0)} · Awaiting a first fetch: {statuses.count('Not fetched')}.\n\n"
+            "[Review moved or unavailable repositories](https://github.com/erson/orchestration-atlas/issues?q=is%3Aissue+is%3Aopen+label%3Amaintenance)"
+            " · [Browse archived projects](https://erson.github.io/orchestration-atlas/?status=Archived#directory)\n")
+
+
 # --- Validation --------------------------------------------------------------------------------------------------
 
 REPO_NAME = re.compile(r"^[A-Za-z0-9-]+/[A-Za-z0-9._-]+$")
@@ -792,6 +804,8 @@ def check_data(doc):
         for key in ("name", "description"):
             if not isinstance(p.get(key), str) or not p[key].strip():
                 problems.append(f"{where}: `{key}` is missing or empty")
+        if "guide_task" in p and (not isinstance(p["guide_task"], str) or not p["guide_task"].strip()):
+            problems.append(f"{where}: `guide_task` must be a non-empty string")
         if p.get("category") not in ids:
             problems.append(f"{where}: unknown category `{p.get('category')}` (known: {', '.join(ids)})")
         if p.get("origin") not in ORIGINS:
@@ -1400,6 +1414,9 @@ def render_readme(doc, rows, features):
         f"*Metrics collected {snapshot} (UTC). The index tracks {len(rows)} projects across {len(cats)} categories.*", "",
         *([readme_editor.render(editorial), ""] if editorial else []),
         "## Choose a task", "",
+        *(f"- {name_link(r)} — {untrusted(r['guide_task'])}" for r in rows
+          if r.get("guide_task") and r["status"] not in ("Archived", "Unavailable")),
+        "",
         "| I want to… | Indexed | Commit within 90 days |",
         "|---|---:|---:|",
     ]
@@ -1570,6 +1587,9 @@ def main():
         cache = json.loads(METRICS_FILE.read_text(encoding="utf-8")).get("repos", {})
 
     if args.discover:
+        if summary := os.environ.get("GITHUB_STEP_SUMMARY"):
+            with open(summary, "a", encoding="utf-8") as output:
+                print(weekly_link_summary(doc["projects"], cache), file=output)
         discover(doc, cache, features, args.days, args.report)
         return
 

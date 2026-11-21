@@ -641,7 +641,8 @@
       "origin": "awesome-list",
       "list_description": "Desktop workspace that runs and supervises teams of coding agents from planning to merge: project-aware orchestration splits work into workers with isolated workspaces, tracked on a live Kanban with PRs, CI, and review, plus iPhone and Android apps. Claude Code, Codex, and 30+ harnesses.",
       "source_note": null,
-      "description": "IDE that plans work, spawns agents, and fixes CI failures and merge conflicts unprompted."
+      "description": "IDE that plans work, spawns agents, and fixes CI failures and merge conflicts unprompted.",
+      "guide_task": "Route failed CI checks and review comments to the agent that owns the branch."
     },
     {
       "repo": "izll/agent-session-manager-desktop",
@@ -848,7 +849,8 @@
       "origin": "awesome-list",
       "list_description": "Agentic development environment running parallel agents against any model provider.",
       "source_note": null,
-      "description": "Agentic development environment running parallel agents with any model provider."
+      "description": "Agentic development environment running parallel agents with any model provider.",
+      "guide_task": "Run agents in separate Git worktrees and compare their diffs."
     },
     {
       "repo": "evoelsewhere/evo-harness",
@@ -2395,6 +2397,46 @@
       "how_found": "GitHub repository search: agent orchestration, parallel coding agents, and multi-agent coordination"
     },
     {
+      "repo": "patoles/agent-flow",
+      "name": "Agent Flow",
+      "category": "desktop",
+      "origin": "discovered",
+      "list_description": "",
+      "source_note": null,
+      "description": "VS Code extension that visualizes Claude Code and Codex sessions, tool calls, and subagents.",
+      "how_found": "erson/awesome-coding-agent-orchestration"
+    },
+    {
+      "repo": "AltharIDE/althar",
+      "name": "Althar",
+      "category": "desktop",
+      "origin": "discovered",
+      "list_description": "",
+      "source_note": null,
+      "description": "Desktop coordinator that plans coding tasks and assigns another model to review the work.",
+      "how_found": "erson/awesome-coding-agent-orchestration#12"
+    },
+    {
+      "repo": "JohnRiceML/clawport-ui",
+      "name": "ClawPort",
+      "category": "desktop",
+      "origin": "discovered",
+      "list_description": "",
+      "source_note": null,
+      "description": "Dashboard for OpenClaw teams with agent chat, a task board, and token cost tracking.",
+      "how_found": "erson/awesome-coding-agent-orchestration"
+    },
+    {
+      "repo": "scrossen/talavine-code",
+      "name": "Talavine Code",
+      "category": "desktop",
+      "origin": "discovered",
+      "list_description": "",
+      "source_note": null,
+      "description": "Desktop workbench for parallel coding agents, cross-model design reviews, and acceptance checks.",
+      "how_found": "erson/awesome-coding-agent-orchestration#8"
+    },
+    {
       "repo": "5dive-ai/5dive",
       "name": "5dive",
       "category": "swarms",
@@ -3492,6 +3534,26 @@
       "source_note": null,
       "description": "Universal agent-swarm and MCP plugin with specialized skills and autonomous subagents across coding tools.",
       "how_found": "GitHub repository search: agent orchestration, parallel coding agents, and multi-agent coordination"
+    },
+    {
+      "repo": "Human-Agent-Society/CORAL",
+      "name": "CORAL",
+      "category": "swarms",
+      "origin": "discovered",
+      "list_description": "",
+      "source_note": null,
+      "description": "Coding agents run experiments in isolated workspaces, grade results, and share findings.",
+      "how_found": "erson/awesome-coding-agent-orchestration"
+    },
+    {
+      "repo": "AlexAnys/opencrew",
+      "name": "OpenCrew",
+      "category": "swarms",
+      "origin": "discovered",
+      "list_description": "",
+      "source_note": null,
+      "description": "Coordinates a team of specialized OpenClaw agents through Slack.",
+      "how_found": "erson/awesome-coding-agent-orchestration"
     },
     {
       "repo": "sipyourdrink-ltd/bernstein",
@@ -4804,7 +4866,8 @@
       "list_description": "",
       "source_note": null,
       "description": "Self-hosted control plane dispatching tasks to agent runtimes and tracking runs, schedules, and spend.",
-      "how_found": "jqueryscript awesome-claude-code"
+      "how_found": "jqueryscript awesome-claude-code",
+      "guide_task": "Track spending alongside agent runs in a self-hosted dashboard."
     },
     {
       "repo": "clawfleet/ClawFleet",
@@ -5115,6 +5178,26 @@
       "source_note": null,
       "description": "Hive-compute layer that expands personal compute with on-demand coding-agent swarms.",
       "how_found": "GitHub repository search: agent orchestration, parallel coding agents, and multi-agent coordination"
+    },
+    {
+      "repo": "a5c-ai/babysitter",
+      "name": "Babysitter",
+      "category": "infra",
+      "origin": "discovered",
+      "list_description": "",
+      "source_note": null,
+      "description": "Executes reproducible workflows across coding harnesses with verification between steps.",
+      "how_found": "erson/awesome-coding-agent-orchestration"
+    },
+    {
+      "repo": "zhnt/loushang",
+      "name": "Loushang",
+      "category": "infra",
+      "origin": "discovered",
+      "list_description": "",
+      "source_note": null,
+      "description": "Python harness for staged coding workflows with resumable sessions and tool controls.",
+      "how_found": "erson/awesome-coding-agent-orchestration"
     },
     {
       "repo": "kcosr/assistant",
@@ -5640,6 +5723,16 @@
       "source_note": null,
       "description": "Self-hosted multi-agent platform with memory, coding pipelines, scheduled flows, and voice devices.",
       "how_found": "GitHub repository search: agent orchestration, parallel coding agents, and multi-agent coordination"
+    },
+    {
+      "repo": "pocketpaw/pocketpaw",
+      "name": "PocketPaw",
+      "category": "assistants",
+      "origin": "discovered",
+      "list_description": "",
+      "source_note": null,
+      "description": "Self-hosted personal assistant with a desktop and web dashboard for multi-agent tasks.",
+      "how_found": "erson/awesome-coding-agent-orchestration"
     },
     {
       "repo": "21st-dev/1code",
