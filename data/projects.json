@@ -5200,6 +5200,16 @@
       "how_found": "erson/awesome-coding-agent-orchestration"
     },
     {
+      "repo": "jiangxingfan1-coder/Open-Agent-API",
+      "name": "Open Agent API",
+      "category": "infra",
+      "origin": "discovered",
+      "list_description": "",
+      "source_note": null,
+      "description": "Self-hosted gateway that exposes local coding agents through SDK-compatible APIs, with scoped caller keys, run inspection, and operator approvals.",
+      "how_found": "Maintainer submission"
+    },
+    {
       "repo": "kcosr/assistant",
       "name": "assistant",
       "category": "assistants",
