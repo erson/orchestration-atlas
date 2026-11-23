@@ -7,10 +7,10 @@ name: Validate
 
 on:
   pull_request:
-    paths: ["data/**", "scripts/**", ".github/workflows/**"]
+    paths: [README.md, catalog.html, "data/**", "scripts/**", ".github/workflows/**"]
   push:
     branches: [main]
-    paths: ["data/**", "scripts/**", ".github/workflows/**"]
+    paths: [README.md, catalog.html, "data/**", "scripts/**", ".github/workflows/**"]
   workflow_dispatch:
 
 permissions: {}
@@ -33,12 +33,16 @@ jobs:
           fetch-depth: ${{ github.event_name == 'pull_request' && 2 || 1 }}
 
       - name: Check data files
+        id: data
         run: |
           python3 scripts/update.py --check
-          python3 -m unittest scripts.test_catalog_guide
+          python3 -m unittest discover -s scripts
+
+      - name: Check generated index
+        run: python3 scripts/update.py --check-generated
 
       - name: Preview generated index changes
-        if: github.event_name == 'pull_request'
+        if: github.event_name == 'pull_request' && !cancelled() && steps.data.outcome == 'success'
         run: |
           python3 scripts/update.py --render-only
           python3 scripts/preview.py HEAD^1 >> "$GITHUB_STEP_SUMMARY"

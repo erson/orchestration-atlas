@@ -65,8 +65,8 @@ TRANSIENT = {500, 502, 503, 504}           # retried; a failure keeps the previo
 GONE = {404, 410, 451}                     # the repository no longer exists or is blocked
 GAP_FIELDS = {
     "contributors": ["contributors", "bots", "top_author_share", "contributors_fetched_at"],
-    "releases": ["latest_release_tag", "latest_release_at", "latest_release_prerelease", "releases_12m",
-                 "releases_12m_capped"],
+    "releases": ["latest_release_tag", "latest_release_at", "latest_release_prerelease", "release_timestamps",
+                 "releases_12m", "releases_12m_capped"],
     "readme": ["features", "readme_found"],
 }
 STATUSES = ["Active", "Recent", "Slow", "Stale", "Archived", "Unavailable", "Not fetched"]
@@ -137,14 +137,16 @@ python3 scripts/update.py                # fetch metrics older than 7 days, then
 python3 scripts/update.py --spread       # also fetch the oldest seventh, to even out daily runs
 python3 scripts/update.py --refresh      # fetch everything again
 python3 scripts/update.py --only a/b    # fetch these projects now, then re-render
-python3 scripts/update.py --render-only  # rebuild this README from data/metrics.json
+    python3 scripts/update.py --render-only  # rebuild the README, CSV, and explorer from cached data
 python3 scripts/update.py --discover     # search GitHub for new projects; results go to data/candidates.json
 python3 scripts/update.py --check        # validate the data files without writing anything
 ```
 
 The script needs the GitHub CLI (`gh`) signed in. It runs GraphQL queries one at a time, and waits when GitHub's rate limits run low. To add a project, append an entry to `data/projects.json` with `repo`, `name`, `category`, `origin`, and `description`, then run the script. To stop a reviewed candidate from coming back, add it to `rejected` in `data/discovery.json`. Feature keywords live in `data/features.json`.
 
-A GitHub Actions workflow (`.github/workflows/update.yml`) refreshes about a seventh of the projects every day (`--spread`) and commits the result. Every Monday it runs discovery and rewrites the open issue labelled `candidates` with the projects to review. Projects that moved or disappeared are listed in the issue labelled `maintenance`. The Monday discovery summary also counts moved, unavailable, and archived repositories using the latest daily snapshots. The daily job summary shows successful refreshes, seven-day coverage, and the age of the oldest snapshot. Weekly discovery resumes interrupted searches and samples older, recently active repositories once a month within the same eight-minute budget. The candidates issue lists new finds first and shows each candidate’s matching searches, evidence, and last observation. The discovery summary counts candidates found by each query, candidates found only by that query, and review outcomes. A weekly one-page README search and a monthly rotating search share the existing discovery budget. Acceptance rates use reviewed candidates only. Historical results cover the query matches still present when tracking began. Before pushing, the bot validates the generated files against the local cache. Pull requests that touch the data, script, or workflows run offline validation and show a README and CSV preview in the job summary.
+A GitHub Actions workflow (`.github/workflows/update.yml`) refreshes about a seventh of the projects every day (`--spread`) and commits the result. Every Monday it runs discovery and rewrites the open issue labelled `candidates` with the projects to review. Projects that moved or disappeared are listed in the issue labelled `maintenance`. The Monday discovery summary also counts moved, unavailable, and archived repositories using the latest daily snapshots. The daily job summary shows successful refreshes, seven-day coverage, and the age of the oldest snapshot. Weekly discovery resumes interrupted searches and samples older, recently active repositories once a month within the same eight-minute budget. The candidates issue lists new finds first and shows each candidate’s matching searches, evidence, and last observation. The discovery summary counts candidates found by each query, candidates found only by that query, and review outcomes. A weekly one-page README search and a monthly rotating search share the existing discovery budget. Acceptance rates use reviewed candidates only. Historical results cover the query matches still present when tracking began.
+
+After editing catalog inputs, run `python3 scripts/update.py --render-only` and commit the updated outputs. Pull requests that touch the catalog, data, scripts, or workflows check the committed outputs against the cache and show a README and CSV preview. GitHub Pages rebuilds the explorer from the cache before publishing.
 
 After successful Monday discovery, the README editor uses ZenMux to select and arrange verified findings for the weekly brief. The editor runs in the `Orchestrate` environment with `ZENMUX_API_KEY`. DeepSeek is the primary model and HY4 is the provider fallback. The editor sends at most 24 short facts in one request with a 512-token output limit. Daily renders reuse the last published brief. The editor can also switch the index snapshot between the Spec and Stat Markdown designs from [MDXCN](https://www.mdxcn.dev/docs).
 """
@@ -476,6 +478,9 @@ def finish_releases(record):
         newest = max(releases, key=lambda r: r["publishedAt"])
         record.update(latest_release_tag=newest["tagName"], latest_release_at=newest["publishedAt"],
                       latest_release_prerelease=newest["isPrerelease"])
+    history_cutoff = NOW - timedelta(weeks=history.RETENTION_WEEKS)
+    record["release_timestamps"] = sorted({r["publishedAt"] for r in releases
+                                           if parse_ts(r["publishedAt"]) >= history_cutoff})
     record["releases_12m"] = sum(parse_ts(r["publishedAt"]) >= cutoff for r in releases)
     if capped:
         record["releases_12m_capped"] = True
@@ -1376,6 +1381,10 @@ def render_explorer(doc, rows, weeks=None):
         sample = samples.get(entry["repo"].lower())
         if sample:
             entry["issues"] = {k: v for k, v in sample.items() if k != "cache"}
+            if "cache" in sample:
+                entry["issues"]["timed_replies"] = sum(
+                    response.get("hours") is not None for response in sample["cache"].values()
+                )
         for key in ("latest_release_at", "last_commit_at", "fetched_at"):
             entry[key] = (entry[key] or "")[:10]
     dates = sorted(r["fetched_at"][:10] for r in rows if r.get("fetched_at"))
@@ -1531,6 +1540,8 @@ def check(generated=False):
         except (OSError, ValueError, KeyError, TypeError) as err:
             sys.exit(f"data/metrics.json: {err}")
     rows = build_rows(doc["projects"], cache)
+    if history.reconcile_releases(weekly, rows) and generated:
+        sys.exit(f"{HISTORY_FILE.relative_to(ROOT)} is missing observed releases; run --render-only")
     outputs = ((README_FILE, render_readme(doc, rows, features)), (CSV_FILE, render_csv(rows)),
                (EXPLORER_FILE, render_explorer(doc, rows, weekly["weeks"])))
     if generated:
@@ -1560,7 +1571,7 @@ def main():
     parser.add_argument("--check", action="store_true",
                         help="validate the data files and render in memory; writes nothing, makes no network calls")
     parser.add_argument("--check-generated", action="store_true",
-                        help="validate data and verify README and CSV match the cache; makes no network calls")
+                        help="validate data and verify generated files match the cache; makes no network calls")
     args = parser.parse_args()
     if args.check or args.check_generated:
         others = {k: v for k, v in vars(args).items() if k not in ("check", "check_generated")}
@@ -1619,10 +1630,12 @@ def main():
     rows = build_rows(doc["projects"], cache)
     weekly = history.load(HISTORY_FILE)
     observed_at = NOW.isoformat(timespec="seconds")
+    observed = False
     if not args.render_only and not args.only and not stopped:
         updated = any(r.get("fetched_at") == observed_at and not r.get("error") for r in rows)
-        if updated and history.observe(weekly, rows, observed_at):
-            write_atomic(HISTORY_FILE, json.dumps(weekly, indent=2, ensure_ascii=False) + "\n")
+        observed = updated and history.observe(weekly, rows, observed_at)
+    if history.reconcile_releases(weekly, rows) or observed:
+        write_atomic(HISTORY_FILE, json.dumps(weekly, indent=2, ensure_ascii=False) + "\n")
     write_atomic(EXPLORER_FILE, render_explorer(doc, rows, weekly["weeks"]))
     write_atomic(CSV_FILE, render_csv(rows))
     write_atomic(README_FILE, render_readme(doc, rows, features))

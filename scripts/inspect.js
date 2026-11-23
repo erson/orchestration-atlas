@@ -85,7 +85,7 @@ function inspectProject(p) {
     row.append(node('th', measure), node('td', value));
   }
   content.append(node('h3', 'Issue responsiveness'), issues, node('p',
-    'Each sample uses up to six user-opened issues aged 7–90 days and six recent closures. Only human team replies count. Medians require three observations.'));
+    'The report sample takes up to six external reports aged 7–90 days from the 30 newest issues. Only human team replies count. The closure sample takes up to six recent closures. Timing medians require three observations.'));
   if (!dialog.open) dialog.showModal();
 }
 
@@ -139,6 +139,7 @@ function issueMeasures(project) {
     'Open issues': count('open_issues', 'open'),
     'Closed issues': count('closed_issues', 'closed'),
     'Issue sample': s ? s.date : 'Awaiting sample',
+    'External reports sampled (from up to 30 newest issues)': '—',
     'Maintainer reply within 7 days': '—',
     'Median first reply': '—',
     'Recent closures sampled': '—',
@@ -146,12 +147,20 @@ function issueMeasures(project) {
   };
   if (!s) return values;
   if (!s.enabled) { values['Issue sample'] += ' · issues disabled'; return values; }
-  values['Maintainer reply within 7 days'] = s.sampled
-    ? s.answered+' answered · '+s.unanswered+' unanswered · '+s.unknown+' unknown ('+s.sampled+' sampled)'
-    : 'No eligible user issues';
-  if (s.reply_hours != null) values['Median first reply'] = s.reply_hours+' hours';
+  values['External reports sampled (from up to 30 newest issues)'] = s.sampled
+    ? s.sampled + ' sampled (max 6)'
+    : '0 sampled · no eligible reports in this window';
+  if (s.sampled) {
+    values['Maintainer reply within 7 days'] =
+      s.answered+' answered · '+s.unanswered+' unanswered · '+s.unknown+' unknown';
+    const timingCount = s.timed_replies == null ? '' : ' (' + s.timed_replies + ' timed replies)';
+    const replyMedian = s.reply_hours == null ? 'Fewer than 3 timed replies' : s.reply_hours + ' hours';
+    values['Median first reply'] = replyMedian + timingCount;
+  }
   const o=s.outcomes;
   values['Recent closures sampled'] = o.COMPLETED+' completed · '+o.NOT_PLANNED+' not planned · '+o.DUPLICATE+' duplicate · '+o.UNSPECIFIED+' unspecified';
-  if (s.completion_days != null) values['Median time to completed closure'] = s.completion_days+' days';
+  values['Median time to completed closure'] = s.completion_days == null
+    ? 'Insufficient data (' + o.COMPLETED + ' completed, 3 required)'
+    : s.completion_days + ' days (' + o.COMPLETED + ' completed)';
   return values;
 }
