@@ -5,6 +5,7 @@ import re
 from datetime import datetime, timedelta
 
 EVENTS = ("added", "resumed", "released")
+RETENTION_WEEKS = 12
 STATUSES = {"Active", "Recent", "Slow", "Stale", "Archived", "Unavailable", "Not fetched"}
 REPO = re.compile(r"[A-Za-z0-9-]+/[A-Za-z0-9._-]+")
 
@@ -30,7 +31,7 @@ def load(path):
         if not REPO.fullmatch(repo) or status not in STATUSES:
             raise ValueError(f"invalid history baseline for {repo}")
     weeks = data.get("weeks")
-    if not isinstance(weeks, list) or not 1 <= len(weeks) <= 12:
+    if not isinstance(weeks, list) or not 1 <= len(weeks) <= RETENTION_WEEKS:
         raise ValueError("history must contain between one and twelve observations")
     last = None
     for week in weeks:
@@ -71,7 +72,7 @@ def observe(data, rows, timestamp):
             week["added"].append(repo)
         if previous in ("Recent", "Slow", "Stale") and status == "Active":
             week["resumed"].append(repo)
-    cutoff = monday(current.date()) - timedelta(weeks=11)
+    cutoff = monday(current.date()) - timedelta(weeks=RETENTION_WEEKS - 1)
     data["weeks"] = [w for w in weeks if monday(utc_time(w["at"]).date()) >= cutoff] + [week]
     data["projects"] = projects
     return True
@@ -95,12 +96,15 @@ def reconcile_releases(data, rows):
     for row in rows:
         repo = row["repo"]
         key = repo.lower()
-        published = row.get("latest_release_at")
-        if key not in indexed or row.get("error") or not published:
+        if key not in indexed or row.get("error"):
             continue
-        date = utc_time(published)
+        # Snapshots from before release dates were cached contain just the latest release.
+        published = row.get("release_timestamps") or [row.get("latest_release_at")]
+        dates = [utc_time(value) for value in published if value]
         for start, end, week, recorded in periods:
-            if start < date <= end and first_added.get(key, end) <= end and key not in recorded:
+            if key in recorded or first_added.get(key, end) > end:
+                continue
+            if any(start < date <= end for date in dates):
                 week["released"].append(repo)
                 recorded.add(key)
                 changed = True

@@ -1,8 +1,9 @@
 """Regression tests for late release observations."""
 
 import unittest
+from unittest.mock import patch
 
-from scripts import history
+from scripts import history, update
 
 
 class ReleaseHistoryTests(unittest.TestCase):
@@ -32,6 +33,23 @@ class ReleaseHistoryTests(unittest.TestCase):
         release = {**self.row, "latest_release_at": self.end}
         self.assertTrue(history.reconcile_releases(self.data, [release]))
         self.assertEqual([[], ["Org/Project"], []], [week["released"] for week in self.data["weeks"]])
+
+    def test_single_refresh_can_fill_multiple_snapshot_periods(self):
+        history.observe(self.data, [self.row], self.next_end)
+        releases = [
+            {"tagName": "v3", "publishedAt": "2026-11-26T00:00:00Z", "isPrerelease": False},
+            {"tagName": "v2", "publishedAt": "2026-11-20T00:00:00Z", "isPrerelease": False},
+            {"tagName": "v1", "publishedAt": "2026-08-15T00:00:00Z", "isPrerelease": False},
+        ]
+        record = {**self.row, "full_name": self.row["repo"], "_releases": releases, "_release_cursor": None,
+                  "_release_oldest": None}
+        with patch.object(update, "NOW", history.utc_time("2026-12-01T12:00:00Z")):
+            update.finish_releases(record)
+        self.assertEqual([releases[1]["publishedAt"], releases[0]["publishedAt"]], record["release_timestamps"])
+        self.assertEqual(3, record["releases_12m"])
+        self.assertTrue(history.reconcile_releases(self.data, [record]))
+        self.assertEqual([[], ["Org/Project"], ["Org/Project"]],
+                         [week["released"] for week in self.data["weeks"]])
 
     def test_new_projects_do_not_fill_periods_before_they_were_indexed(self):
         new = {"repo": "Org/New", "status": "Active", "latest_release_at": self.end}

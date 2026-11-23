@@ -65,8 +65,8 @@ TRANSIENT = {500, 502, 503, 504}           # retried; a failure keeps the previo
 GONE = {404, 410, 451}                     # the repository no longer exists or is blocked
 GAP_FIELDS = {
     "contributors": ["contributors", "bots", "top_author_share", "contributors_fetched_at"],
-    "releases": ["latest_release_tag", "latest_release_at", "latest_release_prerelease", "releases_12m",
-                 "releases_12m_capped"],
+    "releases": ["latest_release_tag", "latest_release_at", "latest_release_prerelease", "release_timestamps",
+                 "releases_12m", "releases_12m_capped"],
     "readme": ["features", "readme_found"],
 }
 STATUSES = ["Active", "Recent", "Slow", "Stale", "Archived", "Unavailable", "Not fetched"]
@@ -478,6 +478,9 @@ def finish_releases(record):
         newest = max(releases, key=lambda r: r["publishedAt"])
         record.update(latest_release_tag=newest["tagName"], latest_release_at=newest["publishedAt"],
                       latest_release_prerelease=newest["isPrerelease"])
+    history_cutoff = NOW - timedelta(weeks=history.RETENTION_WEEKS)
+    record["release_timestamps"] = sorted({r["publishedAt"] for r in releases
+                                           if parse_ts(r["publishedAt"]) >= history_cutoff})
     record["releases_12m"] = sum(parse_ts(r["publishedAt"]) >= cutoff for r in releases)
     if capped:
         record["releases_12m_capped"] = True
