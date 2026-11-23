@@ -71,10 +71,41 @@ def observe(data, rows, timestamp):
             week["added"].append(repo)
         if previous in ("Recent", "Slow", "Stale") and status == "Active":
             week["resumed"].append(repo)
-        published = row.get("latest_release_at")
-        if published and not row.get("error") and last < utc_time(published) <= current:
-            week["released"].append(repo)
     cutoff = monday(current.date()) - timedelta(weeks=11)
     data["weeks"] = [w for w in weeks if monday(utc_time(w["at"]).date()) >= cutoff] + [week]
     data["projects"] = projects
     return True
+
+
+def reconcile_releases(data, rows):
+    """Fill retained periods with releases found after a weekly observation."""
+    periods = []
+    first_added = {}
+    for week in data["weeks"]:
+        end = utc_time(week["at"])
+        for repo in week["added"]:
+            first_added.setdefault(repo.lower(), end)
+        if week["from"]:
+            periods.append((utc_time(week["from"]), end, week, {r.lower() for r in week["released"]}))
+    if not periods:
+        return False
+
+    indexed = {repo.lower() for repo in data["projects"]}
+    changed = False
+    for row in rows:
+        repo = row["repo"]
+        key = repo.lower()
+        published = row.get("latest_release_at")
+        if key not in indexed or row.get("error") or not published:
+            continue
+        date = utc_time(published)
+        for start, end, week, recorded in periods:
+            if start < date <= end and first_added.get(key, end) <= end and key not in recorded:
+                week["released"].append(repo)
+                recorded.add(key)
+                changed = True
+
+    if changed:
+        for _, _, week, _ in periods:
+            week["released"].sort(key=str.lower)
+    return changed

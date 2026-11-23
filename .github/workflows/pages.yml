@@ -2,7 +2,7 @@ name: Publish catalog
 on:
   push:
     branches: [main]
-    paths: [catalog.html, .github/workflows/pages.yml]
+    paths: [catalog.html, "data/**", "scripts/**", .github/workflows/pages.yml]
   # Index refreshes push with the workflow token and skip push-triggered CI.
   workflow_run:
     workflows: ["Update index"]
@@ -31,7 +31,9 @@ jobs:
           ref: main
           persist-credentials: false
       - name: Prepare the static catalog
-        run: install -D -m 644 catalog.html public/index.html
+        run: |
+          python3 scripts/update.py --render-only
+          install -D -m 644 catalog.html public/index.html
       - uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3
         with:
           path: public

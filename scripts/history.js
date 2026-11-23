@@ -88,7 +88,7 @@
       }
       groups.append(group);
     }
-    results.append(groups, element("p", "Active again counts projects returning from Recent, Slow or Stale to Active. Release counts include each project once when its latest observed release was published between snapshots.", "note"));
+    results.append(groups, element("p", "Active again counts projects returning from Recent, Slow or Stale to Active. Each project is counted once per period for its observed releases. Releases discovered on later refreshes are added to the period in which they were published.", "note"));
   }
   select.addEventListener("change", draw);
   draw();
