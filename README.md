@@ -16,7 +16,7 @@ Filter by task, feature, language, or activity and compare up to four projects s
 +-----------------------------+
 ```
 
-*Metrics collected 2026-11-16 to 2026-11-22 (UTC). The index tracks 645 projects across 9 categories.*
+*Metrics collected 2026-11-17 to 2026-11-23 (UTC). The index tracks 645 projects across 9 categories.*
 
 ## Choose a task
 
@@ -44,7 +44,7 @@ Use **last commit** for recency, **latest release** for shipping cadence, and **
 
 | Projects tracked | Total stars | Median contributors | Median days since last commit |
 |:-:|:-:|:-:|:-:|
-| **645** | **3,715,244** | **7** | **3** |
+| **645** | **3,717,595** | **7** | **3** |
 
 | 🟢 Active | 🟡 Recent | 🟠 Slow | 🔴 Stale | 📦 Archived | ⚫ Unavailable |
 |:-:|:-:|:-:|:-:|:-:|:-:|
@@ -61,7 +61,7 @@ Share of the 639 projects whose README, description, or topics mention each feat
 | Group | Mentioned by |
 |---|---|
 | **Agents** | Claude Code **78%** · Codex **74%** · OpenCode **49%** · Cursor **39%** · Copilot **26%** · Gemini CLI **23%** · Kiro **8%** · Qwen Code **7%** · Aider **7%** · Cline **7%** · Goose **5%** · Amp **3%** |
-| **Isolation** | Git worktrees **45%** · Containers **41%** · Sandbox / VM **38%** · tmux **21%** |
+| **Isolation** | Git worktrees **44%** · Containers **42%** · Sandbox / VM **38%** · tmux **21%** |
 | **Interface** | Desktop app **35%** · Web UI **29%** · TUI **25%** · Mobile **14%** · IDE extension **2%** |
 | **Protocols** | MCP **56%** · ACP **15%** · A2A **5%** |
 | **Workflow** | Scheduled runs **21%** · Kanban / task board **17%** |
@@ -72,11 +72,11 @@ Share of the 639 projects whose README, description, or topics mention each feat
 
 | Main language | Projects | Share | |
 |---|--:|--:|---|
-| TypeScript | 296 | 47% | `████████████████████` |
+| TypeScript | 297 | 47% | `████████████████████` |
 | Python | 110 | 17% | `███████░░░░░░░░░░░░░` |
 | Rust | 74 | 12% | `█████░░░░░░░░░░░░░░░` |
 | Go | 60 | 9% | `████░░░░░░░░░░░░░░░░` |
-| JavaScript | 35 | 6% | `██░░░░░░░░░░░░░░░░░░` |
+| JavaScript | 34 | 5% | `██░░░░░░░░░░░░░░░░░░` |
 | Shell | 22 | 3% | `█░░░░░░░░░░░░░░░░░░░` |
 | Swift | 15 | 2% | `█░░░░░░░░░░░░░░░░░░░` |
 | Elixir | 5 | 1% | `█░░░░░░░░░░░░░░░░░░░` |
@@ -96,14 +96,14 @@ Share of the 639 projects whose README, description, or topics mention each feat
 | 5 | [OpenHands](https://github.com/OpenHands/OpenHands) | Task runners | 93,637 | 456 | 🟢 Active |
 | 6 | [DeerFlow](https://github.com/bytedance/deer-flow) _(new)_ | Adjacent frameworks | 85,480 | 454 | 🟢 Active |
 | 7 | [ruflo](https://github.com/ruvnet/ruflo) | Swarms | 82,196 | 87 | 🟢 Active |
-| 8 | [MetaGPT](https://github.com/FoundationAgents/MetaGPT) | Adjacent frameworks | 71,292 | 116 | 🟠 Slow |
+| 8 | [MetaGPT](https://github.com/FoundationAgents/MetaGPT) | Adjacent frameworks | 71,431 | 116 | 🟠 Slow |
 | 9 | [OmO](https://github.com/code-yeongyu/oh-my-openagent) _(new)_ | Swarms | 70,986 | 333 | 🟢 Active |
 | 10 | [t3code](https://github.com/pingdotgg/t3code) | Desktop & web | 68,744 | 474 | 🟢 Active |
 | 11 | [AutoGen](https://github.com/microsoft/autogen) | Adjacent frameworks | 61,955 | 440 | 🟢 Active |
 | 12 | [crewAI](https://github.com/crewAIInc/crewAI) | Swarms | 61,067 | 367 | 🟢 Active |
 | 13 | [multica](https://github.com/multica-ai/multica) | Task runners | 56,887 | 406 | 🟢 Active |
 | 14 | [herdr](https://github.com/herdrdev/herdr) | Terminal | 51,842 | 87 | 🟢 Active |
-| 15 | [nanobot](https://github.com/HKUDS/nanobot) | Assistants | 50,123 | 394 | 🟢 Active |
+| 15 | [nanobot](https://github.com/HKUDS/nanobot) | Assistants | 50,287 | 394 | 🟢 Active |
 
 </details>
 
@@ -111,21 +111,21 @@ Share of the 639 projects whose README, description, or topics mention each feat
 
 | # | Project | Category | Last commit | Commits (90d) | Status |
 |--:|---|---|---|--:|---|
-| 1 | [Orca](https://github.com/stablyai/orca) | Desktop & web | 2026-11-22 | 14,771 | 🟢 Active |
-| 2 | [openclaw](https://github.com/openclaw/openclaw) | Assistants | 2026-11-22 | 49,223 | 🟢 Active |
-| 3 | [Traycer](https://github.com/traycerai/traycer) | Desktop & web | 2026-11-22 | 1,914 | 🟢 Active |
-| 4 | [Zeroshot](https://github.com/the-open-engine/zeroshot) _(new)_ | Swarms | 2026-11-22 | 450 | 🟢 Active |
-| 5 | [deja-vu](https://github.com/vshulcz/deja-vu) | Infrastructure | 2026-11-22 | 1,786 | 🟢 Active |
-| 6 | [agterm](https://github.com/umputun/agterm) | Terminal | 2026-11-22 | 780 | 🟢 Active |
-| 7 | [Vicoa](https://github.com/vicoa-ai/vicoa) | Desktop & web | 2026-11-22 | 339 | 🟢 Active |
-| 8 | [Yardlet](https://github.com/zzunkie/yardlet) | Desktop & web | 2026-11-22 | 1,094 | 🟢 Active |
-| 9 | [SuperPlane](https://github.com/superplanehq/superplane) | Task runners | 2026-11-22 | 1,458 | 🟢 Active |
-| 10 | [agent-manager](https://github.com/wainmann/agent-manager) | Terminal | 2026-11-22 | 1,120 | 🟢 Active |
-| 11 | [qm](https://github.com/yc-software/qm) | Desktop & web | 2026-11-22 | 2,185 | 🟢 Active |
-| 12 | [Crewly](https://github.com/stevehuang0115/crewly) | Swarms | 2026-11-22 | 1,537 | 🟢 Active |
-| 13 | [ADHDev](https://github.com/vilmire/adhdev) _(new)_ | Desktop & web | 2026-11-22 | 2,059 | 🟢 Active |
-| 14 | [Runner](https://github.com/yicheng47/runner) | Desktop & web | 2026-11-22 | 1,895 | 🟢 Active |
-| 15 | [zeroclaw](https://github.com/zeroclaw-labs/zeroclaw) | Assistants | 2026-11-22 | 987 | 🟢 Active |
+| 1 | [AgentField](https://github.com/Agent-Field/agentfield) _(new)_ | Infrastructure | 2026-11-23 | 347 | 🟢 Active |
+| 2 | [Open Walnut](https://github.com/EvanZhang008/open-walnut) | Desktop & web | 2026-11-23 | 6,319 | 🟢 Active |
+| 3 | [Cotal](https://github.com/Cotal-AI/Cotal) | Infrastructure | 2026-11-23 | 11,596 | 🟢 Active |
+| 4 | [CodeAF](https://github.com/Agent-Field/CodeAF) _(new)_ | Task runners | 2026-11-23 | 1,408 | 🟢 Active |
+| 5 | [5dive](https://github.com/5dive-ai/5dive) | Swarms | 2026-11-23 | 998 | 🟢 Active |
+| 6 | [Gentle Shell](https://github.com/Gentleman-Programming/gentle-shell) _(new)_ | Terminal | 2026-11-23 | 2,900 | 🟢 Active |
+| 7 | [Agent Teams](https://github.com/777genius/agent-teams-ai) | Swarms | 2026-11-23 | 3,101 | 🟢 Active |
+| 8 | [NTM](https://github.com/Dicklesworthstone/ntm) _(new)_ | Terminal | 2026-11-23 | 1,261 | 🟢 Active |
+| 9 | [scion](https://github.com/GoogleCloudPlatform/scion) | Swarms | 2026-11-23 | 4,090 | 🟢 Active |
+| 10 | [SWE-AF](https://github.com/Agent-Field/SWE-AF) _(new)_ | Swarms | 2026-11-23 | 104 | 🟢 Active |
+| 11 | [iPolloWork](https://github.com/Devin-AXIS/iPolloWork) _(new)_ | Desktop & web | 2026-11-23 | 14,010 | 🟢 Active |
+| 12 | [Raven](https://github.com/EverMind-AI/Raven) | Swarms | 2026-11-23 | 1,591 | 🟢 Active |
+| 13 | [Ekko Studio](https://github.com/EKKOLearnAI/ekko-studio) _(new)_ | Desktop & web | 2026-11-23 | 625 | 🟢 Active |
+| 14 | [Delegatus](https://github.com/Latand/delegatus) | Desktop & web | 2026-11-23 | 3,228 | 🟢 Active |
+| 15 | [Volt](https://github.com/LeulAria/volt) | Desktop & web | 2026-11-23 | 1,592 | 🟢 Active |
 
 </details>
 
@@ -285,7 +285,7 @@ The same parallel-sessions workflow as a desktop app or browser/mobile dashboard
 | [dev-3.0](https://github.com/h0x91b/dev-3.0) | 🟢 Active | TypeScript |
 | [diri](https://github.com/cristicretu/diri) | 🟢 Active | Rust |
 | [DockTerm](https://github.com/munvard/dockterm) | 🟡 Recent | TypeScript |
-| [dorothy](https://github.com/Charlie85270/Dorothy) | 🟢 Active | TypeScript |
+| [dorothy](https://github.com/Charlie85270/Dorothy) | 🟡 Recent | TypeScript |
 | [Dray](https://github.com/monorepo-labs/dray) | 🟢 Active | Rust |
 | [Ekko Studio](https://github.com/EKKOLearnAI/ekko-studio) _(new)_ | 🟢 Active | TypeScript |
 | [Emdash](https://github.com/generalaction/emdash) | 🟢 Active | TypeScript |
@@ -316,7 +316,7 @@ The same parallel-sessions workflow as a desktop app or browser/mobile dashboard
 | [Intent](https://github.com/intent-hq/intent) | 🟢 Active | JavaScript |
 | [intentic](https://github.com/intentic/intentic) | 🟢 Active | TypeScript |
 | [iPolloWork](https://github.com/Devin-AXIS/iPolloWork) _(new)_ | 🟢 Active | TypeScript |
-| [ivy-tendril](https://github.com/Ivy-Interactive/Ivy-Tendril) | 🟡 Recent | C# |
+| [ivy-tendril](https://github.com/Ivy-Interactive/Ivy-Tendril) | 🟢 Active | C# |
 | [jean](https://github.com/coollabsio/jean) | 🟢 Active | TypeScript |
 | [JockeyUI](https://github.com/recailai/jockey) _(new)_ | 🟢 Active | Rust |
 | [Kanban](https://github.com/cline/kanban) _(new)_ | 🟢 Active | TypeScript |
@@ -491,7 +491,7 @@ Systems where multiple specialized agents actively coordinate, communicate, and 
 | [Meta Kim](https://github.com/KimYx0207/Meta_Kim) _(new)_ | 🟢 Active | JavaScript |
 | [metaswarm](https://github.com/dsifry/metaswarm) _(new)_ | 🟢 Active | Shell |
 | [multi-agent-shogun](https://github.com/yohey-w/multi-agent-shogun) | 🟠 Slow | Shell |
-| [Munder Difflin](https://github.com/HarnessMD/munder-difflin) _(new)_ | 🟢 Active | JavaScript |
+| [Munder Difflin](https://github.com/HarnessMD/munder-difflin) _(new)_ | 🟢 Active | TypeScript |
 | [myclaude](https://github.com/stellarlinkco/myclaude) _(new)_ | 🟠 Slow | Go |
 | [Mysti](https://github.com/DeepMyst/Mysti) _(new)_ | 🟢 Active | TypeScript |
 | [NXTG-Forge Orchestrator](https://github.com/nxtg-ai/forge-orchestrator) | 🟢 Active | Rust |
