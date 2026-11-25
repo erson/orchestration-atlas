@@ -10,13 +10,13 @@ Filter by task, feature, language, or activity and compare up to four projects s
 +----- [ INDEX SNAPSHOT ] ----+
 |                             |
 |  Available projects   639   |
-|  Active in 30 days    452   |
+|  Active in 30 days    456   |
 |  Combined stars       3.7M  |
 |                             |
 +-----------------------------+
 ```
 
-*Metrics collected 2026-11-18 to 2026-11-24 (UTC). The index tracks 645 projects across 9 categories.*
+*Metrics collected 2026-11-19 to 2026-11-25 (UTC). The index tracks 645 projects across 9 categories.*
 
 ## Choose a task
 
@@ -28,7 +28,7 @@ Filter by task, feature, language, or activity and compare up to four projects s
 |---|---:|---:|
 | [Run parallel coding sessions in a terminal](#parallel-coding-agents--terminal-tuicli) | 61 | 51 |
 | [Manage coding agents in a desktop or web UI](#parallel-coding-agents--desktop--web) | 192 | 169 |
-| [Coordinate a team of agents](#multi-agent-swarms) | 116 | 89 |
+| [Coordinate a team of agents](#multi-agent-swarms) | 116 | 88 |
 | [Repeat an agent loop until a condition is met](#autonomous-loop-runners) | 31 | 22 |
 | [Delegate a task to an autonomous runner](#autonomous-task-runners) | 58 | 46 |
 | [Build on orchestration infrastructure](#agent-infrastructure--primitives) | 84 | 72 |
@@ -44,11 +44,11 @@ Use **last commit** for recency, **latest release** for shipping cadence, and **
 
 | Projects tracked | Total stars | Median contributors | Median days since last commit |
 |:-:|:-:|:-:|:-:|
-| **645** | **3,727,054** | **7** | **3** |
+| **645** | **3,728,649** | **7** | **3** |
 
 | 🟢 Active | 🟡 Recent | 🟠 Slow | 🔴 Stale | 📦 Archived | ⚫ Unavailable |
 |:-:|:-:|:-:|:-:|:-:|:-:|
-| **452** | **70** | **110** | **3** | **4** | **6** |
+| **456** | **65** | **111** | **2** | **5** | **6** |
 
 Status is the age of the last commit on the default branch: Active up to 30 days, Recent up to 90, Slow up to a year, Stale beyond that. See [Methodology](#methodology).
 
@@ -60,7 +60,7 @@ Share of the 639 projects whose README, description, or topics mention each feat
 
 | Group | Mentioned by |
 |---|---|
-| **Agents** | Claude Code **78%** · Codex **74%** · OpenCode **49%** · Cursor **39%** · Copilot **26%** · Gemini CLI **23%** · Kiro **8%** · Qwen Code **8%** · Cline **7%** · Aider **7%** · Goose **5%** · Amp **3%** |
+| **Agents** | Claude Code **78%** · Codex **74%** · OpenCode **49%** · Cursor **39%** · Copilot **26%** · Gemini CLI **23%** · Qwen Code **8%** · Kiro **8%** · Aider **7%** · Cline **7%** · Goose **5%** · Amp **3%** |
 | **Isolation** | Git worktrees **44%** · Containers **42%** · Sandbox / VM **38%** · tmux **21%** |
 | **Interface** | Desktop app **35%** · Web UI **30%** · TUI **25%** · Mobile **14%** · IDE extension **2%** |
 | **Protocols** | MCP **56%** · ACP **15%** · A2A **5%** |
@@ -94,13 +94,13 @@ Share of the 639 projects whose README, description, or topics mention each feat
 | 3 | [Orca](https://github.com/stablyai/orca) | Desktop & web | 132,493 | 464 | 🟢 Active |
 | 4 | [paperclip](https://github.com/paperclipai/paperclip) | Swarms | 115,587 | 243 | 🟢 Active |
 | 5 | [OpenHands](https://github.com/OpenHands/OpenHands) | Task runners | 94,227 | 456 | 🟢 Active |
-| 6 | [DeerFlow](https://github.com/bytedance/deer-flow) _(new)_ | Adjacent frameworks | 85,480 | 454 | 🟢 Active |
+| 6 | [DeerFlow](https://github.com/bytedance/deer-flow) _(new)_ | Adjacent frameworks | 85,793 | 454 | 🟢 Active |
 | 7 | [ruflo](https://github.com/ruvnet/ruflo) | Swarms | 82,196 | 87 | 🟢 Active |
 | 8 | [MetaGPT](https://github.com/FoundationAgents/MetaGPT) | Adjacent frameworks | 71,431 | 116 | 🟠 Slow |
-| 9 | [OmO](https://github.com/code-yeongyu/oh-my-openagent) _(new)_ | Swarms | 70,986 | 333 | 🟢 Active |
+| 9 | [OmO](https://github.com/code-yeongyu/oh-my-openagent) _(new)_ | Swarms | 71,107 | 333 | 🟢 Active |
 | 10 | [t3code](https://github.com/pingdotgg/t3code) | Desktop & web | 68,744 | 474 | 🟢 Active |
 | 11 | [AutoGen](https://github.com/microsoft/autogen) | Adjacent frameworks | 61,955 | 440 | 🟢 Active |
-| 12 | [crewAI](https://github.com/crewAIInc/crewAI) | Swarms | 61,067 | 367 | 🟢 Active |
+| 12 | [crewAI](https://github.com/crewAIInc/crewAI) | Swarms | 61,254 | 367 | 🟢 Active |
 | 13 | [multica](https://github.com/multica-ai/multica) | Task runners | 56,887 | 406 | 🟢 Active |
 | 14 | [herdr](https://github.com/herdrdev/herdr) | Terminal | 51,842 | 87 | 🟢 Active |
 | 15 | [nanobot](https://github.com/HKUDS/nanobot) | Assistants | 50,287 | 394 | 🟢 Active |
@@ -111,21 +111,21 @@ Share of the 639 projects whose README, description, or topics mention each feat
 
 | # | Project | Category | Last commit | Commits (90d) | Status |
 |--:|---|---|---|--:|---|
-| 1 | [thurbox](https://github.com/Thurbeen/thurbox) | Terminal | 2026-11-24 | 800 | 🟢 Active |
-| 2 | [LoopForge](https://github.com/Tencent/LoopForge) _(new)_ | Infrastructure | 2026-11-24 | 408 | 🟢 Active |
-| 3 | [AgentConnect](https://github.com/agentconnect-md/agentconnect) _(new)_ | Task runners | 2026-11-24 | 2,525 | 🟢 Active |
-| 4 | [hermes-agent](https://github.com/NousResearch/hermes-agent) | Assistants | 2026-11-24 | 50,791 | 🟢 Active |
-| 5 | [Agents Universe](https://github.com/agents-universe/agents-universe) _(new)_ | Assistants | 2026-11-24 | 330 | 🟢 Active |
-| 6 | [Commonly](https://github.com/Team-Commonly/commonly) | Swarms | 2026-11-24 | 2,776 | 🟢 Active |
-| 7 | [AgentArea](https://github.com/agentarea/agentarea) _(new)_ | Swarms | 2026-11-24 | 505 | 🟢 Active |
-| 8 | [cc-haha](https://github.com/NanmiCoder/cc-haha) _(new)_ | Desktop & web | 2026-11-24 | 806 | 🟢 Active |
-| 9 | [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) _(new)_ | Swarms | 2026-11-24 | 2,380 | 🟢 Active |
-| 10 | [Poracode](https://github.com/Porabuild/Poracode) | Desktop & web | 2026-11-24 | 1,488 | 🟢 Active |
-| 11 | [AgentOS](https://github.com/SapienXai/AgentOS) _(new)_ | Desktop & web | 2026-11-24 | 493 | 🟢 Active |
-| 12 | [muxel](https://github.com/ProjectHax/muxel) | Desktop & web | 2026-11-24 | 663 | 🟢 Active |
-| 13 | [agent-of-empires](https://github.com/agent-of-empires/agent-of-empires) | Terminal | 2026-11-24 | 1,206 | 🟢 Active |
-| 14 | [Orchestrator.inc](https://github.com/OrchestratorInc/agent-orchestrator) | Desktop & web | 2026-11-24 | 2,049 | 🟢 Active |
-| 15 | [PandaCode](https://github.com/aicodeking/pandacode) | Desktop & web | 2026-11-24 | 898 | 🟢 Active |
+| 1 | [Cloudflare OS](https://github.com/cloudflare/cloudflare-os) | Assistants | 2026-11-25 | 463 | 🟢 Active |
+| 2 | [agent-swarm](https://github.com/desplega-ai/agent-swarm) _(new)_ | Swarms | 2026-11-25 | 2,034 | 🟢 Active |
+| 3 | [Archon](https://github.com/coleam00/Archon) | Infrastructure | 2026-11-25 | 2,301 | 🟢 Active |
+| 4 | [Loop Engineering](https://github.com/cobusgreyling/loop-engineering) | Loop runners | 2026-11-25 | 231 | 🟢 Active |
+| 5 | [Claude Command Center (CCC)](https://github.com/amirfish1/claude-command-center) | Desktop & web | 2026-11-25 | 4,510 | 🟢 Active |
+| 6 | [Harness by Autonomous](https://github.com/autonomous-ai/openharness) | Desktop & web | 2026-11-25 | 5,465 | 🟢 Active |
+| 7 | [codecast](https://github.com/codecast-sh/codecast) | Infrastructure | 2026-11-25 | 4,945 | 🟢 Active |
+| 8 | [DeerFlow](https://github.com/bytedance/deer-flow) _(new)_ | Adjacent frameworks | 2026-11-25 | 1,984 | 🟢 Active |
+| 9 | [ai-devkit](https://github.com/codeaholicguy/ai-devkit) | Terminal | 2026-11-25 | 318 | 🟢 Active |
+| 10 | [Garcon](https://github.com/cfal/garcon) | Desktop & web | 2026-11-25 | 439 | 🟢 Active |
+| 11 | [Docker Agent](https://github.com/docker/docker-agent) _(new)_ | Adjacent frameworks | 2026-11-25 | 2,519 | 🟢 Active |
+| 12 | [crewAI](https://github.com/crewAIInc/crewAI) | Swarms | 2026-11-25 | 497 | 🟢 Active |
+| 13 | [oh-my-opencode-slim](https://github.com/alvinunreal/oh-my-opencode-slim) _(new)_ | Swarms | 2026-11-25 | 2,294 | 🟢 Active |
+| 14 | [Cloudroom](https://github.com/davidondrej/cloudroom) | Desktop & web | 2026-11-25 | 220 | 🟢 Active |
+| 15 | [pappardelle](https://github.com/chardigio/pappardelle) | Terminal | 2026-11-25 | 113 | 🟢 Active |
 
 </details>
 
@@ -157,7 +157,7 @@ Run and supervise several agent sessions side by side from a terminal — tmux p
 | [abtop](https://github.com/graykode/abtop) _(new)_ | 🟡 Recent | Rust |
 | [AgEnD Terminal](https://github.com/suzuke/agend-terminal) _(new)_ | 🟡 Recent | Rust |
 | [Agent CLI Farm](https://github.com/waskosky/agent-cli-farm) _(new)_ | 🟢 Active | Python |
-| [agent-console](https://github.com/buhuipao/agent-console) | 🟡 Recent | Rust |
+| [agent-console](https://github.com/buhuipao/agent-console) | 🟢 Active | Rust |
 | [agent-deck](https://github.com/asheshgoplani/agent-deck) | 🟢 Active | Go |
 | [agent-manager](https://github.com/wainmann/agent-manager) | 🟢 Active | Go |
 | [agent-of-empires](https://github.com/agent-of-empires/agent-of-empires) | 🟢 Active | Rust |
@@ -213,7 +213,7 @@ Run and supervise several agent sessions side by side from a terminal — tmux p
 | [TmuxCC](https://github.com/nyanko3141592/tmuxcc) _(new)_ | 🟠 Slow | Rust |
 | [Toad](https://github.com/batrachianai/toad) _(new)_ | 🟠 Slow | Python |
 | [tuios](https://github.com/Gaurav-Gosain/tuios) _(new)_ | 🟢 Active | Go |
-| [Vigil](https://github.com/butterlatte-zhang/vigil) | 🟡 Recent | Swift |
+| [Vigil](https://github.com/butterlatte-zhang/vigil) | 🟢 Active | Swift |
 | [YYLO](https://github.com/yylo-dev/yylo) | 🟡 Recent | Python |
 
 </details>
@@ -269,7 +269,7 @@ The same parallel-sessions workflow as a desktop app or browser/mobile dashboard
 | [Claude Command Center (CCC)](https://github.com/amirfish1/claude-command-center) | 🟢 Active | Python |
 | [Claude Control](https://github.com/sverrirsig/claude-control) _(new)_ | 🟡 Recent | TypeScript |
 | [Claudette](https://github.com/utensils/claudette) | 🟢 Active | TypeScript |
-| [clave](https://github.com/antasphere/clave) | 🟡 Recent | TypeScript |
+| [clave](https://github.com/antasphere/clave) | 🟢 Active | TypeScript |
 | [ClawPort](https://github.com/JohnRiceML/clawport-ui) _(new)_ | 🟠 Slow | TypeScript |
 | [ClawSuite](https://github.com/outsourc-e/clawsuite) _(new)_ | 🟠 Slow | TypeScript |
 | [ClawX](https://github.com/ValueCell-ai/ClawX) _(new)_ | 🟢 Active | TypeScript |
@@ -458,7 +458,7 @@ Systems where multiple specialized agents actively coordinate, communicate, and 
 | [Claude Octopus](https://github.com/nyldn/claude-octopus) _(new)_ | 🟢 Active | Shell |
 | [claude_codex_bridge](https://github.com/SeemSeam/claude_codex_bridge) | 🟢 Active | Python |
 | [Claw-Empire](https://github.com/GreenSheep01201/claw-empire) _(new)_ | 🟠 Slow | TypeScript |
-| [Clawith](https://github.com/dataelement/Clawith) _(new)_ | 🟡 Recent | Python |
+| [Clawith](https://github.com/dataelement/Clawith) _(new)_ | 🟠 Slow | Python |
 | [ClawTeam](https://github.com/HKUDS/ClawTeam) | 🟠 Slow | Python |
 | [ClawTeam-OpenClaw](https://github.com/win4r/ClawTeam-OpenClaw) _(new)_ | 🟢 Active | Python |
 | [CodeMachine](https://github.com/moazbuilds/CodeMachine-CLI) _(new)_ | 🟠 Slow | TypeScript |
@@ -618,7 +618,7 @@ Unattended agents driven by an external source — an issue queue, a work board,
 | [Baton](https://github.com/mraza007/baton) _(new)_ | 🟠 Slow | Python |
 | [CAR (codex-autorunner)](https://github.com/Git-on-my-level/codex-autorunner) _(new)_ | 🟢 Active | Python |
 | [centaur](https://github.com/paradigmxyz/centaur) | 🟢 Active | Rust |
-| [Claude GitHub Webhook](https://github.com/claude-did-this/claude-hub) _(new)_ | 🔴 Stale | TypeScript |
+| [Claude GitHub Webhook](https://github.com/claude-did-this/claude-hub) _(new)_ | 📦 Archived | TypeScript |
 | [Claude Nights Watch](https://github.com/aniketkarne/ClaudeNightsWatch) _(new)_ | 🟡 Recent | Shell |
 | [Claude Threads](https://github.com/anneschuth/claude-threads) _(new)_ | 🟢 Active | TypeScript |
 | [claude-code-action](https://github.com/anthropics/claude-code-action) | 🟢 Active | TypeScript |
@@ -634,7 +634,7 @@ Unattended agents driven by an external source — an issue queue, a work board,
 | [Genie](https://github.com/automagik-si/genie) _(new)_ | 🟢 Active | TypeScript |
 | [gh-aw](https://github.com/github/gh-aw) | 🟢 Active | Go |
 | [Hive](https://github.com/hivecommons/hive) _(new)_ | 🟢 Active | Go |
-| [kanban-md](https://github.com/antopolskiy/kanban-md) _(new)_ | 🟡 Recent | Go |
+| [kanban-md](https://github.com/antopolskiy/kanban-md) _(new)_ | 🟢 Active | Go |
 | [Kraft](https://github.com/itsOmidKarami/kraft) | 🟢 Active | Python |
 | [lalph](https://github.com/tim-smart/lalph) | 🟡 Recent | TypeScript |
 | [Machinist](https://github.com/owainlewis/machinist) | 🟢 Active | Go |
