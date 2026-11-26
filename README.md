@@ -10,13 +10,13 @@ Filter by task, feature, language, or activity and compare up to four projects s
 +----- [ INDEX SNAPSHOT ] ----+
 |                             |
 |  Available projects   639   |
-|  Active in 30 days    456   |
+|  Active in 30 days    457   |
 |  Combined stars       3.7M  |
 |                             |
 +-----------------------------+
 ```
 
-*Metrics collected 2026-11-19 to 2026-11-25 (UTC). The index tracks 645 projects across 9 categories.*
+*Metrics collected 2026-11-20 to 2026-11-26 (UTC). The index tracks 645 projects across 9 categories.*
 
 ## Choose a task
 
@@ -44,11 +44,11 @@ Use **last commit** for recency, **latest release** for shipping cadence, and **
 
 | Projects tracked | Total stars | Median contributors | Median days since last commit |
 |:-:|:-:|:-:|:-:|
-| **645** | **3,728,649** | **7** | **3** |
+| **645** | **3,734,206** | **7** | **3** |
 
 | 🟢 Active | 🟡 Recent | 🟠 Slow | 🔴 Stale | 📦 Archived | ⚫ Unavailable |
 |:-:|:-:|:-:|:-:|:-:|:-:|
-| **456** | **65** | **111** | **2** | **5** | **6** |
+| **457** | **64** | **111** | **2** | **5** | **6** |
 
 Status is the age of the last commit on the default branch: Active up to 30 days, Recent up to 90, Slow up to a year, Stale beyond that. See [Methodology](#methodology).
 
@@ -61,8 +61,8 @@ Share of the 639 projects whose README, description, or topics mention each feat
 | Group | Mentioned by |
 |---|---|
 | **Agents** | Claude Code **78%** · Codex **74%** · OpenCode **49%** · Cursor **39%** · Copilot **26%** · Gemini CLI **23%** · Qwen Code **8%** · Kiro **8%** · Aider **7%** · Cline **7%** · Goose **5%** · Amp **3%** |
-| **Isolation** | Git worktrees **44%** · Containers **42%** · Sandbox / VM **38%** · tmux **21%** |
-| **Interface** | Desktop app **35%** · Web UI **30%** · TUI **25%** · Mobile **14%** · IDE extension **2%** |
+| **Isolation** | Git worktrees **45%** · Containers **42%** · Sandbox / VM **38%** · tmux **21%** |
+| **Interface** | Desktop app **34%** · Web UI **30%** · TUI **25%** · Mobile **14%** · IDE extension **2%** |
 | **Protocols** | MCP **56%** · ACP **15%** · A2A **5%** |
 | **Workflow** | Scheduled runs **21%** · Kanban / task board **17%** |
 
@@ -74,8 +74,8 @@ Share of the 639 projects whose README, description, or topics mention each feat
 |---|--:|--:|---|
 | TypeScript | 296 | 47% | `████████████████████` |
 | Python | 110 | 17% | `███████░░░░░░░░░░░░░` |
-| Rust | 74 | 12% | `█████░░░░░░░░░░░░░░░` |
-| Go | 61 | 10% | `████░░░░░░░░░░░░░░░░` |
+| Rust | 75 | 12% | `█████░░░░░░░░░░░░░░░` |
+| Go | 60 | 9% | `████░░░░░░░░░░░░░░░░` |
 | JavaScript | 34 | 5% | `██░░░░░░░░░░░░░░░░░░` |
 | Shell | 22 | 3% | `█░░░░░░░░░░░░░░░░░░░` |
 | Swift | 15 | 2% | `█░░░░░░░░░░░░░░░░░░░` |
@@ -102,7 +102,7 @@ Share of the 639 projects whose README, description, or topics mention each feat
 | 11 | [AutoGen](https://github.com/microsoft/autogen) | Adjacent frameworks | 61,955 | 440 | 🟢 Active |
 | 12 | [crewAI](https://github.com/crewAIInc/crewAI) | Swarms | 61,254 | 367 | 🟢 Active |
 | 13 | [multica](https://github.com/multica-ai/multica) | Task runners | 56,887 | 406 | 🟢 Active |
-| 14 | [herdr](https://github.com/herdrdev/herdr) | Terminal | 51,842 | 87 | 🟢 Active |
+| 14 | [herdr](https://github.com/herdrdev/herdr) | Terminal | 52,999 | 87 | 🟢 Active |
 | 15 | [nanobot](https://github.com/HKUDS/nanobot) | Assistants | 50,287 | 394 | 🟢 Active |
 
 </details>
@@ -111,21 +111,21 @@ Share of the 639 projects whose README, description, or topics mention each feat
 
 | # | Project | Category | Last commit | Commits (90d) | Status |
 |--:|---|---|---|--:|---|
-| 1 | [Cloudflare OS](https://github.com/cloudflare/cloudflare-os) | Assistants | 2026-11-25 | 463 | 🟢 Active |
-| 2 | [agent-swarm](https://github.com/desplega-ai/agent-swarm) _(new)_ | Swarms | 2026-11-25 | 2,034 | 🟢 Active |
-| 3 | [Archon](https://github.com/coleam00/Archon) | Infrastructure | 2026-11-25 | 2,301 | 🟢 Active |
-| 4 | [Loop Engineering](https://github.com/cobusgreyling/loop-engineering) | Loop runners | 2026-11-25 | 231 | 🟢 Active |
-| 5 | [Claude Command Center (CCC)](https://github.com/amirfish1/claude-command-center) | Desktop & web | 2026-11-25 | 4,510 | 🟢 Active |
-| 6 | [Harness by Autonomous](https://github.com/autonomous-ai/openharness) | Desktop & web | 2026-11-25 | 5,465 | 🟢 Active |
-| 7 | [codecast](https://github.com/codecast-sh/codecast) | Infrastructure | 2026-11-25 | 4,945 | 🟢 Active |
-| 8 | [DeerFlow](https://github.com/bytedance/deer-flow) _(new)_ | Adjacent frameworks | 2026-11-25 | 1,984 | 🟢 Active |
-| 9 | [ai-devkit](https://github.com/codeaholicguy/ai-devkit) | Terminal | 2026-11-25 | 318 | 🟢 Active |
-| 10 | [Garcon](https://github.com/cfal/garcon) | Desktop & web | 2026-11-25 | 439 | 🟢 Active |
-| 11 | [Docker Agent](https://github.com/docker/docker-agent) _(new)_ | Adjacent frameworks | 2026-11-25 | 2,519 | 🟢 Active |
-| 12 | [crewAI](https://github.com/crewAIInc/crewAI) | Swarms | 2026-11-25 | 497 | 🟢 Active |
-| 13 | [oh-my-opencode-slim](https://github.com/alvinunreal/oh-my-opencode-slim) _(new)_ | Swarms | 2026-11-25 | 2,294 | 🟢 Active |
-| 14 | [Cloudroom](https://github.com/davidondrej/cloudroom) | Desktop & web | 2026-11-25 | 220 | 🟢 Active |
-| 15 | [pappardelle](https://github.com/chardigio/pappardelle) | Terminal | 2026-11-25 | 113 | 🟢 Active |
+| 1 | [gh-aw](https://github.com/github/gh-aw) | Task runners | 2026-11-26 | 3,452 | 🟢 Active |
+| 2 | [Caprock](https://github.com/dspv/caprock) | Desktop & web | 2026-11-26 | 1,626 | 🟢 Active |
+| 3 | [kandev](https://github.com/kdlbs/kandev) | Desktop & web | 2026-11-26 | 1,765 | 🟢 Active |
+| 4 | [Rakazo](https://github.com/elie222/rakazo) | Assistants | 2026-11-26 | 4,671 | 🟢 Active |
+| 5 | [taOS](https://github.com/jaylfc/taOS) | Assistants | 2026-11-26 | 1,477 | 🟢 Active |
+| 6 | [Hive](https://github.com/hivecommons/hive) _(new)_ | Task runners | 2026-11-26 | 8,745 | 🟢 Active |
+| 7 | [Intent](https://github.com/intent-hq/intent) | Desktop & web | 2026-11-26 | 5,112 | 🟢 Active |
+| 8 | [Paseo](https://github.com/getpaseo/paseo) | Desktop & web | 2026-11-26 | 1,664 | 🟢 Active |
+| 9 | [Yardsort](https://github.com/joaoh82/yardsort) | Desktop & web | 2026-11-26 | 450 | 🟢 Active |
+| 10 | [GridBash](https://github.com/jasonsuhari/gridbash) _(new)_ | Terminal | 2026-11-26 | 95 | 🟢 Active |
+| 11 | [Captain Claw](https://github.com/kstevica/captain-claw) _(new)_ | Assistants | 2026-11-26 | 1,896 | 🟢 Active |
+| 12 | [Gas City](https://github.com/gastownhall/gascity) _(new)_ | Infrastructure | 2026-11-26 | 2,230 | 🟢 Active |
+| 13 | [Heym](https://github.com/heymrun/heym) | Infrastructure | 2026-11-26 | 678 | 🟢 Active |
+| 14 | [Antumi](https://github.com/flyhero/antumi) | Desktop & web | 2026-11-26 | 1,642 | 🟢 Active |
+| 15 | [ralph-claude-code](https://github.com/frankbria/ralph-claude-code) | Loop runners | 2026-11-26 | 25 | 🟢 Active |
 
 </details>
 
@@ -137,7 +137,7 @@ Share of the 639 projects whose README, description, or topics mention each feat
 | [Calyx](https://github.com/yuuichieguchi/Calyx) | 100% | 1 | 967 | 🟢 Active |
 | [openkanban](https://github.com/TechDufus/openkanban) | 100% | 1 | 118 | 🟠 Slow |
 | [tmux-ide](https://github.com/wavyrai/tmux-ide) | 100% | 2 | 4,571 | 🟢 Active |
-| [Craig](https://github.com/hallsamuel90/craig) | 100% | 1 | 307 | 🟢 Active |
+| [Craig](https://github.com/hallsamuel90/craig) | 100% | 1 | 312 | 🟢 Active |
 | [Mercury CLI](https://github.com/Whq02/MercuryCLI) | 100% | 1 | 19,914 | 🟢 Active |
 | [pando](https://github.com/xseman/pando) | 100% | 1 | 532 | 🟢 Active |
 | [pohunek](https://github.com/zajca/pohunek) | 100% | 1 | 4,779 | 🟢 Active |
@@ -261,7 +261,7 @@ The same parallel-sessions workflow as a desktop app or browser/mobile dashboard
 | [automaker](https://github.com/AutoMaker-Org/automaker) | 🟠 Slow | TypeScript |
 | [bb](https://github.com/get-bb/bb) | 🟢 Active | TypeScript |
 | [Berd](https://github.com/block/berd) | 🟢 Active | TypeScript |
-| [Caprock](https://github.com/dspv/caprock) | 🟢 Active | Go |
+| [Caprock](https://github.com/dspv/caprock) | 🟢 Active | TypeScript |
 | [Cate](https://github.com/0-AI-UG/cate) _(new)_ | 🟢 Active | TypeScript |
 | [cc-haha](https://github.com/NanmiCoder/cc-haha) _(new)_ | 🟢 Active | TypeScript |
 | [Cezar](https://github.com/open-mercato/cezar) _(new)_ | 🟢 Active | TypeScript |
@@ -337,7 +337,7 @@ The same parallel-sessions workflow as a desktop app or browser/mobile dashboard
 | [MulmoTerminal](https://github.com/receptron/mulmoterminal) | 🟢 Active | TypeScript |
 | [MultiCC](https://github.com/lsjwzh/MultiCC) | 🟢 Active | JavaScript |
 | [muxel](https://github.com/ProjectHax/muxel) | 🟢 Active | Rust |
-| [Muxflow](https://github.com/gal064/muxflow) | 🟢 Active | TypeScript |
+| [Muxflow](https://github.com/gal064/muxflow) | 🟢 Active | Rust |
 | [nimbalyst](https://github.com/nimbalyst/nimbalyst) | 🟢 Active | TypeScript |
 | [nodeterm](https://github.com/eneskirca/nodeterm) _(new)_ | 🟢 Active | TypeScript |
 | [Novadeck](https://github.com/novadeck-org/novadeck) | 🟢 Active | TypeScript |
@@ -652,7 +652,7 @@ Unattended agents driven by an external source — an issue queue, a work board,
 | [Paca](https://github.com/Paca-AI/paca) _(new)_ | 🟢 Active | Go |
 | [pi-dispatch](https://github.com/edgehero/pi-dispatch) _(new)_ | 🟢 Active | JavaScript |
 | [remote-swe-agents](https://github.com/aws-samples/remote-swe-agents) | 🟡 Recent | TypeScript |
-| [run-gemini-cli](https://github.com/google-github-actions/run-gemini-cli) | 🟡 Recent | TypeScript |
+| [run-gemini-cli](https://github.com/google-github-actions/run-gemini-cli) | 🟢 Active | TypeScript |
 | [Sleepless Agent](https://github.com/context-machine-lab/sleepless-agent) _(new)_ | 🟠 Slow | Python |
 | [sortie](https://github.com/sortie-ai/sortie) | 🟢 Active | Go |
 | [sudocode](https://github.com/sudocode-ai/sudocode) _(new)_ | 🟠 Slow | TypeScript |
