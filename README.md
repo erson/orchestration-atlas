@@ -16,7 +16,7 @@ Filter by task, feature, language, or activity and compare up to four projects s
 +-----------------------------+
 ```
 
-*Metrics collected 2026-11-20 to 2026-11-26 (UTC). The index tracks 645 projects across 9 categories.*
+*Metrics collected 2026-11-21 to 2026-11-27 (UTC). The index tracks 645 projects across 9 categories.*
 
 ## Choose a task
 
@@ -26,7 +26,7 @@ Filter by task, feature, language, or activity and compare up to four projects s
 
 | I want to… | Indexed | Commit within 90 days |
 |---|---:|---:|
-| [Run parallel coding sessions in a terminal](#parallel-coding-agents--terminal-tuicli) | 61 | 51 |
+| [Run parallel coding sessions in a terminal](#parallel-coding-agents--terminal-tuicli) | 61 | 52 |
 | [Manage coding agents in a desktop or web UI](#parallel-coding-agents--desktop--web) | 192 | 169 |
 | [Coordinate a team of agents](#multi-agent-swarms) | 116 | 88 |
 | [Repeat an agent loop until a condition is met](#autonomous-loop-runners) | 31 | 22 |
@@ -34,7 +34,7 @@ Filter by task, feature, language, or activity and compare up to four projects s
 | [Build on orchestration infrastructure](#agent-infrastructure--primitives) | 84 | 72 |
 | [Set up a personal assistant](#personal-assistants) | 58 | 49 |
 | [Explore the resting collection](#resting) | 17 | 1 |
-| [Build with a general-purpose agent SDK](#adjacent-frameworks-general-purpose-agent-sdks) | 28 | 23 |
+| [Build with a general-purpose agent SDK](#adjacent-frameworks-general-purpose-agent-sdks) | 28 | 22 |
 
 ## Read the signals
 
@@ -44,11 +44,11 @@ Use **last commit** for recency, **latest release** for shipping cadence, and **
 
 | Projects tracked | Total stars | Median contributors | Median days since last commit |
 |:-:|:-:|:-:|:-:|
-| **645** | **3,734,206** | **7** | **3** |
+| **645** | **3,742,898** | **7** | **3** |
 
 | 🟢 Active | 🟡 Recent | 🟠 Slow | 🔴 Stale | 📦 Archived | ⚫ Unavailable |
 |:-:|:-:|:-:|:-:|:-:|:-:|
-| **457** | **64** | **111** | **2** | **5** | **6** |
+| **457** | **64** | **110** | **2** | **6** | **6** |
 
 Status is the age of the last commit on the default branch: Active up to 30 days, Recent up to 90, Slow up to a year, Stale beyond that. See [Methodology](#methodology).
 
@@ -61,8 +61,8 @@ Share of the 639 projects whose README, description, or topics mention each feat
 | Group | Mentioned by |
 |---|---|
 | **Agents** | Claude Code **78%** · Codex **74%** · OpenCode **49%** · Cursor **39%** · Copilot **26%** · Gemini CLI **23%** · Qwen Code **8%** · Kiro **8%** · Aider **7%** · Cline **7%** · Goose **5%** · Amp **3%** |
-| **Isolation** | Git worktrees **45%** · Containers **42%** · Sandbox / VM **38%** · tmux **21%** |
-| **Interface** | Desktop app **34%** · Web UI **30%** · TUI **25%** · Mobile **14%** · IDE extension **2%** |
+| **Isolation** | Git worktrees **45%** · Containers **42%** · Sandbox / VM **38%** · tmux **22%** |
+| **Interface** | Desktop app **34%** · Web UI **30%** · TUI **25%** · Mobile **15%** · IDE extension **2%** |
 | **Protocols** | MCP **56%** · ACP **15%** · A2A **5%** |
 | **Workflow** | Scheduled runs **21%** · Kanban / task board **17%** |
 
@@ -99,9 +99,9 @@ Share of the 639 projects whose README, description, or topics mention each feat
 | 8 | [MetaGPT](https://github.com/FoundationAgents/MetaGPT) | Adjacent frameworks | 71,431 | 116 | 🟠 Slow |
 | 9 | [OmO](https://github.com/code-yeongyu/oh-my-openagent) _(new)_ | Swarms | 71,107 | 333 | 🟢 Active |
 | 10 | [t3code](https://github.com/pingdotgg/t3code) | Desktop & web | 68,744 | 474 | 🟢 Active |
-| 11 | [AutoGen](https://github.com/microsoft/autogen) | Adjacent frameworks | 61,955 | 440 | 🟢 Active |
+| 11 | [AutoGen](https://github.com/microsoft/autogen) | Adjacent frameworks | 61,973 | 440 | 📦 Archived |
 | 12 | [crewAI](https://github.com/crewAIInc/crewAI) | Swarms | 61,254 | 367 | 🟢 Active |
-| 13 | [multica](https://github.com/multica-ai/multica) | Task runners | 56,887 | 406 | 🟢 Active |
+| 13 | [multica](https://github.com/multica-ai/multica) | Task runners | 58,183 | 406 | 🟢 Active |
 | 14 | [herdr](https://github.com/herdrdev/herdr) | Terminal | 52,999 | 87 | 🟢 Active |
 | 15 | [nanobot](https://github.com/HKUDS/nanobot) | Assistants | 50,287 | 394 | 🟢 Active |
 
@@ -111,21 +111,21 @@ Share of the 639 projects whose README, description, or topics mention each feat
 
 | # | Project | Category | Last commit | Commits (90d) | Status |
 |--:|---|---|---|--:|---|
-| 1 | [gh-aw](https://github.com/github/gh-aw) | Task runners | 2026-11-26 | 3,452 | 🟢 Active |
-| 2 | [Caprock](https://github.com/dspv/caprock) | Desktop & web | 2026-11-26 | 1,626 | 🟢 Active |
-| 3 | [kandev](https://github.com/kdlbs/kandev) | Desktop & web | 2026-11-26 | 1,765 | 🟢 Active |
-| 4 | [Rakazo](https://github.com/elie222/rakazo) | Assistants | 2026-11-26 | 4,671 | 🟢 Active |
-| 5 | [taOS](https://github.com/jaylfc/taOS) | Assistants | 2026-11-26 | 1,477 | 🟢 Active |
-| 6 | [Hive](https://github.com/hivecommons/hive) _(new)_ | Task runners | 2026-11-26 | 8,745 | 🟢 Active |
-| 7 | [Intent](https://github.com/intent-hq/intent) | Desktop & web | 2026-11-26 | 5,112 | 🟢 Active |
-| 8 | [Paseo](https://github.com/getpaseo/paseo) | Desktop & web | 2026-11-26 | 1,664 | 🟢 Active |
-| 9 | [Yardsort](https://github.com/joaoh82/yardsort) | Desktop & web | 2026-11-26 | 450 | 🟢 Active |
-| 10 | [GridBash](https://github.com/jasonsuhari/gridbash) _(new)_ | Terminal | 2026-11-26 | 95 | 🟢 Active |
-| 11 | [Captain Claw](https://github.com/kstevica/captain-claw) _(new)_ | Assistants | 2026-11-26 | 1,896 | 🟢 Active |
-| 12 | [Gas City](https://github.com/gastownhall/gascity) _(new)_ | Infrastructure | 2026-11-26 | 2,230 | 🟢 Active |
-| 13 | [Heym](https://github.com/heymrun/heym) | Infrastructure | 2026-11-26 | 678 | 🟢 Active |
-| 14 | [Antumi](https://github.com/flyhero/antumi) | Desktop & web | 2026-11-26 | 1,642 | 🟢 Active |
-| 15 | [ralph-claude-code](https://github.com/frankbria/ralph-claude-code) | Loop runners | 2026-11-26 | 25 | 🟢 Active |
+| 1 | [omnigent](https://github.com/omnigent-ai/omnigent) | Infrastructure | 2026-11-27 | 4,141 | 🟢 Active |
+| 2 | [Nuphos](https://github.com/nuphos/nuphos) | Desktop & web | 2026-11-27 | 3,374 | 🟢 Active |
+| 3 | [Mastra](https://github.com/mastra-ai/mastra) | Adjacent frameworks | 2026-11-27 | 5,464 | 🟢 Active |
+| 4 | [cmux](https://github.com/manaflow-ai/cmux) | Terminal | 2026-11-27 | 9,275 | 🟢 Active |
+| 5 | [OpenMausBot](https://github.com/milind-soni/OpenMausBot) | Assistants | 2026-11-27 | 13,214 | 🟢 Active |
+| 6 | [Novadeck](https://github.com/novadeck-org/novadeck) | Desktop & web | 2026-11-27 | 1,194 | 🟢 Active |
+| 7 | [Ghostex](https://github.com/maddada/Ghostex) | Desktop & web | 2026-11-27 | 8,458 | 🟢 Active |
+| 8 | [Claude Octopus](https://github.com/nyldn/claude-octopus) _(new)_ | Swarms | 2026-11-27 | 356 | 🟢 Active |
+| 9 | [Ling Stack](https://github.com/ling-stack-org/ling-stack) _(new)_ | Desktop & web | 2026-11-27 | 1,029 | 🟢 Active |
+| 10 | [alas](https://github.com/mrmans0n/alas) | Desktop & web | 2026-11-27 | 1,708 | 🟢 Active |
+| 11 | [Taskuary](https://github.com/ldbumble/taskuary) | Task runners | 2026-11-27 | 8,262 | 🟢 Active |
+| 12 | [Cezar](https://github.com/open-mercato/cezar) _(new)_ | Desktop & web | 2026-11-27 | 749 | 🟢 Active |
+| 13 | [leon](https://github.com/leon-ai/leon) | Assistants | 2026-11-27 | 1,234 | 🟢 Active |
+| 14 | [amux (mixpeek)](https://github.com/mixpeek/amux) | Terminal | 2026-11-27 | 5,771 | 🟢 Active |
+| 15 | [MultiCC](https://github.com/lsjwzh/MultiCC) | Desktop & web | 2026-11-27 | 4,813 | 🟢 Active |
 
 </details>
 
@@ -142,7 +142,7 @@ Share of the 639 projects whose README, description, or topics mention each feat
 | [pando](https://github.com/xseman/pando) | 100% | 1 | 532 | 🟢 Active |
 | [pohunek](https://github.com/zajca/pohunek) | 100% | 1 | 4,779 | 🟢 Active |
 | [taskpods](https://github.com/yanairon/taskpods) | 100% | 1 | 129 | 🟡 Recent |
-| [OpenCode Mission Control](https://github.com/nigel-dev/opencode-mission-control) _(new)_ | 100% | 1 | 154 | 🟠 Slow |
+| [OpenCode Mission Control](https://github.com/nigel-dev/opencode-mission-control) _(new)_ | 100% | 1 | 157 | 🟢 Active |
 
 </details>
 
@@ -162,7 +162,7 @@ Run and supervise several agent sessions side by side from a terminal — tmux p
 | [agent-manager](https://github.com/wainmann/agent-manager) | 🟢 Active | Go |
 | [agent-of-empires](https://github.com/agent-of-empires/agent-of-empires) | 🟢 Active | Rust |
 | [agent-session-manager](https://github.com/izll/agent-session-manager) | 🟡 Recent | Go |
-| [agentbox](https://github.com/madarco/agentbox) | 🟡 Recent | TypeScript |
+| [agentbox](https://github.com/madarco/agentbox) | 🟢 Active | TypeScript |
 | [agents-in-a-box](https://github.com/stevengonsalvez/agents-in-a-box) _(new)_ | 🟡 Recent | Rust |
 | [agentvm](https://github.com/Twigpine/agentvm) _(new)_ | 🟠 Slow | Shell |
 | [agterm](https://github.com/umputun/agterm) | 🟢 Active | Swift |
@@ -189,7 +189,7 @@ Run and supervise several agent sessions side by side from a terminal — tmux p
 | [jmux](https://github.com/jarredkenny/jmux) _(new)_ | 🟡 Recent | TypeScript |
 | [Mercury CLI](https://github.com/Whq02/MercuryCLI) | 🟢 Active | TypeScript |
 | [NTM](https://github.com/Dicklesworthstone/ntm) _(new)_ | 🟢 Active | Go |
-| [OpenCode Mission Control](https://github.com/nigel-dev/opencode-mission-control) _(new)_ | 🟠 Slow | TypeScript |
+| [OpenCode Mission Control](https://github.com/nigel-dev/opencode-mission-control) _(new)_ | 🟢 Active | TypeScript |
 | [opencode-kanban](https://github.com/TomCC7/opencode-kanban) _(new)_ | 🟡 Recent | Rust |
 | [openkanban](https://github.com/TechDufus/openkanban) | 🟠 Slow | Go |
 | [opensessions](https://github.com/Ataraxy-Labs/opensessions) _(new)_ | 🟠 Slow | Rust |
@@ -523,7 +523,7 @@ Systems where multiple specialized agents actively coordinate, communicate, and 
 | [pi-dynamic-workflows](https://github.com/QuintinShaw/pi-dynamic-workflows) _(new)_ | 🟢 Active | TypeScript |
 | [pi-subagents](https://github.com/nicobailon/pi-subagents) _(new)_ | 🟢 Active | TypeScript |
 | [pi-subagents](https://github.com/tintinweb/pi-subagents) _(new)_ | 🟢 Active | TypeScript |
-| [pi-task](https://github.com/mjasnikovs/pi-task) _(new)_ | 🟢 Active | TypeScript |
+| [pi-task](https://github.com/mjasnikovs/pi-task) _(new)_ | 🟡 Recent | TypeScript |
 | [pi-teams](https://github.com/burggraf/pi-teams) _(new)_ | 🟠 Slow | TypeScript |
 | [pi-workflow](https://github.com/AgwaB/pi-workflow) _(new)_ | 🟢 Active | JavaScript |
 | [Raven](https://github.com/EverMind-AI/Raven) | 🟢 Active | Python |
@@ -882,7 +882,7 @@ General-purpose agent SDKs and frameworks, not limited to coding. Included becau
 | [AgentScope](https://github.com/agentscope-ai/agentscope) | 🟢 Active | Python |
 | [agentUniverse](https://github.com/agentuniverse-ai/agentUniverse) _(new)_ | 🟢 Active | Python |
 | [Agno](https://github.com/agno-agi/agno) | 🟢 Active | Python |
-| [AutoGen](https://github.com/microsoft/autogen) | 🟢 Active | Python |
+| [AutoGen](https://github.com/microsoft/autogen) | 📦 Archived | Python |
 | [CAMEL](https://github.com/camel-ai/camel) | 🟢 Active | Python |
 | [ChatDev](https://github.com/OpenBMB/ChatDev) | 🟢 Active | Python |
 | [DeerFlow](https://github.com/bytedance/deer-flow) _(new)_ | 🟢 Active | Python |

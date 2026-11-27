@@ -8731,7 +8731,7 @@
     "cache": {},
     "closed": 0,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 0,
     "outcomes": {
@@ -8750,7 +8750,7 @@
     "cache": {},
     "closed": 49,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 17,
     "outcomes": {
@@ -8789,8 +8789,8 @@
       }
     },
     "closed": 19,
-    "completion_days": 41.8,
-    "date": "2026-11-25",
+    "completion_days": 42.0,
+    "date": "2026-11-27",
     "enabled": true,
     "open": 3,
     "outcomes": {
@@ -8807,11 +8807,11 @@
   "maddada/ghostex": {
     "answered": 0,
     "cache": {},
-    "closed": 399,
-    "completion_days": 3.5,
-    "date": "2026-11-25",
+    "closed": 448,
+    "completion_days": 2.9,
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 39,
+    "open": 6,
     "outcomes": {
       "COMPLETED": 6,
       "DUPLICATE": 0,
@@ -8828,7 +8828,7 @@
     "cache": {},
     "closed": 0,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 0,
     "outcomes": {
@@ -8866,7 +8866,7 @@
     },
     "closed": 2,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 16,
     "outcomes": {
@@ -8883,11 +8883,11 @@
   "manaflow-ai/cmux": {
     "answered": 0,
     "cache": {},
-    "closed": 5803,
-    "completion_days": 0.1,
-    "date": "2026-11-25",
+    "closed": 5902,
+    "completion_days": 0.0,
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 5003,
+    "open": 5135,
     "outcomes": {
       "COMPLETED": 6,
       "DUPLICATE": 0,
@@ -8904,7 +8904,7 @@
     "cache": {},
     "closed": 2,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 6,
     "outcomes": {
@@ -8940,11 +8940,11 @@
         "result": "unanswered"
       }
     },
-    "closed": 15,
-    "completion_days": 34.8,
-    "date": "2026-11-25",
+    "closed": 21,
+    "completion_days": 32.9,
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 6,
+    "open": 0,
     "outcomes": {
       "COMPLETED": 6,
       "DUPLICATE": 0,
@@ -8974,9 +8974,9 @@
     },
     "closed": 9,
     "completion_days": 42.8,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 8,
+    "open": 7,
     "outcomes": {
       "COMPLETED": 4,
       "DUPLICATE": 0,
@@ -8996,12 +8996,12 @@
       }
     },
     "closed": 7,
-    "completion_days": 0.0,
-    "date": "2026-11-25",
+    "completion_days": null,
+    "date": "2026-11-27",
     "enabled": true,
     "open": 0,
     "outcomes": {
-      "COMPLETED": 6,
+      "COMPLETED": 1,
       "DUPLICATE": 0,
       "NOT_PLANNED": 0,
       "UNSPECIFIED": 0
@@ -9014,14 +9014,14 @@
   "mastra-ai/mastra": {
     "answered": 0,
     "cache": {},
-    "closed": 7060,
-    "completion_days": 5.2,
-    "date": "2026-11-25",
+    "closed": 7120,
+    "completion_days": 2.4,
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 536,
+    "open": 517,
     "outcomes": {
-      "COMPLETED": 4,
-      "DUPLICATE": 1,
+      "COMPLETED": 5,
+      "DUPLICATE": 0,
       "NOT_PLANNED": 1,
       "UNSPECIFIED": 0
     },
@@ -9035,7 +9035,7 @@
     "cache": {},
     "closed": 30,
     "completion_days": 163.9,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 12,
     "outcomes": {
@@ -9055,27 +9055,27 @@
       "I_kwDORph4Ms8AAAABcDhDIQ": {
         "result": "unanswered"
       },
-      "I_kwDORph4Ms8AAAABcSR2qg": {
+      "I_kwDORph4Ms8AAAABca1KTw": {
         "result": "unanswered"
       },
-      "I_kwDORph4Ms8AAAABdHEQ8g": {
-        "result": "unanswered"
-      },
-      "I_kwDORph4Ms8AAAABdL_drg": {
+      "I_kwDORph4Ms8AAAABdI8x3Q": {
         "result": "unanswered"
       },
       "I_kwDORph4Ms8AAAABdXyHjw": {
         "result": "unanswered"
       },
-      "I_kwDORph4Ms8AAAABf3wXYw": {
+      "I_kwDORph4Ms8AAAABg9tD3w": {
+        "result": "unanswered"
+      },
+      "I_kwDORph4Ms8AAAABgofAKA": {
         "result": "unanswered"
       }
     },
     "closed": 710,
     "completion_days": 82.4,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 104,
+    "open": 105,
     "outcomes": {
       "COMPLETED": 5,
       "DUPLICATE": 0,
@@ -9090,15 +9090,15 @@
   "mdiri-ai/soduwork": {
     "answered": 0,
     "cache": {},
-    "closed": 518,
-    "completion_days": 3.0,
-    "date": "2026-11-25",
+    "closed": 529,
+    "completion_days": 3.2,
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 38,
+    "open": 33,
     "outcomes": {
-      "COMPLETED": 5,
+      "COMPLETED": 6,
       "DUPLICATE": 0,
-      "NOT_PLANNED": 1,
+      "NOT_PLANNED": 0,
       "UNSPECIFIED": 0
     },
     "reply_hours": null,
@@ -9118,7 +9118,7 @@
     },
     "closed": 230,
     "completion_days": 1.1,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 102,
     "outcomes": {
@@ -9151,8 +9151,8 @@
       }
     },
     "closed": 9,
-    "completion_days": 2.8,
-    "date": "2026-11-25",
+    "completion_days": 38.9,
+    "date": "2026-11-27",
     "enabled": true,
     "open": 2,
     "outcomes": {
@@ -9171,7 +9171,7 @@
     "cache": {},
     "closed": 16,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 2,
     "outcomes": {
@@ -9190,7 +9190,7 @@
     "cache": {},
     "closed": 122,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 3,
     "outcomes": {
@@ -9209,7 +9209,7 @@
     "cache": {},
     "closed": 26,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 26,
     "outcomes": {
@@ -9232,24 +9232,24 @@
       "I_kwDOKInPB88AAAABVqEaTA": {
         "result": "unanswered"
       },
-      "I_kwDOKInPB88AAAABXpo7qA": {
+      "I_kwDOKInPB88AAAABY9vMPQ": {
         "result": "unanswered"
       },
       "I_kwDOKInPB88AAAABdPa5TQ": {
         "result": "unanswered"
       },
-      "I_kwDOKInPB88AAAABdbWj9A": {
+      "I_kwDOKInPB88AAAABdbXKRg": {
         "result": "unanswered"
       },
-      "I_kwDOKInPB88AAAABfl_XPQ": {
+      "I_kwDOKInPB88AAAABg8YwDw": {
         "result": "unanswered"
       }
     },
     "closed": 2532,
     "completion_days": 16.9,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 573,
+    "open": 572,
     "outcomes": {
       "COMPLETED": 4,
       "DUPLICATE": 0,
@@ -9264,30 +9264,30 @@
   "microsoft/semantic-kernel": {
     "answered": 0,
     "cache": {
-      "I_kwDOJDJ_Yc8AAAABa_r7hQ": {
+      "I_kwDOJDJ_Yc8AAAABdkAmzg": {
         "result": "unanswered"
       },
-      "I_kwDOJDJ_Yc8AAAABd6_NYQ": {
+      "I_kwDOJDJ_Yc8AAAABeNHuXw": {
         "result": "unanswered"
       },
-      "I_kwDOJDJ_Yc8AAAABdJKcfA": {
+      "I_kwDOJDJ_Yc8AAAABejtUTA": {
         "result": "unanswered"
       },
-      "I_kwDOJDJ_Yc8AAAABdX1XbQ": {
-        "result": "unanswered"
-      },
-      "I_kwDOJDJ_Yc8AAAABdgPTfQ": {
+      "I_kwDOJDJ_Yc8AAAABeng3sQ": {
         "result": "unanswered"
       },
       "I_kwDOJDJ_Yc8AAAABfvT6hg": {
+        "result": "unanswered"
+      },
+      "I_kwDOJDJ_Yc8AAAABge-8fw": {
         "result": "unanswered"
       }
     },
     "closed": 4936,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 98,
+    "open": 116,
     "outcomes": {
       "COMPLETED": 2,
       "DUPLICATE": 0,
@@ -9304,7 +9304,7 @@
     "cache": {},
     "closed": 1,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 3,
     "outcomes": {
@@ -9326,12 +9326,12 @@
       }
     },
     "closed": 126,
-    "completion_days": 65.3,
-    "date": "2026-11-25",
+    "completion_days": null,
+    "date": "2026-11-27",
     "enabled": true,
     "open": 25,
     "outcomes": {
-      "COMPLETED": 5,
+      "COMPLETED": 2,
       "DUPLICATE": 0,
       "NOT_PLANNED": 1,
       "UNSPECIFIED": 0
@@ -9350,7 +9350,7 @@
     },
     "closed": 17,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 1,
     "outcomes": {
@@ -9367,15 +9367,15 @@
   "milind-soni/openmausbot": {
     "answered": 0,
     "cache": {},
-    "closed": 690,
-    "completion_days": 0.7,
-    "date": "2026-11-25",
+    "closed": 733,
+    "completion_days": 18.8,
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 1028,
+    "open": 1045,
     "outcomes": {
-      "COMPLETED": 5,
+      "COMPLETED": 6,
       "DUPLICATE": 0,
-      "NOT_PLANNED": 1,
+      "NOT_PLANNED": 0,
       "UNSPECIFIED": 0
     },
     "reply_hours": null,
@@ -9388,7 +9388,7 @@
     "cache": {},
     "closed": 0,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 2,
     "outcomes": {
@@ -9408,25 +9408,25 @@
       "I_kwDORTJIs88AAAABQXVmGQ": {
         "result": "unanswered"
       },
-      "I_kwDORTJIs88AAAABQXVwIQ": {
-        "result": "unanswered"
-      },
       "I_kwDORTJIs88AAAABQXWBLA": {
-        "result": "unanswered"
-      },
-      "I_kwDORTJIs88AAAABSHLJEA": {
         "result": "unanswered"
       },
       "I_kwDORTJIs88AAAABSMK4-A": {
         "result": "unanswered"
       },
-      "I_kwDORTJIs88AAAABfEiIkA": {
+      "I_kwDORTJIs88AAAABgvWGQQ": {
+        "result": "unanswered"
+      },
+      "I_kwDORTJIs88AAAABgvWNlw": {
+        "result": "unanswered"
+      },
+      "I_kwDORTJIs88AAAABgvWWQQ": {
         "result": "unanswered"
       }
     },
     "closed": 49,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 13,
     "outcomes": {
@@ -9441,12 +9441,8 @@
     "unknown": 0
   },
   "mjasnikovs/pi-task": {
-    "answered": 5,
+    "answered": 4,
     "cache": {
-      "I_kwDOSvJTXc8AAAABOoB9WA": {
-        "hours": 4.759166666666666,
-        "result": "answered"
-      },
       "I_kwDOSvJTXc8AAAABPmvLUA": {
         "hours": 6.631111111111111,
         "result": "answered"
@@ -9466,7 +9462,7 @@
     },
     "closed": 17,
     "completion_days": 0.9,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 0,
     "outcomes": {
@@ -9475,8 +9471,8 @@
       "NOT_PLANNED": 0,
       "UNSPECIFIED": 0
     },
-    "reply_hours": 6.6,
-    "sampled": 5,
+    "reply_hours": 8.1,
+    "sampled": 4,
     "unanswered": 0,
     "unknown": 0
   },
@@ -9496,7 +9492,7 @@
     },
     "closed": 53,
     "completion_days": 1.5,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 10,
     "outcomes": {
@@ -9513,11 +9509,11 @@
   "mng-dev-ai/agentrove": {
     "answered": 0,
     "cache": {},
-    "closed": 34,
-    "completion_days": 1.6,
-    "date": "2026-11-25",
+    "closed": 49,
+    "completion_days": 2.1,
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 10,
+    "open": 4,
     "outcomes": {
       "COMPLETED": 6,
       "DUPLICATE": 0,
@@ -9541,7 +9537,7 @@
     },
     "closed": 54,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 11,
     "outcomes": {
@@ -9560,7 +9556,7 @@
     "cache": {},
     "closed": 1,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 0,
     "outcomes": {
@@ -9579,7 +9575,7 @@
     "cache": {},
     "closed": 10,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 49,
     "outcomes": {
@@ -9596,11 +9592,11 @@
   "monorepo-labs/dray": {
     "answered": 0,
     "cache": {},
-    "closed": 591,
+    "closed": 612,
     "completion_days": 0.0,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 36,
+    "open": 35,
     "outcomes": {
       "COMPLETED": 6,
       "DUPLICATE": 0,
@@ -9636,7 +9632,7 @@
     },
     "closed": 53,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 4,
     "outcomes": {
@@ -9655,7 +9651,7 @@
     "cache": {},
     "closed": 48,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 4,
     "outcomes": {
@@ -9674,7 +9670,7 @@
     "cache": {},
     "closed": 3,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 32,
     "outcomes": {
@@ -9693,7 +9689,7 @@
     "cache": {},
     "closed": 0,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 1,
     "outcomes": {
@@ -9712,7 +9708,7 @@
     "cache": {},
     "closed": 0,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 1,
     "outcomes": {
@@ -9736,7 +9732,7 @@
     },
     "closed": 269,
     "completion_days": 4.5,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 13,
     "outcomes": {
@@ -9753,15 +9749,15 @@
   "multica-ai/multica": {
     "answered": 0,
     "cache": {},
-    "closed": 2242,
+    "closed": 2252,
     "completion_days": 0.7,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 1085,
+    "open": 1113,
     "outcomes": {
-      "COMPLETED": 4,
-      "DUPLICATE": 2,
-      "NOT_PLANNED": 0,
+      "COMPLETED": 5,
+      "DUPLICATE": 0,
+      "NOT_PLANNED": 1,
       "UNSPECIFIED": 0
     },
     "reply_hours": null,
@@ -9774,7 +9770,7 @@
     "cache": {},
     "closed": 0,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 0,
     "outcomes": {
@@ -9791,20 +9787,20 @@
   "murray17/rovai-ai": {
     "answered": 6,
     "cache": {
-      "I_kwDOTbN8as8AAAABQcudPg": {
-        "hours": 16.98,
+      "I_kwDOTbN8as8AAAABQ1jwiQ": {
+        "hours": 18.690277777777776,
         "result": "answered"
       },
-      "I_kwDOTbN8as8AAAABS89Ojg": {
-        "hours": 2.1019444444444444,
+      "I_kwDOTbN8as8AAAABVBEoNg": {
+        "hours": 10.972222222222221,
         "result": "answered"
       },
       "I_kwDOTbN8as8AAAABYKj2wg": {
         "hours": 7.219166666666666,
         "result": "answered"
       },
-      "I_kwDOTbN8as8AAAABbtkWjQ": {
-        "hours": 1.0130555555555556,
+      "I_kwDOTbN8as8AAAABb2zvuw": {
+        "hours": 13.149722222222222,
         "result": "answered"
       },
       "I_kwDOTbN8as8AAAABdjfniw": {
@@ -9818,16 +9814,16 @@
     },
     "closed": 27,
     "completion_days": 4.0,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 7,
+    "open": 8,
     "outcomes": {
       "COMPLETED": 6,
       "DUPLICATE": 0,
       "NOT_PLANNED": 0,
       "UNSPECIFIED": 0
     },
-    "reply_hours": 4.7,
+    "reply_hours": 12.1,
     "sampled": 6,
     "unanswered": 0,
     "unknown": 0
@@ -9835,11 +9831,11 @@
   "mvschwarz/openrig": {
     "answered": 0,
     "cache": {},
-    "closed": 500,
-    "completion_days": 1.6,
-    "date": "2026-11-25",
+    "closed": 524,
+    "completion_days": 1.5,
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 211,
+    "open": 199,
     "outcomes": {
       "COMPLETED": 6,
       "DUPLICATE": 0,
@@ -9854,11 +9850,11 @@
   "nanmicoder/cc-haha": {
     "answered": 0,
     "cache": {},
-    "closed": 1285,
-    "completion_days": 10.7,
-    "date": "2026-11-25",
+    "closed": 1300,
+    "completion_days": 2.5,
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 111,
+    "open": 108,
     "outcomes": {
       "COMPLETED": 6,
       "DUPLICATE": 0,
@@ -9871,13 +9867,21 @@
     "unknown": 0
   },
   "nanocoai/nanoclaw": {
-    "answered": 0,
-    "cache": {},
-    "closed": 662,
-    "completion_days": 138.7,
-    "date": "2026-11-25",
+    "answered": 1,
+    "cache": {
+      "I_kwDORFnVqc8AAAABhC6uYg": {
+        "result": "unanswered"
+      },
+      "I_kwDORFnVqc8AAAABhCW-sQ": {
+        "hours": 1.3363888888888888,
+        "result": "answered"
+      }
+    },
+    "closed": 664,
+    "completion_days": 1.9,
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 325,
+    "open": 324,
     "outcomes": {
       "COMPLETED": 6,
       "DUPLICATE": 0,
@@ -9885,8 +9889,8 @@
       "UNSPECIFIED": 0
     },
     "reply_hours": null,
-    "sampled": 0,
-    "unanswered": 0,
+    "sampled": 2,
+    "unanswered": 1,
     "unknown": 0
   },
   "naroh091/hermes-war-room": {
@@ -9894,7 +9898,7 @@
     "cache": {},
     "closed": 2,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 2,
     "outcomes": {
@@ -9926,7 +9930,7 @@
     },
     "closed": 4,
     "completion_days": 57.2,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 13,
     "outcomes": {
@@ -9949,7 +9953,7 @@
     },
     "closed": 5,
     "completion_days": 7.9,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 1,
     "outcomes": {
@@ -9986,8 +9990,8 @@
       }
     },
     "closed": 1453,
-    "completion_days": 2.3,
-    "date": "2026-11-25",
+    "completion_days": 4.6,
+    "date": "2026-11-27",
     "enabled": true,
     "open": 1373,
     "outcomes": {
@@ -10004,28 +10008,31 @@
   "netease-youdao/lobsterai": {
     "answered": 1,
     "cache": {
-      "I_kwDOROlBtM8AAAABPFIf5g": {
+      "I_kwDOROlBtM8AAAABPfdNrg": {
         "result": "unanswered"
       },
-      "I_kwDOROlBtM8AAAABUFHRNA": {
-        "hours": 127.93416666666667,
+      "I_kwDOROlBtM8AAAABVDvuUg": {
+        "hours": 54.8975,
         "result": "answered"
       },
-      "I_kwDOROlBtM8AAAABWU3XhQ": {
+      "I_kwDOROlBtM8AAAABWz5flw": {
         "result": "unanswered"
       },
-      "I_kwDOROlBtM8AAAABdBot6A": {
+      "I_kwDOROlBtM8AAAABZsfGJA": {
         "result": "unanswered"
       },
-      "I_kwDOROlBtM8AAAABgP8AAg": {
+      "I_kwDOROlBtM8AAAABdomj1w": {
+        "result": "unanswered"
+      },
+      "I_kwDOROlBtM8AAAABgrFXBA": {
         "result": "unanswered"
       }
     },
     "closed": 593,
     "completion_days": 199.8,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 155,
+    "open": 156,
     "outcomes": {
       "COMPLETED": 6,
       "DUPLICATE": 0,
@@ -10034,36 +10041,36 @@
     },
     "reply_hours": null,
     "sampled": 6,
-    "unanswered": 4,
-    "unknown": 1
+    "unanswered": 5,
+    "unknown": 0
   },
   "neuralnomadsai/codenomad": {
     "answered": 0,
     "cache": {
-      "I_kwDOQNhtb88AAAABeI51kg": {
+      "I_kwDOQNhtb88AAAABeXLIDA": {
         "result": "unanswered"
       },
-      "I_kwDOQNhtb88AAAABeRS03g": {
+      "I_kwDOQNhtb88AAAABexFZOw": {
         "result": "unanswered"
       },
-      "I_kwDOQNhtb88AAAABeveYGg": {
+      "I_kwDOQNhtb88AAAABf00vAA": {
         "result": "unanswered"
       },
-      "I_kwDOQNhtb88AAAABfLrwSQ": {
+      "I_kwDOQNhtb88AAAABfRJUOQ": {
         "result": "unanswered"
       },
-      "I_kwDOQNhtb88AAAABfc6l9g": {
+      "I_kwDOQNhtb88AAAABgv-E9w": {
         "result": "unanswered"
       },
-      "I_kwDOQNhtb88AAAABgM1crg": {
+      "I_kwDOQNhtb88AAAABhB6tNA": {
         "result": "unanswered"
       }
     },
-    "closed": 445,
-    "completion_days": 1.9,
-    "date": "2026-11-25",
+    "closed": 448,
+    "completion_days": 0.7,
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 4,
+    "open": 5,
     "outcomes": {
       "COMPLETED": 6,
       "DUPLICATE": 0,
@@ -10078,27 +10085,30 @@
   "nextlevelbuilder/goclaw": {
     "answered": 0,
     "cache": {
-      "I_kwDORV5mps8AAAABSr0o5Q": {
+      "I_kwDORV5mps8AAAABQQ001Q": {
         "result": "unanswered"
       },
-      "I_kwDORV5mps8AAAABUfdmRA": {
+      "I_kwDORV5mps8AAAABS5Q8Rw": {
         "result": "unanswered"
       },
-      "I_kwDORV5mps8AAAABX3PE5Q": {
+      "I_kwDORV5mps8AAAABWJHcGA": {
         "result": "unanswered"
       },
-      "I_kwDORV5mps8AAAABbICtXg": {
+      "I_kwDORV5mps8AAAABYH-dVQ": {
         "result": "unanswered"
       },
-      "I_kwDORV5mps8AAAABdugmrg": {
+      "I_kwDORV5mps8AAAABcWk4Jg": {
+        "result": "unanswered"
+      },
+      "I_kwDORV5mps8AAAABglii9Q": {
         "result": "unanswered"
       }
     },
     "closed": 426,
     "completion_days": 34.9,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 137,
+    "open": 138,
     "outcomes": {
       "COMPLETED": 5,
       "DUPLICATE": 0,
@@ -10107,38 +10117,36 @@
     },
     "reply_hours": null,
     "sampled": 6,
-    "unanswered": 5,
-    "unknown": 1
+    "unanswered": 6,
+    "unknown": 0
   },
   "nicobailon/pi-subagents": {
-    "answered": 2,
+    "answered": 0,
     "cache": {
-      "I_kwDOQ1AzOc8AAAABfB0uRQ": {
-        "hours": 4.643888888888889,
-        "result": "answered"
-      },
-      "I_kwDOQ1AzOc8AAAABfM88wg": {
+      "I_kwDOQ1AzOc8AAAABg-tHpw": {
         "result": "unanswered"
       },
-      "I_kwDOQ1AzOc8AAAABfZ6h7g": {
-        "hours": 3.749722222222222,
-        "result": "answered"
-      },
-      "I_kwDOQ1AzOc8AAAABfvozyw": {
+      "I_kwDOQ1AzOc8AAAABg-wusA": {
         "result": "unanswered"
       },
-      "I_kwDOQ1AzOc8AAAABgPHXlw": {
+      "I_kwDOQ1AzOc8AAAABg9lrEA": {
         "result": "unanswered"
       },
       "I_kwDOQ1AzOc8AAAABgZjTPw": {
         "result": "unanswered"
+      },
+      "I_kwDOQ1AzOc8AAAABg_wPEA": {
+        "result": "unanswered"
+      },
+      "I_kwDOQ1AzOc8AAAABgtWeRQ": {
+        "result": "unanswered"
       }
     },
-    "closed": 1284,
+    "closed": 1298,
     "completion_days": 0.7,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 3,
+    "open": 2,
     "outcomes": {
       "COMPLETED": 4,
       "DUPLICATE": 0,
@@ -10147,7 +10155,7 @@
     },
     "reply_hours": null,
     "sampled": 6,
-    "unanswered": 4,
+    "unanswered": 6,
     "unknown": 0
   },
   "nielsgroen/claude-tmux": {
@@ -10155,7 +10163,7 @@
     "cache": {},
     "closed": 0,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 2,
     "outcomes": {
@@ -10178,7 +10186,7 @@
     },
     "closed": 39,
     "completion_days": 281.7,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 27,
     "outcomes": {
@@ -10197,7 +10205,7 @@
     "cache": {},
     "closed": 1,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 4,
     "outcomes": {
@@ -10214,34 +10222,34 @@
   "nimbalyst/nimbalyst": {
     "answered": 0,
     "cache": {
-      "I_kwDOQMaXlc8AAAABfhnWMw": {
-        "result": "unanswered"
-      },
-      "I_kwDOQMaXlc8AAAABgE0iig": {
+      "I_kwDOQMaXlc8AAAABf998gg": {
         "result": "unanswered"
       },
       "I_kwDOQMaXlc8AAAABgNB2pg": {
         "result": "unanswered"
       },
-      "I_kwDOQMaXlc8AAAABgRa6QQ": {
-        "result": "unanswered"
-      },
-      "I_kwDOQMaXlc8AAAABgTwYkA": {
+      "I_kwDOQMaXlc8AAAABgSYOTg": {
         "result": "unanswered"
       },
       "I_kwDOQMaXlc8AAAABgW9xyw": {
         "result": "unanswered"
+      },
+      "I_kwDOQMaXlc8AAAABgyN4hw": {
+        "result": "unanswered"
+      },
+      "I_kwDOQMaXlc8AAAABhDN6BQ": {
+        "result": "unanswered"
       }
     },
-    "closed": 736,
-    "completion_days": null,
-    "date": "2026-11-25",
+    "closed": 748,
+    "completion_days": 21.3,
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 752,
+    "open": 742,
     "outcomes": {
-      "COMPLETED": 2,
+      "COMPLETED": 3,
       "DUPLICATE": 0,
-      "NOT_PLANNED": 4,
+      "NOT_PLANNED": 3,
       "UNSPECIFIED": 0
     },
     "reply_hours": null,
@@ -10254,7 +10262,7 @@
     "cache": {},
     "closed": 0,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 0,
     "outcomes": {
@@ -10273,7 +10281,7 @@
     "cache": {},
     "closed": 0,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 0,
     "outcomes": {
@@ -10292,7 +10300,7 @@
     "cache": {},
     "closed": 2,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 2,
     "outcomes": {
@@ -10330,7 +10338,7 @@
     },
     "closed": 78,
     "completion_days": 3.0,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 54,
     "outcomes": {
@@ -10347,15 +10355,15 @@
   "nousresearch/hermes-agent": {
     "answered": 0,
     "cache": {},
-    "closed": 22078,
-    "completion_days": 19.9,
-    "date": "2026-11-25",
+    "closed": 22101,
+    "completion_days": 1.0,
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 19940,
+    "open": 20168,
     "outcomes": {
-      "COMPLETED": 6,
+      "COMPLETED": 4,
       "DUPLICATE": 0,
-      "NOT_PLANNED": 0,
+      "NOT_PLANNED": 2,
       "UNSPECIFIED": 0
     },
     "reply_hours": null,
@@ -10364,26 +10372,30 @@
     "unknown": 0
   },
   "novadeck-org/novadeck": {
-    "answered": 1,
+    "answered": 2,
     "cache": {
       "I_kwDOUhsJGc8AAAABduUR1w": {
         "hours": 100.09694444444445,
         "result": "answered"
+      },
+      "I_kwDOUhsJGc8AAAABg44Hng": {
+        "hours": 103.61416666666666,
+        "result": "answered"
       }
     },
-    "closed": 53,
-    "completion_days": 0.2,
-    "date": "2026-11-25",
+    "closed": 57,
+    "completion_days": 2.6,
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 20,
+    "open": 17,
     "outcomes": {
-      "COMPLETED": 5,
+      "COMPLETED": 6,
       "DUPLICATE": 0,
-      "NOT_PLANNED": 1,
+      "NOT_PLANNED": 0,
       "UNSPECIFIED": 0
     },
     "reply_hours": null,
-    "sampled": 1,
+    "sampled": 2,
     "unanswered": 0,
     "unknown": 0
   },
@@ -10409,11 +10421,11 @@
         "result": "unanswered"
       }
     },
-    "closed": 648,
-    "completion_days": 3.3,
-    "date": "2026-11-25",
+    "closed": 649,
+    "completion_days": 6.4,
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 49,
+    "open": 48,
     "outcomes": {
       "COMPLETED": 6,
       "DUPLICATE": 0,
@@ -10437,7 +10449,7 @@
     },
     "closed": 10,
     "completion_days": 37.2,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 8,
     "outcomes": {
@@ -10475,7 +10487,7 @@
     },
     "closed": 300,
     "completion_days": 177.3,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 48,
     "outcomes": {
@@ -10497,11 +10509,20 @@
       },
       "I_kwDORcawIM8AAAABU4q89w": {
         "result": "unanswered"
+      },
+      "I_kwDORcawIM8AAAABghIZug": {
+        "result": "unanswered"
+      },
+      "I_kwDORcawIM8AAAABghIq2g": {
+        "result": "unanswered"
+      },
+      "I_kwDORcawIM8AAAABghLAlg": {
+        "result": "unanswered"
       }
     },
     "closed": 10,
     "completion_days": 164.3,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 11,
     "outcomes": {
@@ -10511,18 +10532,18 @@
       "UNSPECIFIED": 0
     },
     "reply_hours": null,
-    "sampled": 2,
-    "unanswered": 2,
+    "sampled": 5,
+    "unanswered": 5,
     "unknown": 0
   },
   "nuphos/nuphos": {
     "answered": 0,
     "cache": {},
-    "closed": 1374,
-    "completion_days": 0.7,
-    "date": "2026-11-25",
+    "closed": 1437,
+    "completion_days": 0.1,
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 106,
+    "open": 101,
     "outcomes": {
       "COMPLETED": 6,
       "DUPLICATE": 0,
@@ -10546,7 +10567,7 @@
     },
     "closed": 45,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 17,
     "outcomes": {
@@ -10563,11 +10584,11 @@
   "nvidia/nemoclaw": {
     "answered": 0,
     "cache": {},
-    "closed": 4936,
+    "closed": 4948,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 167,
+    "open": 172,
     "outcomes": {
       "COMPLETED": 0,
       "DUPLICATE": 0,
@@ -10584,7 +10605,7 @@
     "cache": {},
     "closed": 13,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 0,
     "outcomes": {
@@ -10622,7 +10643,7 @@
     },
     "closed": 35,
     "completion_days": 4.3,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 0,
     "outcomes": {
@@ -10641,7 +10662,7 @@
     "cache": {},
     "closed": 0,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 0,
     "outcomes": {
@@ -10656,17 +10677,16 @@
     "unknown": 0
   },
   "nyldn/claude-octopus": {
-    "answered": 2,
+    "answered": 1,
     "cache": {
-      "I_kwDOQ6P6R88AAAABV3xziA": {
+      "I_kwDOQ6P6R88AAAABV7Y55Q": {
         "result": "unanswered"
       },
-      "I_kwDOQ6P6R88AAAABVJ7FAQ": {
+      "I_kwDOQ6P6R88AAAABVVttPA": {
         "result": "unanswered"
       },
-      "I_kwDOQ6P6R88AAAABXdmt0w": {
-        "hours": 3.2980555555555555,
-        "result": "answered"
+      "I_kwDOQ6P6R88AAAABZAk6rA": {
+        "result": "unanswered"
       },
       "I_kwDOQ6P6R88AAAABZAk8mQ": {
         "result": "unanswered"
@@ -10679,20 +10699,20 @@
         "result": "unanswered"
       }
     },
-    "closed": 358,
-    "completion_days": 1.4,
-    "date": "2026-11-25",
+    "closed": 362,
+    "completion_days": 11.9,
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 3,
+    "open": 1,
     "outcomes": {
-      "COMPLETED": 6,
+      "COMPLETED": 5,
       "DUPLICATE": 0,
-      "NOT_PLANNED": 0,
+      "NOT_PLANNED": 1,
       "UNSPECIFIED": 0
     },
     "reply_hours": null,
     "sampled": 6,
-    "unanswered": 4,
+    "unanswered": 5,
     "unknown": 0
   },
   "observedobserver/async-code": {
@@ -10704,7 +10724,7 @@
     },
     "closed": 6,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 11,
     "outcomes": {
@@ -10743,7 +10763,7 @@
     },
     "closed": 9,
     "completion_days": 12.3,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 51,
     "outcomes": {
@@ -10769,7 +10789,7 @@
     },
     "closed": 8,
     "completion_days": 14.2,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 0,
     "outcomes": {
@@ -10786,28 +10806,25 @@
   "omnara-ai/omnara": {
     "answered": 0,
     "cache": {
-      "I_kwDOPJU1Fc8AAAABOiRXgQ": {
+      "I_kwDOPJU1Fc8AAAABQrTxJA": {
         "result": "unanswered"
       },
-      "I_kwDOPJU1Fc8AAAABQpeFyQ": {
+      "I_kwDOPJU1Fc8AAAABSsiwqw": {
         "result": "unanswered"
       },
-      "I_kwDOPJU1Fc8AAAABRVSEjA": {
+      "I_kwDOPJU1Fc8AAAABZyb9GQ": {
         "result": "unanswered"
       },
-      "I_kwDOPJU1Fc8AAAABZns1RA": {
+      "I_kwDOPJU1Fc8AAAABb7rEtA": {
         "result": "unanswered"
       },
-      "I_kwDOPJU1Fc8AAAABbbYOHw": {
-        "result": "unanswered"
-      },
-      "I_kwDOPJU1Fc8AAAABfQ4log": {
+      "I_kwDOPJU1Fc8AAAABglQU9A": {
         "result": "unanswered"
       }
     },
     "closed": 112,
     "completion_days": 1.7,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 7,
     "outcomes": {
@@ -10818,21 +10835,21 @@
     },
     "reply_hours": null,
     "sampled": 6,
-    "unanswered": 6,
-    "unknown": 0
+    "unanswered": 5,
+    "unknown": 1
   },
   "omnigent-ai/omnigent": {
     "answered": 0,
     "cache": {},
-    "closed": 2299,
-    "completion_days": 27.2,
-    "date": "2026-11-25",
+    "closed": 2310,
+    "completion_days": 12.6,
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 957,
+    "open": 965,
     "outcomes": {
-      "COMPLETED": 4,
+      "COMPLETED": 6,
       "DUPLICATE": 0,
-      "NOT_PLANNED": 2,
+      "NOT_PLANNED": 0,
       "UNSPECIFIED": 0
     },
     "reply_hours": null,
@@ -10849,7 +10866,7 @@
     },
     "closed": 14,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 1,
     "outcomes": {
@@ -10864,17 +10881,18 @@
     "unknown": 0
   },
   "onevcat/prowl": {
-    "answered": 2,
+    "answered": 3,
     "cache": {
-      "I_kwDORNI-iM8AAAABZ7Or9Q": {
-        "hours": 121.9675,
+      "I_kwDORNI-iM8AAAABZ7OqwA": {
+        "result": "unanswered"
+      },
+      "I_kwDORNI-iM8AAAABamjJPg": {
+        "hours": 1.363888888888889,
         "result": "answered"
       },
-      "I_kwDORNI-iM8AAAABZnq_lw": {
-        "result": "unanswered"
-      },
-      "I_kwDORNI-iM8AAAABaytBVg": {
-        "result": "unanswered"
+      "I_kwDORNI-iM8AAAABb3kZmQ": {
+        "hours": 48.500277777777775,
+        "result": "answered"
       },
       "I_kwDORNI-iM8AAAABdtRJDw": {
         "result": "unanswered"
@@ -10889,33 +10907,34 @@
     },
     "closed": 223,
     "completion_days": 56.5,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 36,
+    "open": 38,
     "outcomes": {
       "COMPLETED": 6,
       "DUPLICATE": 0,
       "NOT_PLANNED": 0,
       "UNSPECIFIED": 0
     },
-    "reply_hours": null,
+    "reply_hours": 7.7,
     "sampled": 6,
-    "unanswered": 4,
+    "unanswered": 3,
     "unknown": 0
   },
   "open-inspect/background-agents": {
-    "answered": 0,
+    "answered": 1,
     "cache": {
-      "I_kwDORBEkas8AAAABXPhZ0g": {
-        "result": "unanswered"
-      },
       "I_kwDORBEkas8AAAABXWrqQg": {
         "result": "unanswered"
       },
-      "I_kwDORBEkas8AAAABXpA8xg": {
+      "I_kwDORBEkas8AAAABXiMgMQ": {
         "result": "unanswered"
       },
-      "I_kwDORBEkas8AAAABaFtCXw": {
+      "I_kwDORBEkas8AAAABZZM05Q": {
+        "hours": 5.876944444444445,
+        "result": "answered"
+      },
+      "I_kwDORBEkas8AAAABbvfQ9A": {
         "result": "unanswered"
       },
       "I_kwDORBEkas8AAAABcb1J-w": {
@@ -10927,9 +10946,9 @@
     },
     "closed": 215,
     "completion_days": 37.0,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 23,
+    "open": 25,
     "outcomes": {
       "COMPLETED": 6,
       "DUPLICATE": 0,
@@ -10938,22 +10957,26 @@
     },
     "reply_hours": null,
     "sampled": 6,
-    "unanswered": 6,
+    "unanswered": 5,
     "unknown": 0
   },
   "open-mercato/cezar": {
-    "answered": 1,
+    "answered": 2,
     "cache": {
-      "I_kwDOShuET88AAAABgKO5qg": {
-        "hours": 0.059444444444444446,
+      "I_kwDOShuET88AAAABgua-dw": {
+        "hours": 0.025833333333333333,
+        "result": "answered"
+      },
+      "I_kwDOShuET88AAAABhByMYA": {
+        "hours": 0.058888888888888886,
         "result": "answered"
       }
     },
-    "closed": 583,
-    "completion_days": 2.7,
-    "date": "2026-11-25",
+    "closed": 586,
+    "completion_days": 4.6,
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 182,
+    "open": 185,
     "outcomes": {
       "COMPLETED": 6,
       "DUPLICATE": 0,
@@ -10961,7 +10984,7 @@
       "UNSPECIFIED": 0
     },
     "reply_hours": null,
-    "sampled": 1,
+    "sampled": 2,
     "unanswered": 0,
     "unknown": 0
   },
@@ -10991,14 +11014,14 @@
       }
     },
     "closed": 138,
-    "completion_days": 12.1,
-    "date": "2026-11-25",
+    "completion_days": 9.3,
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 7,
+    "open": 10,
     "outcomes": {
-      "COMPLETED": 5,
+      "COMPLETED": 4,
       "DUPLICATE": 0,
-      "NOT_PLANNED": 1,
+      "NOT_PLANNED": 2,
       "UNSPECIFIED": 0
     },
     "reply_hours": 44.5,
@@ -11009,34 +11032,34 @@
   "openagents-org/openagents": {
     "answered": 0,
     "cache": {
-      "I_kwDOOGcQrM8AAAABOrG83g": {
+      "I_kwDOOGcQrM8AAAABRCK-8w": {
         "result": "unanswered"
       },
-      "I_kwDOOGcQrM8AAAABRGYZ0g": {
+      "I_kwDOOGcQrM8AAAABUcsNzQ": {
         "result": "unanswered"
       },
-      "I_kwDOOGcQrM8AAAABUkihfA": {
+      "I_kwDOOGcQrM8AAAABW922pQ": {
         "result": "unanswered"
       },
-      "I_kwDOOGcQrM8AAAABW9296w": {
-        "result": "unanswered"
-      },
-      "I_kwDOOGcQrM8AAAABekuY9g": {
+      "I_kwDOOGcQrM8AAAABeCld1w": {
         "result": "unanswered"
       },
       "I_kwDOOGcQrM8AAAABfwh7Ng": {
         "result": "unanswered"
+      },
+      "I_kwDOOGcQrM8AAAABgmsQng": {
+        "result": "unanswered"
       }
     },
-    "closed": 96,
-    "completion_days": 76.1,
-    "date": "2026-11-25",
+    "closed": 97,
+    "completion_days": 16.8,
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 70,
+    "open": 69,
     "outcomes": {
-      "COMPLETED": 3,
+      "COMPLETED": 4,
       "DUPLICATE": 0,
-      "NOT_PLANNED": 3,
+      "NOT_PLANNED": 2,
       "UNSPECIFIED": 0
     },
     "reply_hours": null,
@@ -11068,9 +11091,9 @@
     },
     "closed": 23,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 36,
+    "open": 37,
     "outcomes": {
       "COMPLETED": 2,
       "DUPLICATE": 0,
@@ -11084,22 +11107,35 @@
   },
   "openai/openai-agents-python": {
     "answered": 0,
-    "cache": {},
-    "closed": 1659,
-    "completion_days": 4.0,
-    "date": "2026-11-25",
+    "cache": {
+      "I_kwDOOGidp88AAAABg0NS2g": {
+        "result": "unanswered"
+      },
+      "I_kwDOOGidp88AAAABg_oo-Q": {
+        "result": "unanswered"
+      },
+      "I_kwDOOGidp88AAAABgoGzjw": {
+        "result": "unanswered"
+      },
+      "I_kwDOOGidp88AAAABgtsdQQ": {
+        "result": "unanswered"
+      }
+    },
+    "closed": 1660,
+    "completion_days": 6.9,
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 54,
+    "open": 55,
     "outcomes": {
-      "COMPLETED": 6,
+      "COMPLETED": 5,
       "DUPLICATE": 0,
-      "NOT_PLANNED": 0,
+      "NOT_PLANNED": 1,
       "UNSPECIFIED": 0
     },
     "reply_hours": null,
-    "sampled": 1,
-    "unanswered": 0,
-    "unknown": 1
+    "sampled": 6,
+    "unanswered": 4,
+    "unknown": 2
   },
   "openai/swarm": {
     "answered": 0,
@@ -11113,7 +11149,7 @@
     },
     "closed": 10,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 28,
     "outcomes": {
@@ -11132,7 +11168,7 @@
     "cache": {},
     "closed": 0,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": false,
     "open": 0,
     "outcomes": {
@@ -11164,7 +11200,7 @@
     },
     "closed": 561,
     "completion_days": 21.8,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 41,
     "outcomes": {
@@ -11186,12 +11222,12 @@
       }
     },
     "closed": 4,
-    "completion_days": 1.2,
-    "date": "2026-11-25",
+    "completion_days": 1.3,
+    "date": "2026-11-27",
     "enabled": true,
     "open": 47,
     "outcomes": {
-      "COMPLETED": 4,
+      "COMPLETED": 3,
       "DUPLICATE": 0,
       "NOT_PLANNED": 0,
       "UNSPECIFIED": 0
@@ -11213,19 +11249,19 @@
       "I_kwDOKMNg3M8AAAABSv8Y8Q": {
         "result": "unanswered"
       },
-      "I_kwDOKMNg3M8AAAABV1lPDA": {
+      "I_kwDOKMNg3M8AAAABYAjdiw": {
         "result": "unanswered"
       },
-      "I_kwDOKMNg3M8AAAABbkPJJg": {
+      "I_kwDOKMNg3M8AAAABcIcfUw": {
         "result": "unanswered"
       },
-      "I_kwDOKMNg3M8AAAABdK9YhQ": {
+      "I_kwDOKMNg3M8AAAABgaCgRw": {
         "result": "unanswered"
       }
     },
     "closed": 290,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 60,
     "outcomes": {
@@ -11242,15 +11278,15 @@
   "openchamber/openchamber": {
     "answered": 0,
     "cache": {},
-    "closed": 2758,
-    "completion_days": 1.0,
-    "date": "2026-11-25",
+    "closed": 2871,
+    "completion_days": null,
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 459,
+    "open": 425,
     "outcomes": {
-      "COMPLETED": 5,
+      "COMPLETED": 2,
       "DUPLICATE": 0,
-      "NOT_PLANNED": 1,
+      "NOT_PLANNED": 4,
       "UNSPECIFIED": 0
     },
     "reply_hours": null,
@@ -11261,28 +11297,25 @@
   "openclaw/acpx": {
     "answered": 0,
     "cache": {
-      "I_kwDORSib_s8AAAABT7LC7A": {
+      "I_kwDORSib_s8AAAABT-6liQ": {
         "result": "unanswered"
       },
       "I_kwDORSib_s8AAAABTaqfBw": {
         "result": "unanswered"
       },
-      "I_kwDORSib_s8AAAABU2ojkA": {
+      "I_kwDORSib_s8AAAABU_d-xg": {
         "result": "unanswered"
       },
-      "I_kwDORSib_s8AAAABXsHoWQ": {
+      "I_kwDORSib_s8AAAABdiGdtA": {
         "result": "unanswered"
       },
-      "I_kwDORSib_s8AAAABdhYPeA": {
-        "result": "unanswered"
-      },
-      "I_kwDORSib_s8AAAABfIol7A": {
+      "I_kwDORSib_s8AAAABg3yyaA": {
         "result": "unanswered"
       }
     },
     "closed": 126,
     "completion_days": 2.4,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 22,
     "outcomes": {
@@ -11293,17 +11326,17 @@
     },
     "reply_hours": null,
     "sampled": 6,
-    "unanswered": 6,
-    "unknown": 0
+    "unanswered": 5,
+    "unknown": 1
   },
   "openclaw/openclaw": {
     "answered": 0,
     "cache": {},
-    "closed": 60537,
-    "completion_days": 0.5,
-    "date": "2026-11-25",
+    "closed": 60750,
+    "completion_days": 0.0,
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 5357,
+    "open": 5504,
     "outcomes": {
       "COMPLETED": 5,
       "DUPLICATE": 0,
@@ -11320,9 +11353,9 @@
     "cache": {},
     "closed": 444,
     "completion_days": 1.0,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 55,
+    "open": 57,
     "outcomes": {
       "COMPLETED": 6,
       "DUPLICATE": 0,
@@ -11343,7 +11376,7 @@
     },
     "closed": 20,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 5,
     "outcomes": {
@@ -11360,11 +11393,11 @@
   "openhands/openhands": {
     "answered": 0,
     "cache": {},
-    "closed": 5080,
-    "completion_days": 32.1,
-    "date": "2026-11-25",
+    "closed": 5084,
+    "completion_days": 1.6,
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 653,
+    "open": 668,
     "outcomes": {
       "COMPLETED": 6,
       "DUPLICATE": 0,
@@ -11385,7 +11418,7 @@
     },
     "closed": 11,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 14,
     "outcomes": {
@@ -11408,7 +11441,7 @@
     },
     "closed": 1,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 0,
     "outcomes": {
@@ -11427,7 +11460,7 @@
     "cache": {},
     "closed": 0,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 0,
     "outcomes": {
@@ -11442,16 +11475,15 @@
     "unknown": 0
   },
   "openteams-lab/openteams": {
-    "answered": 4,
+    "answered": 3,
     "cache": {
-      "I_kwDORLYXPc8AAAABOn0aNg": {
-        "hours": 0.014722222222222222,
-        "result": "answered"
-      },
       "I_kwDORLYXPc8AAAABQGhQvg": {
         "result": "unanswered"
       },
       "I_kwDORLYXPc8AAAABQj9H5Q": {
+        "result": "unanswered"
+      },
+      "I_kwDORLYXPc8AAAABRM4uGg": {
         "result": "unanswered"
       },
       "I_kwDORLYXPc8AAAABThwJ9A": {
@@ -11469,7 +11501,7 @@
     },
     "closed": 17,
     "completion_days": 9.8,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 19,
     "outcomes": {
@@ -11478,17 +11510,14 @@
       "NOT_PLANNED": 0,
       "UNSPECIFIED": 0
     },
-    "reply_hours": 14.9,
+    "reply_hours": 21.7,
     "sampled": 6,
-    "unanswered": 2,
+    "unanswered": 3,
     "unknown": 0
   },
   "openwong2kim/wmux": {
-    "answered": 2,
+    "answered": 3,
     "cache": {
-      "I_kwDORr16Yc8AAAABgMaSBw": {
-        "result": "unanswered"
-      },
       "I_kwDORr16Yc8AAAABgX4ghw": {
         "hours": 30.02722222222222,
         "result": "answered"
@@ -11496,32 +11525,36 @@
       "I_kwDORr16Yc8AAAABgXPrxg": {
         "hours": 24.505277777777778,
         "result": "answered"
+      },
+      "I_kwDORr16Yc8AAAABgnMcvA": {
+        "hours": 7.026944444444444,
+        "result": "answered"
       }
     },
-    "closed": 629,
-    "completion_days": 0.4,
-    "date": "2026-11-25",
+    "closed": 640,
+    "completion_days": 0.3,
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 30,
+    "open": 23,
     "outcomes": {
-      "COMPLETED": 6,
+      "COMPLETED": 5,
       "DUPLICATE": 0,
-      "NOT_PLANNED": 0,
+      "NOT_PLANNED": 1,
       "UNSPECIFIED": 0
     },
-    "reply_hours": null,
+    "reply_hours": 24.5,
     "sampled": 3,
-    "unanswered": 1,
+    "unanswered": 0,
     "unknown": 0
   },
   "orbi-build/orbi": {
     "answered": 0,
     "cache": {},
-    "closed": 1341,
+    "closed": 1365,
     "completion_days": 0.1,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 58,
+    "open": 49,
     "outcomes": {
       "COMPLETED": 6,
       "DUPLICATE": 0,
@@ -11536,15 +11569,15 @@
   "orchestratorinc/agent-orchestrator": {
     "answered": 0,
     "cache": {},
-    "closed": 2274,
+    "closed": 2318,
     "completion_days": 13.7,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 424,
+    "open": 403,
     "outcomes": {
-      "COMPLETED": 4,
-      "DUPLICATE": 1,
-      "NOT_PLANNED": 1,
+      "COMPLETED": 6,
+      "DUPLICATE": 0,
+      "NOT_PLANNED": 0,
       "UNSPECIFIED": 0
     },
     "reply_hours": null,
@@ -11555,19 +11588,19 @@
   "ordewell/ordewell": {
     "answered": 0,
     "cache": {
-      "I_kwDOTpZ4Gs8AAAABW_FA2w": {
+      "I_kwDOTpZ4Gs8AAAABW_FDyw": {
         "result": "unanswered"
       },
-      "I_kwDOTpZ4Gs8AAAABXaF7hQ": {
+      "I_kwDOTpZ4Gs8AAAABXaGBFQ": {
         "result": "unanswered"
       },
-      "I_kwDOTpZ4Gs8AAAABYogIBg": {
+      "I_kwDOTpZ4Gs8AAAABZLNxgA": {
         "result": "unanswered"
       },
-      "I_kwDOTpZ4Gs8AAAABantDcQ": {
+      "I_kwDOTpZ4Gs8AAAABantJOg": {
         "result": "unanswered"
       },
-      "I_kwDOTpZ4Gs8AAAABanwG4Q": {
+      "I_kwDOTpZ4Gs8AAAABanwMSQ": {
         "result": "unanswered"
       },
       "I_kwDOTpZ4Gs8AAAABcx0Rig": {
@@ -11576,9 +11609,9 @@
     },
     "closed": 99,
     "completion_days": 43.0,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 19,
+    "open": 21,
     "outcomes": {
       "COMPLETED": 5,
       "DUPLICATE": 1,
@@ -11617,11 +11650,11 @@
         "result": "answered"
       }
     },
-    "closed": 8,
-    "completion_days": 14.9,
-    "date": "2026-11-25",
+    "closed": 10,
+    "completion_days": 1.4,
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 11,
+    "open": 12,
     "outcomes": {
       "COMPLETED": 6,
       "DUPLICATE": 0,
@@ -11642,9 +11675,9 @@
     },
     "closed": 110,
     "completion_days": 3.8,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 10,
+    "open": 15,
     "outcomes": {
       "COMPLETED": 6,
       "DUPLICATE": 0,
@@ -11668,7 +11701,7 @@
     },
     "closed": 3,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 0,
     "outcomes": {
@@ -11709,7 +11742,7 @@
     },
     "closed": 28,
     "completion_days": 8.8,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 1,
     "outcomes": {
@@ -11728,7 +11761,7 @@
     "cache": {},
     "closed": 19,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 1,
     "outcomes": {
@@ -11766,7 +11799,7 @@
     },
     "closed": 194,
     "completion_days": 0.5,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 20,
     "outcomes": {
@@ -11785,7 +11818,7 @@
     "cache": {},
     "closed": 0,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 3,
     "outcomes": {
@@ -11804,7 +11837,7 @@
     "cache": {},
     "closed": 11,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 3,
     "outcomes": {
@@ -11823,7 +11856,7 @@
     "cache": {},
     "closed": 7,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 2,
     "outcomes": {
@@ -11846,22 +11879,22 @@
       "I_kwDORr3H_s8AAAABajs43Q": {
         "result": "unanswered"
       },
-      "I_kwDORr3H_s8AAAABbXN2lw": {
+      "I_kwDORr3H_s8AAAABbyvweA": {
         "result": "unanswered"
       },
-      "I_kwDORr3H_s8AAAABdrWQUg": {
+      "I_kwDORr3H_s8AAAABe-Yg-A": {
         "result": "unanswered"
       },
-      "I_kwDORr3H_s8AAAABfXs_Qg": {
+      "I_kwDORr3H_s8AAAABfdTsTA": {
         "result": "unanswered"
       },
-      "I_kwDORr3H_s8AAAABgFlYFQ": {
+      "I_kwDORr3H_s8AAAABhBP51g": {
         "result": "unanswered"
       }
     },
     "closed": 159,
     "completion_days": 0.6,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 12,
     "outcomes": {
@@ -11880,7 +11913,7 @@
     "cache": {},
     "closed": 295,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 11,
     "outcomes": {
@@ -11918,7 +11951,7 @@
     },
     "closed": 99,
     "completion_days": 13.5,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 19,
     "outcomes": {
@@ -11937,7 +11970,7 @@
     "cache": {},
     "closed": 2,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 3,
     "outcomes": {
@@ -11954,11 +11987,11 @@
   "paperclipai/paperclip": {
     "answered": 0,
     "cache": {},
-    "closed": 1437,
-    "completion_days": 61.8,
-    "date": "2026-11-25",
+    "closed": 1446,
+    "completion_days": 17.0,
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 3974,
+    "open": 4010,
     "outcomes": {
       "COMPLETED": 6,
       "DUPLICATE": 0,
@@ -11971,13 +12004,9 @@
     "unknown": 0
   },
   "paradevai/paradev": {
-    "answered": 2,
+    "answered": 0,
     "cache": {
-      "I_kwDOQGUlEs8AAAABeu6iuA": {
-        "hours": 1.6316666666666666,
-        "result": "answered"
-      },
-      "I_kwDOQGUlEs8AAAABfLt1nw": {
+      "I_kwDOQGUlEs8AAAABfUBwTw": {
         "result": "unanswered"
       },
       "I_kwDOQGUlEs8AAAABfeoZOQ": {
@@ -11986,19 +12015,21 @@
       "I_kwDOQGUlEs8AAAABftEaNg": {
         "result": "unanswered"
       },
-      "I_kwDOQGUlEs8AAAABgIebWw": {
+      "I_kwDOQGUlEs8AAAABg1ex-w": {
         "result": "unanswered"
       },
-      "I_kwDOQGUlEs8AAAABgP99rg": {
-        "hours": 0.03194444444444444,
-        "result": "answered"
+      "I_kwDOQGUlEs8AAAABgCQyMA": {
+        "result": "unanswered"
+      },
+      "I_kwDOQGUlEs8AAAABgNd40A": {
+        "result": "unanswered"
       }
     },
     "closed": 1128,
     "completion_days": 91.8,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 561,
+    "open": 564,
     "outcomes": {
       "COMPLETED": 5,
       "DUPLICATE": 1,
@@ -12007,7 +12038,7 @@
     },
     "reply_hours": null,
     "sampled": 6,
-    "unanswered": 4,
+    "unanswered": 6,
     "unknown": 0
   },
   "paradigmxyz/centaur": {
@@ -12034,7 +12065,7 @@
     },
     "closed": 91,
     "completion_days": 20.4,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 70,
     "outcomes": {
@@ -12103,7 +12134,7 @@
     },
     "closed": 10,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 4,
     "outcomes": {
@@ -12122,7 +12153,7 @@
     "cache": {},
     "closed": 19,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 16,
     "outcomes": {
@@ -12141,7 +12172,7 @@
     "cache": {},
     "closed": 293,
     "completion_days": 171.7,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 6,
     "outcomes": {
@@ -12160,7 +12191,7 @@
     "cache": {},
     "closed": 3,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 4,
     "outcomes": {
@@ -12177,15 +12208,15 @@
   "pingdotgg/t3code": {
     "answered": 0,
     "cache": {},
-    "closed": 9319,
-    "completion_days": null,
-    "date": "2026-11-25",
+    "closed": 9573,
+    "completion_days": 0.0,
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 1350,
+    "open": 1385,
     "outcomes": {
-      "COMPLETED": 1,
+      "COMPLETED": 4,
       "DUPLICATE": 1,
-      "NOT_PLANNED": 4,
+      "NOT_PLANNED": 1,
       "UNSPECIFIED": 0
     },
     "reply_hours": null,
@@ -12208,7 +12239,7 @@
     },
     "closed": 2,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 6,
     "outcomes": {
@@ -12243,7 +12274,7 @@
     },
     "closed": 106,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 19,
     "outcomes": {
@@ -12319,7 +12350,7 @@
     },
     "closed": 50,
     "completion_days": 3.7,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 0,
     "outcomes": {
@@ -12359,7 +12390,7 @@
     },
     "closed": 95,
     "completion_days": 0.2,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 3,
     "outcomes": {
@@ -12403,7 +12434,7 @@
     },
     "closed": 14,
     "completion_days": 14.8,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 0,
     "outcomes": {
@@ -12422,7 +12453,7 @@
     "cache": {},
     "closed": 0,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 0,
     "outcomes": {
@@ -12445,24 +12476,24 @@
       "I_kwDOP8TWjc8AAAABacXNzw": {
         "result": "unanswered"
       },
-      "I_kwDOP8TWjc8AAAABbMUj4A": {
+      "I_kwDOP8TWjc8AAAABbMl_8w": {
         "result": "unanswered"
       },
       "I_kwDOP8TWjc8AAAABbVok2g": {
         "result": "unanswered"
       },
-      "I_kwDOP8TWjc8AAAABdzvJjw": {
+      "I_kwDOP8TWjc8AAAABeEmKmQ": {
         "result": "unanswered"
       },
-      "I_kwDOP8TWjc8AAAABftiygA": {
+      "I_kwDOP8TWjc8AAAABgjDE8A": {
         "result": "unanswered"
       }
     },
-    "closed": 325,
-    "completion_days": 9.0,
-    "date": "2026-11-25",
+    "closed": 326,
+    "completion_days": 1.0,
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 200,
+    "open": 199,
     "outcomes": {
       "COMPLETED": 6,
       "DUPLICATE": 0,
@@ -12479,7 +12510,7 @@
     "cache": {},
     "closed": 0,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 0,
     "outcomes": {
@@ -12523,7 +12554,7 @@
     },
     "closed": 17,
     "completion_days": 0.1,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 0,
     "outcomes": {
@@ -12561,7 +12592,7 @@
     },
     "closed": 8,
     "completion_days": 0.4,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 2,
     "outcomes": {
@@ -12599,7 +12630,7 @@
     },
     "closed": 46,
     "completion_days": 4.9,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 12,
     "outcomes": {
@@ -12618,7 +12649,7 @@
     "cache": {},
     "closed": 1,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 0,
     "outcomes": {
@@ -12637,7 +12668,7 @@
     "cache": {},
     "closed": 0,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 0,
     "outcomes": {
@@ -12672,7 +12703,7 @@
     },
     "closed": 8,
     "completion_days": 1.7,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 0,
     "outcomes": {
@@ -12689,14 +12720,14 @@
   "quintinshaw/pi-dynamic-workflows": {
     "answered": 3,
     "cache": {
-      "I_kwDOSsb87s8AAAABOtuZCg": {
-        "hours": 16.128055555555555,
-        "result": "answered"
-      },
-      "I_kwDOSsb87s8AAAABQ4oTMw": {
+      "I_kwDOSsb87s8AAAABO1-80Q": {
         "result": "unanswered"
       },
-      "I_kwDOSsb87s8AAAABRrsgxg": {
+      "I_kwDOSsb87s8AAAABRAmN8A": {
+        "hours": 46.06722222222222,
+        "result": "answered"
+      },
+      "I_kwDOSsb87s8AAAABRrsh9g": {
         "result": "unanswered"
       },
       "I_kwDOSsb87s8AAAABStAnOg": {
@@ -12713,7 +12744,7 @@
     },
     "closed": 76,
     "completion_days": 1.6,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 5,
     "outcomes": {
@@ -12722,7 +12753,7 @@
       "NOT_PLANNED": 0,
       "UNSPECIFIED": 0
     },
-    "reply_hours": 23.8,
+    "reply_hours": 33.8,
     "sampled": 6,
     "unanswered": 3,
     "unknown": 0
@@ -12732,7 +12763,7 @@
     "cache": {},
     "closed": 4,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 0,
     "outcomes": {
@@ -12764,7 +12795,7 @@
     },
     "closed": 34,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 17,
     "outcomes": {
@@ -12783,7 +12814,7 @@
     "cache": {},
     "closed": 0,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 0,
     "outcomes": {
@@ -12802,9 +12833,9 @@
     "cache": {},
     "closed": 286,
     "completion_days": 1.6,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 40,
+    "open": 42,
     "outcomes": {
       "COMPLETED": 5,
       "DUPLICATE": 0,
@@ -12819,11 +12850,11 @@
   "razzant/ouroboros": {
     "answered": 0,
     "cache": {},
-    "closed": 1788,
+    "closed": 1809,
     "completion_days": 0.2,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 408,
+    "open": 445,
     "outcomes": {
       "COMPLETED": 6,
       "DUPLICATE": 0,
@@ -12840,7 +12871,7 @@
     "cache": {},
     "closed": 0,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 6,
     "outcomes": {
@@ -12859,7 +12890,7 @@
     "cache": {},
     "closed": 0,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 0,
     "outcomes": {
@@ -12876,11 +12907,11 @@
   "receptron/mulmoterminal": {
     "answered": 0,
     "cache": {},
-    "closed": 1222,
-    "completion_days": 0.0,
-    "date": "2026-11-25",
+    "closed": 1237,
+    "completion_days": 0.1,
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 10,
+    "open": 9,
     "outcomes": {
       "COMPLETED": 6,
       "DUPLICATE": 0,
@@ -12916,7 +12947,7 @@
     },
     "closed": 154,
     "completion_days": 1.5,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 18,
     "outcomes": {
@@ -12935,7 +12966,7 @@
     "cache": {},
     "closed": 0,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 0,
     "outcomes": {
@@ -12954,7 +12985,7 @@
     "cache": {},
     "closed": 0,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 0,
     "outcomes": {
@@ -12989,9 +13020,9 @@
     },
     "closed": 661,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 78,
+    "open": 79,
     "outcomes": {
       "COMPLETED": 0,
       "DUPLICATE": 0,
@@ -13027,15 +13058,15 @@
         "result": "unanswered"
       }
     },
-    "closed": 60,
-    "completion_days": 6.0,
-    "date": "2026-11-25",
+    "closed": 62,
+    "completion_days": null,
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 46,
+    "open": 44,
     "outcomes": {
-      "COMPLETED": 3,
+      "COMPLETED": 2,
       "DUPLICATE": 0,
-      "NOT_PLANNED": 2,
+      "NOT_PLANNED": 4,
       "UNSPECIFIED": 0
     },
     "reply_hours": null,
@@ -13050,26 +13081,26 @@
         "hours": 19.42527777777778,
         "result": "answered"
       },
-      "I_kwDOTBelYM8AAAABUD4zTA": {
+      "I_kwDOTBelYM8AAAABUKxSxA": {
         "result": "unanswered"
       },
-      "I_kwDOTBelYM8AAAABUWrvLw": {
+      "I_kwDOTBelYM8AAAABUo-FFw": {
         "result": "unanswered"
       },
-      "I_kwDOTBelYM8AAAABWZ3dgw": {
-        "hours": 2.723611111111111,
+      "I_kwDOTBelYM8AAAABXcQpjw": {
+        "result": "unanswered"
+      },
+      "I_kwDOTBelYM8AAAABbFaG6w": {
+        "result": "unanswered"
+      },
+      "I_kwDOTBelYM8AAAABhA4dyw": {
+        "hours": 61.18666666666667,
         "result": "answered"
-      },
-      "I_kwDOTBelYM8AAAABXwTzxg": {
-        "result": "unanswered"
-      },
-      "I_kwDOTBelYM8AAAABgQoB0A": {
-        "result": "unanswered"
       }
     },
     "closed": 99,
     "completion_days": 2.0,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 35,
     "outcomes": {
@@ -13084,7 +13115,7 @@
     "unknown": 0
   },
   "rociiu/talorys": {
-    "answered": 2,
+    "answered": 3,
     "cache": {
       "I_kwDOVDj_Ws8AAAABWUGXmQ": {
         "result": "unanswered"
@@ -13097,30 +13128,31 @@
         "hours": 3.997777777777778,
         "result": "answered"
       },
-      "I_kwDOVDj_Ws8AAAABZNfcFQ": {
-        "result": "unanswered"
+      "I_kwDOVDj_Ws8AAAABYz-dCA": {
+        "hours": 15.383611111111112,
+        "result": "answered"
       },
-      "I_kwDOVDj_Ws8AAAABfAPRsQ": {
+      "I_kwDOVDj_Ws8AAAABaZGvmg": {
         "result": "unanswered"
       },
       "I_kwDOVDj_Ws8AAAABfo6HgA": {
         "result": "unanswered"
       }
     },
-    "closed": 10,
-    "completion_days": 0.8,
-    "date": "2026-11-25",
+    "closed": 11,
+    "completion_days": 0.7,
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 7,
+    "open": 5,
     "outcomes": {
       "COMPLETED": 6,
       "DUPLICATE": 0,
       "NOT_PLANNED": 0,
       "UNSPECIFIED": 0
     },
-    "reply_hours": null,
+    "reply_hours": 8.9,
     "sampled": 6,
-    "unanswered": 4,
+    "unanswered": 3,
     "unknown": 0
   },
   "roedyrustam/vibes-plug": {
@@ -13128,7 +13160,7 @@
     "cache": {},
     "closed": 1,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 1,
     "outcomes": {
@@ -13147,9 +13179,9 @@
     "cache": {},
     "closed": 6,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 12,
+    "open": 20,
     "outcomes": {
       "COMPLETED": 0,
       "DUPLICATE": 0,
@@ -13164,30 +13196,30 @@
   "rowboatlabs/rowboat": {
     "answered": 0,
     "cache": {
-      "I_kwDONpkwf88AAAABR_-bzg": {
-        "result": "unanswered"
-      },
       "I_kwDONpkwf88AAAABRyZ0Tw": {
         "result": "unanswered"
       },
-      "I_kwDONpkwf88AAAABXORgLQ": {
+      "I_kwDONpkwf88AAAABSENRrg": {
         "result": "unanswered"
       },
-      "I_kwDONpkwf88AAAABZ_xvBA": {
+      "I_kwDONpkwf88AAAABZA60AQ": {
         "result": "unanswered"
       },
-      "I_kwDONpkwf88AAAABdN8eqg": {
+      "I_kwDONpkwf88AAAABbix6qQ": {
         "result": "unanswered"
       },
-      "I_kwDONpkwf88AAAABe3DLLQ": {
+      "I_kwDONpkwf88AAAABdlxLGA": {
+        "result": "unanswered"
+      },
+      "I_kwDONpkwf88AAAABgpdg4w": {
         "result": "unanswered"
       }
     },
     "closed": 92,
     "completion_days": 12.2,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 100,
+    "open": 102,
     "outcomes": {
       "COMPLETED": 6,
       "DUPLICATE": 0,
@@ -13204,7 +13236,7 @@
     "cache": {},
     "closed": 31,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 0,
     "outcomes": {
@@ -13246,7 +13278,7 @@
     },
     "closed": 2080,
     "completion_days": 5.2,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 47,
     "outcomes": {
@@ -13261,18 +13293,13 @@
     "unknown": 0
   },
   "runmaestro/maestro": {
-    "answered": 4,
+    "answered": 3,
     "cache": {
-      "I_kwDOQbIy2M8AAAABa2rRaQ": {
-        "hours": 16.65888888888889,
-        "result": "answered"
-      },
       "I_kwDOQbIy2M8AAAABb4_Fsg": {
         "result": "unanswered"
       },
-      "I_kwDOQbIy2M8AAAABbZ98Cg": {
-        "hours": 0.2086111111111111,
-        "result": "answered"
+      "I_kwDOQbIy2M8AAAABbdoK7g": {
+        "result": "unanswered"
       },
       "I_kwDOQbIy2M8AAAABcELtQQ": {
         "hours": 0.8927777777777778,
@@ -13284,22 +13311,26 @@
       },
       "I_kwDOQbIy2M8AAAABgHAfiw": {
         "result": "unanswered"
+      },
+      "I_kwDOQbIy2M8AAAABgg6c-w": {
+        "hours": 0.4861111111111111,
+        "result": "answered"
       }
     },
-    "closed": 588,
-    "completion_days": 8.7,
-    "date": "2026-11-25",
+    "closed": 589,
+    "completion_days": 6.2,
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 45,
+    "open": 48,
     "outcomes": {
       "COMPLETED": 4,
-      "DUPLICATE": 1,
-      "NOT_PLANNED": 1,
+      "DUPLICATE": 0,
+      "NOT_PLANNED": 2,
       "UNSPECIFIED": 0
     },
-    "reply_hours": 8.8,
+    "reply_hours": 0.9,
     "sampled": 6,
-    "unanswered": 2,
+    "unanswered": 3,
     "unknown": 0
   },
   "rustykuntz/clideck": {
@@ -13311,7 +13342,7 @@
     },
     "closed": 16,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 2,
     "outcomes": {
@@ -13326,27 +13357,17 @@
     "unknown": 0
   },
   "ruvnet/ruflo": {
-    "answered": 1,
+    "answered": 0,
     "cache": {
-      "I_kwDOO07yic8AAAABf1R4gA": {
-        "result": "unanswered"
-      },
-      "I_kwDOO07yic8AAAABfyIA1w": {
-        "result": "unanswered"
-      },
-      "I_kwDOO07yic8AAAABfzeaqQ": {
-        "hours": 19.251666666666665,
-        "result": "answered"
-      },
-      "I_kwDOO07yic8AAAABgHWZyQ": {
+      "I_kwDOO07yic8AAAABg3TZZQ": {
         "result": "unanswered"
       }
     },
-    "closed": 1956,
-    "completion_days": 5.1,
-    "date": "2026-11-25",
+    "closed": 1968,
+    "completion_days": 2.0,
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 289,
+    "open": 290,
     "outcomes": {
       "COMPLETED": 6,
       "DUPLICATE": 0,
@@ -13354,8 +13375,8 @@
       "UNSPECIFIED": 0
     },
     "reply_hours": null,
-    "sampled": 4,
-    "unanswered": 3,
+    "sampled": 1,
+    "unanswered": 1,
     "unknown": 0
   },
   "rxdt/loopgate_harness": {
@@ -13363,7 +13384,7 @@
     "cache": {},
     "closed": 21,
     "completion_days": 16.9,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 13,
     "outcomes": {
@@ -13382,7 +13403,7 @@
     "cache": {},
     "closed": 31,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 3,
     "outcomes": {
@@ -13405,7 +13426,7 @@
     },
     "closed": 41,
     "completion_days": 71.8,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 7,
     "outcomes": {
@@ -13422,30 +13443,30 @@
   "sageox/ox": {
     "answered": 0,
     "cache": {
-      "I_kwDORPA_Dc8AAAABcD5L-w": {
-        "result": "unanswered"
-      },
       "I_kwDORPA_Dc8AAAABdYDFAw": {
         "result": "unanswered"
       },
       "I_kwDORPA_Dc8AAAABdg5yFQ": {
         "result": "unanswered"
       },
-      "I_kwDORPA_Dc8AAAABeVbFyw": {
+      "I_kwDORPA_Dc8AAAABeVbIOg": {
         "result": "unanswered"
       },
       "I_kwDORPA_Dc8AAAABfOSFbg": {
         "result": "unanswered"
       },
-      "I_kwDORPA_Dc8AAAABgLmyoA": {
+      "I_kwDORPA_Dc8AAAABg6vEBA": {
+        "result": "unanswered"
+      },
+      "I_kwDORPA_Dc8AAAABgdWtPA": {
         "result": "unanswered"
       }
     },
     "closed": 287,
     "completion_days": 25.2,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 163,
+    "open": 166,
     "outcomes": {
       "COMPLETED": 6,
       "DUPLICATE": 0,
@@ -13469,7 +13490,7 @@
     },
     "closed": 1,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 2,
     "outcomes": {
@@ -13492,7 +13513,7 @@
     },
     "closed": 4,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 1,
     "outcomes": {
@@ -13515,7 +13536,7 @@
     },
     "closed": 11,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 10,
     "outcomes": {
@@ -13530,16 +13551,11 @@
     "unknown": 0
   },
   "saltbo/agent-kanban": {
-    "answered": 1,
-    "cache": {
-      "I_kwDORsesVs8AAAABOsRXXQ": {
-        "hours": 58.665,
-        "result": "answered"
-      }
-    },
+    "answered": 0,
+    "cache": {},
     "closed": 43,
     "completion_days": 38.2,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 13,
     "outcomes": {
@@ -13549,17 +13565,13 @@
       "UNSPECIFIED": 0
     },
     "reply_hours": null,
-    "sampled": 1,
+    "sampled": 0,
     "unanswered": 0,
     "unknown": 0
   },
   "sandbox-quantum/switch": {
-    "answered": 3,
+    "answered": 2,
     "cache": {
-      "I_kwDOTaRKMM8AAAABdcDgYA": {
-        "hours": 98.33805555555556,
-        "result": "answered"
-      },
       "I_kwDOTaRKMM8AAAABdcF6ig": {
         "hours": 29.515555555555554,
         "result": "answered"
@@ -13576,22 +13588,25 @@
       },
       "I_kwDOTaRKMM8AAAABgNxxHA": {
         "result": "unanswered"
+      },
+      "I_kwDOTaRKMM8AAAABhC4HHg": {
+        "result": "unanswered"
       }
     },
-    "closed": 103,
-    "completion_days": 30.8,
-    "date": "2026-11-25",
+    "closed": 104,
+    "completion_days": 30.5,
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 129,
+    "open": 130,
     "outcomes": {
       "COMPLETED": 6,
       "DUPLICATE": 0,
       "NOT_PLANNED": 0,
       "UNSPECIFIED": 0
     },
-    "reply_hours": 98.3,
+    "reply_hours": null,
     "sampled": 6,
-    "unanswered": 3,
+    "unanswered": 4,
     "unknown": 0
   },
   "sandydasari/openacme": {
@@ -13599,7 +13614,7 @@
     "cache": {},
     "closed": 0,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 0,
     "outcomes": {
@@ -13618,7 +13633,7 @@
     "cache": {},
     "closed": 1,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 28,
     "outcomes": {
@@ -13658,9 +13673,9 @@
     },
     "closed": 4,
     "completion_days": 1.4,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 7,
+    "open": 8,
     "outcomes": {
       "COMPLETED": 4,
       "DUPLICATE": 0,
@@ -13677,7 +13692,7 @@
     "cache": {},
     "closed": 4,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 2,
     "outcomes": {
@@ -13693,10 +13708,17 @@
   },
   "scgopi/graphcode": {
     "answered": 0,
-    "cache": {},
+    "cache": {
+      "I_kwDOTjqmPs8AAAABgh9VRA": {
+        "result": "unanswered"
+      },
+      "I_kwDOTjqmPs8AAAABgh9WkA": {
+        "result": "unanswered"
+      }
+    },
     "closed": 141,
     "completion_days": 0.6,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 127,
     "outcomes": {
@@ -13706,8 +13728,8 @@
       "UNSPECIFIED": 0
     },
     "reply_hours": null,
-    "sampled": 0,
-    "unanswered": 0,
+    "sampled": 2,
+    "unanswered": 2,
     "unknown": 0
   },
   "scion-frontiers/farmtable": {
@@ -13734,7 +13756,7 @@
     },
     "closed": 5,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 101,
     "outcomes": {
@@ -13768,7 +13790,7 @@
     "unknown": 0
   },
   "seemseam/claude_codex_bridge": {
-    "answered": 5,
+    "answered": 4,
     "cache": {
       "I_kwDOQI_BRM8AAAABOzF0Yw": {
         "result": "unanswered"
@@ -13781,22 +13803,21 @@
         "hours": 110.02777777777777,
         "result": "answered"
       },
-      "I_kwDOQI_BRM8AAAABSRvSBQ": {
-        "hours": 3.164722222222222,
+      "I_kwDOQI_BRM8AAAABSyg4jw": {
+        "hours": 68.25805555555556,
         "result": "answered"
       },
-      "I_kwDOQI_BRM8AAAABXRoCZQ": {
-        "hours": 8.290555555555555,
+      "I_kwDOQI_BRM8AAAABbaCI6Q": {
+        "hours": 39.45111111111111,
         "result": "answered"
       },
-      "I_kwDOQI_BRM8AAAABbaEDnA": {
-        "hours": 39.385555555555555,
-        "result": "answered"
+      "I_kwDOQI_BRM8AAAABg9EkgQ": {
+        "result": "unanswered"
       }
     },
     "closed": 70,
     "completion_days": 55.9,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 72,
     "outcomes": {
@@ -13805,9 +13826,9 @@
       "NOT_PLANNED": 1,
       "UNSPECIFIED": 0
     },
-    "reply_hours": 39.4,
+    "reply_hours": 65.0,
     "sampled": 6,
-    "unanswered": 1,
+    "unanswered": 2,
     "unknown": 0
   },
   "sentient-agi/roma": {
@@ -13822,7 +13843,7 @@
     },
     "closed": 41,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 14,
     "outcomes": {
@@ -13841,7 +13862,7 @@
     "cache": {},
     "closed": 0,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 0,
     "outcomes": {
@@ -13878,14 +13899,14 @@
       }
     },
     "closed": 38,
-    "completion_days": 1.0,
-    "date": "2026-11-25",
+    "completion_days": 1.6,
+    "date": "2026-11-27",
     "enabled": true,
     "open": 15,
     "outcomes": {
-      "COMPLETED": 6,
+      "COMPLETED": 5,
       "DUPLICATE": 0,
-      "NOT_PLANNED": 0,
+      "NOT_PLANNED": 1,
       "UNSPECIFIED": 0
     },
     "reply_hours": null,
@@ -13894,7 +13915,7 @@
     "unknown": 0
   },
   "sethgammon/citadel": {
-    "answered": 4,
+    "answered": 5,
     "cache": {
       "I_kwDORr69OM8AAAABP5dRTQ": {
         "result": "unanswered"
@@ -13907,21 +13928,22 @@
         "hours": 1.8644444444444443,
         "result": "answered"
       },
-      "I_kwDORr69OM8AAAABSe2L5A": {
-        "hours": 14.382222222222222,
+      "I_kwDORr69OM8AAAABSe5GzQ": {
+        "hours": 14.25388888888889,
         "result": "answered"
       },
-      "I_kwDORr69OM8AAAABShgNFA": {
-        "hours": 8.706944444444444,
+      "I_kwDORr69OM8AAAABSniTug": {
+        "hours": 2.611666666666667,
         "result": "answered"
       },
-      "I_kwDORr69OM8AAAABYLiX0A": {
-        "result": "unanswered"
+      "I_kwDORr69OM8AAAABgm85kA": {
+        "hours": 19.740277777777777,
+        "result": "answered"
       }
     },
     "closed": 42,
     "completion_days": 0.1,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 1,
     "outcomes": {
@@ -13930,9 +13952,9 @@
       "NOT_PLANNED": 0,
       "UNSPECIFIED": 0
     },
-    "reply_hours": 9.3,
+    "reply_hours": 10.0,
     "sampled": 6,
-    "unanswered": 2,
+    "unanswered": 1,
     "unknown": 0
   },
   "shinpr/sub-agents-skills": {
@@ -13940,7 +13962,7 @@
     "cache": {},
     "closed": 3,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 0,
     "outcomes": {
@@ -13959,7 +13981,7 @@
     "cache": {},
     "closed": 10,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 0,
     "outcomes": {
@@ -14003,7 +14025,7 @@
     },
     "closed": 60,
     "completion_days": 37.6,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 16,
     "outcomes": {
@@ -14022,7 +14044,7 @@
     "cache": {},
     "closed": 0,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 6,
     "outcomes": {
@@ -14037,45 +14059,44 @@
     "unknown": 0
   },
   "simion/termic": {
-    "answered": 4,
+    "answered": 3,
     "cache": {
-      "I_kwDOSfkqGs8AAAABUYoY7Q": {
-        "hours": 128.92777777777778,
-        "result": "answered"
-      },
-      "I_kwDOSfkqGs8AAAABVkJAIw": {
+      "I_kwDOSfkqGs8AAAABVDZd4Q": {
         "result": "unanswered"
       },
-      "I_kwDOSfkqGs8AAAABX8SHDA": {
-        "hours": 0.3883333333333333,
-        "result": "answered"
-      },
-      "I_kwDOSfkqGs8AAAABZ5lNrA": {
-        "hours": 51.44611111111111,
-        "result": "answered"
-      },
-      "I_kwDOSfkqGs8AAAABbOETAQ": {
+      "I_kwDOSfkqGs8AAAABVu4dMw": {
         "result": "unanswered"
       },
-      "I_kwDOSfkqGs8AAAABf0dKoA": {
-        "hours": 12.109166666666667,
+      "I_kwDOSfkqGs8AAAABZyFyUA": {
+        "hours": 29.139722222222222,
         "result": "answered"
+      },
+      "I_kwDOSfkqGs8AAAABacywHw": {
+        "hours": 13.991666666666667,
+        "result": "answered"
+      },
+      "I_kwDOSfkqGs8AAAABcV6D6Q": {
+        "hours": 9.415,
+        "result": "answered"
+      },
+      "I_kwDOSfkqGs8AAAABgt3-pQ": {
+        "result": "unanswered"
       }
     },
-    "closed": 199,
-    "completion_days": 18.5,
-    "date": "2026-11-25",
+    "closed": 202,
+    "completion_days": 5.6,
+    "date": "2026-11-27",
     "enabled": true,
     "open": 11,
     "outcomes": {
-      "COMPLETED": 5,
+      "COMPLETED": 6,
       "DUPLICATE": 0,
-      "NOT_PLANNED": 1,
+      "NOT_PLANNED": 0,
       "UNSPECIFIED": 0
     },
-    "reply_hours": 31.8,
+    "reply_hours": 14.0,
     "sampled": 6,
-    "unanswered": 2,
+    "unanswered": 3,
     "unknown": 0
   },
   "sipeed/picoclaw": {
@@ -14102,7 +14123,7 @@
     },
     "closed": 903,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 18,
     "outcomes": {
@@ -14119,11 +14140,11 @@
   "sipyourdrink-ltd/bernstein": {
     "answered": 0,
     "cache": {},
-    "closed": 2701,
-    "completion_days": 1.6,
-    "date": "2026-11-25",
+    "closed": 2717,
+    "completion_days": 8.6,
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 104,
+    "open": 100,
     "outcomes": {
       "COMPLETED": 6,
       "DUPLICATE": 0,
@@ -14151,7 +14172,7 @@
     },
     "closed": 116,
     "completion_days": 46.6,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 11,
     "outcomes": {
@@ -14168,34 +14189,34 @@
   "slopus/happy": {
     "answered": 0,
     "cache": {
-      "I_kwDOPOjixc8AAAABbGR7-w": {
-        "result": "unanswered"
-      },
       "I_kwDOPOjixc8AAAABboqhfw": {
         "result": "unanswered"
       },
-      "I_kwDOPOjixc8AAAABcF5JKg": {
+      "I_kwDOPOjixc8AAAABcPC3MQ": {
         "result": "unanswered"
       },
-      "I_kwDOPOjixc8AAAABdPXmHw": {
+      "I_kwDOPOjixc8AAAABdc39cQ": {
         "result": "unanswered"
       },
-      "I_kwDOPOjixc8AAAABeVH36g": {
+      "I_kwDOPOjixc8AAAABepkqug": {
         "result": "unanswered"
       },
-      "I_kwDOPOjixc8AAAABfNgOoA": {
+      "I_kwDOPOjixc8AAAABglVIXw": {
+        "result": "unanswered"
+      },
+      "I_kwDOPOjixc8AAAABgmygsw": {
         "result": "unanswered"
       }
     },
-    "closed": 396,
-    "completion_days": 3.9,
-    "date": "2026-11-25",
+    "closed": 405,
+    "completion_days": 103.8,
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 691,
+    "open": 686,
     "outcomes": {
-      "COMPLETED": 6,
+      "COMPLETED": 5,
       "DUPLICATE": 0,
-      "NOT_PLANNED": 0,
+      "NOT_PLANNED": 1,
       "UNSPECIFIED": 0
     },
     "reply_hours": null,
@@ -14233,7 +14254,7 @@
     },
     "closed": 51,
     "completion_days": 0.0,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 1,
     "outcomes": {
@@ -14264,7 +14285,7 @@
     },
     "closed": 6,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 1,
     "outcomes": {
@@ -14279,69 +14300,65 @@
     "unknown": 0
   },
   "smixs/iva-agent": {
-    "answered": 2,
+    "answered": 1,
     "cache": {
-      "I_kwDOS-Al188AAAABZo1mvw": {
-        "hours": 38.06583333333333,
+      "I_kwDOS-Al188AAAABZyCjnw": {
+        "result": "unanswered"
+      },
+      "I_kwDOS-Al188AAAABabzJvA": {
+        "result": "unanswered"
+      },
+      "I_kwDOS-Al188AAAABbdcOrw": {
+        "result": "unanswered"
+      },
+      "I_kwDOS-Al188AAAABd-PREQ": {
+        "hours": 113.55805555555555,
         "result": "answered"
       },
-      "I_kwDOS-Al188AAAABa21Ung": {
+      "I_kwDOS-Al188AAAABgNPZSQ": {
         "result": "unanswered"
       },
-      "I_kwDOS-Al188AAAABaPMqSw": {
-        "result": "unanswered"
-      },
-      "I_kwDOS-Al188AAAABcOMPvw": {
-        "result": "unanswered"
-      },
-      "I_kwDOS-Al188AAAABePxLRQ": {
-        "hours": 92.95527777777778,
-        "result": "answered"
-      },
-      "I_kwDOS-Al188AAAABgVNPCQ": {
+      "I_kwDOS-Al188AAAABhDJ9Vg": {
         "result": "unanswered"
       }
     },
-    "closed": 139,
-    "completion_days": 1.6,
-    "date": "2026-11-25",
+    "closed": 140,
+    "completion_days": 9.8,
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 39,
+    "open": 40,
     "outcomes": {
-      "COMPLETED": 3,
+      "COMPLETED": 4,
       "DUPLICATE": 0,
-      "NOT_PLANNED": 3,
+      "NOT_PLANNED": 2,
       "UNSPECIFIED": 0
     },
     "reply_hours": null,
     "sampled": 6,
-    "unanswered": 4,
+    "unanswered": 5,
     "unknown": 0
   },
   "smtg-ai/claude-squad": {
     "answered": 0,
     "cache": {
-      "I_kwDOOFzJwc8AAAABOmnf5w": {
-        "result": "unanswered"
-      },
       "I_kwDOOFzJwc8AAAABa1_lCA": {
         "result": "unanswered"
       }
     },
-    "closed": 119,
+    "closed": 121,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 15,
+    "open": 13,
     "outcomes": {
       "COMPLETED": 0,
       "DUPLICATE": 0,
-      "NOT_PLANNED": 5,
+      "NOT_PLANNED": 6,
       "UNSPECIFIED": 0
     },
     "reply_hours": null,
-    "sampled": 2,
-    "unanswered": 2,
+    "sampled": 1,
+    "unanswered": 1,
     "unknown": 0
   },
   "snarktank/antfarm": {
@@ -14349,7 +14366,7 @@
     "cache": {},
     "closed": 85,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 44,
     "outcomes": {
@@ -14368,7 +14385,7 @@
     "cache": {},
     "closed": 0,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 0,
     "outcomes": {
@@ -14391,7 +14408,7 @@
     },
     "closed": 15,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 35,
     "outcomes": {
@@ -14408,30 +14425,30 @@
   "sno-ai/sno-station": {
     "answered": 0,
     "cache": {
-      "I_kwDOUhDkBM8AAAABe0Wbdw": {
+      "I_kwDOUhDkBM8AAAABe0Wcuw": {
         "result": "unanswered"
       },
-      "I_kwDOUhDkBM8AAAABe0Wf0A": {
+      "I_kwDOUhDkBM8AAAABe0Wh3Q": {
         "result": "unanswered"
       },
-      "I_kwDOUhDkBM8AAAABf6-qBQ": {
+      "I_kwDOUhDkBM8AAAABf6-oJA": {
         "result": "unanswered"
       },
-      "I_kwDOUhDkBM8AAAABfuhBjA": {
+      "I_kwDOUhDkBM8AAAABg6f5-Q": {
         "result": "unanswered"
       },
       "I_kwDOUhDkBM8AAAABgNy5Dg": {
         "result": "unanswered"
       },
-      "I_kwDOUhDkBM8AAAABgSh0Jg": {
+      "I_kwDOUhDkBM8AAAABhCqUMw": {
         "result": "unanswered"
       }
     },
     "closed": 37,
     "completion_days": 0.8,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 7,
+    "open": 8,
     "outcomes": {
       "COMPLETED": 6,
       "DUPLICATE": 0,
@@ -14446,34 +14463,34 @@
   "solutionscay/skiff": {
     "answered": 0,
     "cache": {
-      "I_kwDOUxUx2s8AAAABcbh-Kw": {
-        "result": "unanswered"
-      },
-      "I_kwDOUxUx2s8AAAABdGOgHg": {
+      "I_kwDOUxUx2s8AAAABcmDOJg": {
         "result": "unanswered"
       },
       "I_kwDOUxUx2s8AAAABdHJhbQ": {
         "result": "unanswered"
       },
-      "I_kwDOUxUx2s8AAAABeA4JPQ": {
-        "result": "unanswered"
-      },
-      "I_kwDOUxUx2s8AAAABf42QlQ": {
+      "I_kwDOUxUx2s8AAAABeXYDHw": {
         "result": "unanswered"
       },
       "I_kwDOUxUx2s8AAAABgKAIDQ": {
         "result": "unanswered"
+      },
+      "I_kwDOUxUx2s8AAAABhA1A2A": {
+        "result": "unanswered"
+      },
+      "I_kwDOUxUx2s8AAAABhA1GLw": {
+        "result": "unanswered"
       }
     },
-    "closed": 245,
-    "completion_days": 1.6,
-    "date": "2026-11-25",
+    "closed": 247,
+    "completion_days": 0.1,
+    "date": "2026-11-27",
     "enabled": true,
     "open": 7,
     "outcomes": {
-      "COMPLETED": 4,
+      "COMPLETED": 3,
       "DUPLICATE": 0,
-      "NOT_PLANNED": 2,
+      "NOT_PLANNED": 3,
       "UNSPECIFIED": 0
     },
     "reply_hours": null,
@@ -14482,7 +14499,7 @@
     "unknown": 0
   },
   "sortie-ai/sortie": {
-    "answered": 2,
+    "answered": 1,
     "cache": {
       "I_kwDORpXKYc8AAAABcckPcw": {
         "result": "unanswered"
@@ -14491,25 +14508,24 @@
         "hours": 121.88888888888889,
         "result": "answered"
       },
-      "I_kwDORpXKYc8AAAABcv4t6w": {
-        "hours": 122.11027777777778,
-        "result": "answered"
-      },
-      "I_kwDORpXKYc8AAAABen0pLA": {
+      "I_kwDORpXKYc8AAAABeKgCqg": {
         "result": "unanswered"
       },
       "I_kwDORpXKYc8AAAABfvULxQ": {
         "result": "unanswered"
       },
-      "I_kwDORpXKYc8AAAABgEzdmQ": {
+      "I_kwDORpXKYc8AAAABg6pFsA": {
+        "result": "unanswered"
+      },
+      "I_kwDORpXKYc8AAAABgi_HgQ": {
         "result": "unanswered"
       }
     },
-    "closed": 806,
-    "completion_days": 2.3,
-    "date": "2026-11-25",
+    "closed": 810,
+    "completion_days": 4.9,
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 74,
+    "open": 70,
     "outcomes": {
       "COMPLETED": 6,
       "DUPLICATE": 0,
@@ -14518,7 +14534,7 @@
     },
     "reply_hours": null,
     "sampled": 6,
-    "unanswered": 4,
+    "unanswered": 5,
     "unknown": 0
   },
   "souravberaakaspeed/xiryn": {
@@ -14545,7 +14561,7 @@
     },
     "closed": 20,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 2,
     "outcomes": {
@@ -14560,44 +14576,28 @@
     "unknown": 0
   },
   "spacering-net/codeg": {
-    "answered": 4,
+    "answered": 0,
     "cache": {
-      "I_kwDORL--lM8AAAABf-F52A": {
-        "hours": 148.13833333333332,
-        "result": "answered"
-      },
-      "I_kwDORL--lM8AAAABf6uusg": {
+      "I_kwDORL--lM8AAAABg7NYTQ": {
         "result": "unanswered"
       },
-      "I_kwDORL--lM8AAAABgPYrBA": {
+      "I_kwDORL--lM8AAAABg9sU9A": {
         "result": "unanswered"
-      },
-      "I_kwDORL--lM8AAAABgQvGVg": {
-        "hours": 3.4966666666666666,
-        "result": "answered"
-      },
-      "I_kwDORL--lM8AAAABgSUvxg": {
-        "hours": 1.5369444444444444,
-        "result": "answered"
-      },
-      "I_kwDORL--lM8AAAABgWtYdA": {
-        "hours": 3.875277777777778,
-        "result": "answered"
       }
     },
     "closed": 474,
-    "completion_days": 0.4,
-    "date": "2026-11-25",
+    "completion_days": 0.5,
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 231,
+    "open": 241,
     "outcomes": {
       "COMPLETED": 6,
       "DUPLICATE": 0,
       "NOT_PLANNED": 0,
       "UNSPECIFIED": 0
     },
-    "reply_hours": 3.7,
-    "sampled": 6,
+    "reply_hours": null,
+    "sampled": 2,
     "unanswered": 2,
     "unknown": 0
   },
@@ -14625,7 +14625,7 @@
     },
     "closed": 41,
     "completion_days": 2.2,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 0,
     "outcomes": {
@@ -14644,7 +14644,7 @@
     "cache": {},
     "closed": 0,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 0,
     "outcomes": {
@@ -14686,11 +14686,11 @@
         "result": "answered"
       }
     },
-    "closed": 11,
-    "completion_days": 0.5,
-    "date": "2026-11-25",
+    "closed": 21,
+    "completion_days": 0.8,
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 8,
+    "open": 6,
     "outcomes": {
       "COMPLETED": 6,
       "DUPLICATE": 0,
@@ -14727,7 +14727,7 @@
     },
     "closed": 80,
     "completion_days": 15.2,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 3,
     "outcomes": {
@@ -14744,11 +14744,11 @@
   "stablyai/orca": {
     "answered": 0,
     "cache": {},
-    "closed": 7617,
-    "completion_days": 0.0,
-    "date": "2026-11-25",
+    "closed": 8136,
+    "completion_days": 0.1,
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 5633,
+    "open": 5851,
     "outcomes": {
       "COMPLETED": 6,
       "DUPLICATE": 0,
@@ -14784,7 +14784,7 @@
     },
     "closed": 266,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 14,
     "outcomes": {
@@ -14807,7 +14807,7 @@
     },
     "closed": 31,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 23,
     "outcomes": {
@@ -14826,7 +14826,7 @@
     "cache": {},
     "closed": 97,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 4,
     "outcomes": {
@@ -14845,9 +14845,9 @@
     "cache": {},
     "closed": 510,
     "completion_days": 0.2,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 44,
+    "open": 45,
     "outcomes": {
       "COMPLETED": 5,
       "DUPLICATE": 0,
@@ -14864,7 +14864,7 @@
     "cache": {},
     "closed": 108,
     "completion_days": 0.6,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 132,
     "outcomes": {
@@ -14896,7 +14896,7 @@
     },
     "closed": 42,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 27,
     "outcomes": {
@@ -14915,9 +14915,9 @@
     "cache": {},
     "closed": 1364,
     "completion_days": 14.1,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 790,
+    "open": 795,
     "outcomes": {
       "COMPLETED": 4,
       "DUPLICATE": 1,
@@ -14934,7 +14934,7 @@
     "cache": {},
     "closed": 78,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 60,
     "outcomes": {
@@ -14959,8 +14959,8 @@
       }
     },
     "closed": 152,
-    "completion_days": 29.1,
-    "date": "2026-11-25",
+    "completion_days": 31.4,
+    "date": "2026-11-27",
     "enabled": true,
     "open": 31,
     "outcomes": {
@@ -14979,7 +14979,7 @@
     "cache": {},
     "closed": 4,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 10,
     "outcomes": {
@@ -14994,34 +14994,33 @@
     "unknown": 0
   },
   "supabitapp/supacode": {
-    "answered": 2,
+    "answered": 1,
     "cache": {
       "I_kwDOQ-ZTKM8AAAABW7GN-A": {
         "result": "unanswered"
       },
-      "I_kwDOQ-ZTKM8AAAABXKAz_g": {
+      "I_kwDOQ-ZTKM8AAAABXgoLuA": {
         "result": "unanswered"
       },
       "I_kwDOQ-ZTKM8AAAABY2UmRg": {
         "hours": 52.4225,
         "result": "answered"
       },
-      "I_kwDOQ-ZTKM8AAAABaqi5EA": {
+      "I_kwDOQ-ZTKM8AAAABa-XWiw": {
         "result": "unanswered"
       },
       "I_kwDOQ-ZTKM8AAAABfG5EPg": {
         "result": "unanswered"
       },
-      "I_kwDOQ-ZTKM8AAAABgIdvAg": {
-        "hours": 7.972777777777778,
-        "result": "answered"
+      "I_kwDOQ-ZTKM8AAAABg-ujWw": {
+        "result": "unanswered"
       }
     },
     "closed": 375,
     "completion_days": 11.4,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 70,
+    "open": 71,
     "outcomes": {
       "COMPLETED": 5,
       "DUPLICATE": 0,
@@ -15030,17 +15029,17 @@
     },
     "reply_hours": null,
     "sampled": 6,
-    "unanswered": 4,
+    "unanswered": 5,
     "unknown": 0
   },
   "superplanehq/superplane": {
     "answered": 0,
     "cache": {},
-    "closed": 2713,
-    "completion_days": 0.9,
-    "date": "2026-11-25",
+    "closed": 2716,
+    "completion_days": 4.2,
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 206,
+    "open": 217,
     "outcomes": {
       "COMPLETED": 6,
       "DUPLICATE": 0,
@@ -15061,7 +15060,7 @@
     },
     "closed": 0,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 2,
     "outcomes": {
@@ -15099,7 +15098,7 @@
     },
     "closed": 1015,
     "completion_days": 0.2,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 21,
     "outcomes": {
@@ -15122,7 +15121,7 @@
     },
     "closed": 14,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 1,
     "outcomes": {
@@ -15160,7 +15159,7 @@
     },
     "closed": 22,
     "completion_days": 29.0,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 30,
     "outcomes": {
@@ -15198,7 +15197,7 @@
     },
     "closed": 75,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 15,
     "outcomes": {
@@ -15240,15 +15239,15 @@
         "result": "answered"
       }
     },
-    "closed": 126,
-    "completion_days": 72.2,
-    "date": "2026-11-25",
+    "closed": 127,
+    "completion_days": 47.9,
+    "date": "2026-11-27",
     "enabled": true,
     "open": 22,
     "outcomes": {
-      "COMPLETED": 4,
+      "COMPLETED": 5,
       "DUPLICATE": 0,
-      "NOT_PLANNED": 2,
+      "NOT_PLANNED": 1,
       "UNSPECIFIED": 0
     },
     "reply_hours": 13.4,
@@ -15274,7 +15273,7 @@
     },
     "closed": 16,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 3,
     "outcomes": {
@@ -15297,7 +15296,7 @@
     },
     "closed": 1,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 0,
     "outcomes": {
@@ -15333,9 +15332,9 @@
         "result": "unanswered"
       }
     },
-    "closed": 1606,
-    "completion_days": 0.6,
-    "date": "2026-11-25",
+    "closed": 1607,
+    "completion_days": 0.3,
+    "date": "2026-11-27",
     "enabled": true,
     "open": 162,
     "outcomes": {
@@ -15352,19 +15351,19 @@
   "team-commonly/commonly": {
     "answered": 0,
     "cache": {
-      "I_kwDONzZRh88AAAABXDzY-w": {
-        "result": "unanswered"
-      },
       "I_kwDONzZRh88AAAABXFzsJg": {
         "result": "unanswered"
       },
-      "I_kwDONzZRh88AAAABXiAB5g": {
+      "I_kwDONzZRh88AAAABXZQHFg": {
         "result": "unanswered"
       },
-      "I_kwDONzZRh88AAAABZO3AJw": {
+      "I_kwDONzZRh88AAAABZGZIaA": {
         "result": "unanswered"
       },
-      "I_kwDONzZRh88AAAABZUslCQ": {
+      "I_kwDONzZRh88AAAABZRuqhA": {
+        "result": "unanswered"
+      },
+      "I_kwDONzZRh88AAAABZVV7Jg": {
         "result": "unanswered"
       },
       "I_kwDONzZRh88AAAABe4dTuw": {
@@ -15373,9 +15372,9 @@
     },
     "closed": 150,
     "completion_days": 2.1,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 138,
+    "open": 144,
     "outcomes": {
       "COMPLETED": 6,
       "DUPLICATE": 0,
@@ -15392,7 +15391,7 @@
     "cache": {},
     "closed": 48,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 5,
     "outcomes": {
@@ -15430,7 +15429,7 @@
     },
     "closed": 40,
     "completion_days": 5.4,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 8,
     "outcomes": {
@@ -15463,11 +15462,14 @@
       },
       "I_kwDOTDlINM8AAAABeCoaBg": {
         "result": "unanswered"
+      },
+      "I_kwDOTDlINM8AAAABgt_JCg": {
+        "result": "unanswered"
       }
     },
     "closed": 35,
     "completion_days": 3.9,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 15,
     "outcomes": {
@@ -15477,18 +15479,18 @@
       "UNSPECIFIED": 0
     },
     "reply_hours": null,
-    "sampled": 5,
-    "unanswered": 3,
+    "sampled": 6,
+    "unanswered": 4,
     "unknown": 0
   },
   "tencent/loopforge": {
     "answered": 0,
     "cache": {},
-    "closed": 32,
-    "completion_days": 1.9,
-    "date": "2026-11-25",
+    "closed": 38,
+    "completion_days": 1.3,
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 125,
+    "open": 191,
     "outcomes": {
       "COMPLETED": 6,
       "DUPLICATE": 0,
@@ -15503,15 +15505,15 @@
   "tencentcloud/octop": {
     "answered": 0,
     "cache": {},
-    "closed": 784,
-    "completion_days": 20.3,
-    "date": "2026-11-25",
+    "closed": 785,
+    "completion_days": 7.9,
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 313,
+    "open": 328,
     "outcomes": {
-      "COMPLETED": 6,
+      "COMPLETED": 5,
       "DUPLICATE": 0,
-      "NOT_PLANNED": 0,
+      "NOT_PLANNED": 1,
       "UNSPECIFIED": 0
     },
     "reply_hours": null,
@@ -15546,7 +15548,7 @@
     },
     "closed": 89,
     "completion_days": 5.6,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 24,
     "outcomes": {
@@ -15565,7 +15567,7 @@
     "cache": {},
     "closed": 1,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 0,
     "outcomes": {
@@ -15584,7 +15586,7 @@
     "cache": {},
     "closed": 459,
     "completion_days": 0.5,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 126,
     "outcomes": {
@@ -15603,7 +15605,7 @@
     "cache": {},
     "closed": 26,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 6,
     "outcomes": {
@@ -15642,7 +15644,7 @@
     },
     "closed": 99,
     "completion_days": 237.9,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 13,
     "outcomes": {
@@ -15668,7 +15670,7 @@
     },
     "closed": 0,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 23,
     "outcomes": {
@@ -15685,34 +15687,34 @@
   "the-open-engine/zeroshot": {
     "answered": 0,
     "cache": {
-      "I_kwDOQu140M8AAAABf9zzvw": {
+      "I_kwDOQu140M8AAAABf-DQtg": {
         "result": "unanswered"
       },
-      "I_kwDOQu140M8AAAABfjWJMw": {
+      "I_kwDOQu140M8AAAABfnXM2w": {
         "result": "unanswered"
       },
-      "I_kwDOQu140M8AAAABfySeWw": {
+      "I_kwDOQu140M8AAAABfy1s9Q": {
         "result": "unanswered"
       },
-      "I_kwDOQu140M8AAAABgGoc1w": {
+      "I_kwDOQu140M8AAAABgIKH6A": {
         "result": "unanswered"
       },
-      "I_kwDOQu140M8AAAABgNgIYg": {
+      "I_kwDOQu140M8AAAABgNhKuQ": {
         "result": "unanswered"
       },
-      "I_kwDOQu140M8AAAABgNmFag": {
+      "I_kwDOQu140M8AAAABhCVRpg": {
         "result": "unanswered"
       }
     },
-    "closed": 532,
-    "completion_days": 3.4,
-    "date": "2026-11-25",
+    "closed": 533,
+    "completion_days": 5.4,
+    "date": "2026-11-27",
     "enabled": true,
     "open": 8,
     "outcomes": {
-      "COMPLETED": 5,
+      "COMPLETED": 6,
       "DUPLICATE": 0,
-      "NOT_PLANNED": 1,
+      "NOT_PLANNED": 0,
       "UNSPECIFIED": 0
     },
     "reply_hours": null,
@@ -15723,13 +15725,13 @@
   "the-swarm-corporation/swarms-rs": {
     "answered": 0,
     "cache": {
-      "I_kwDOMpyrgM8AAAABOjG5gw": {
+      "I_kwDOMpyrgM8AAAABUMw4eA": {
         "result": "unanswered"
       },
       "I_kwDOMpyrgM8AAAABUMxEsQ": {
         "result": "unanswered"
       },
-      "I_kwDOMpyrgM8AAAABUMxIBA": {
+      "I_kwDOMpyrgM8AAAABUMxJjg": {
         "result": "unanswered"
       },
       "I_kwDOMpyrgM8AAAABWipDkQ": {
@@ -15738,13 +15740,13 @@
       "I_kwDOMpyrgM8AAAABXgn0Ug": {
         "result": "unanswered"
       },
-      "I_kwDOMpyrgM8AAAABXgnvkg": {
+      "I_kwDOMpyrgM8AAAABXgnxWQ": {
         "result": "unanswered"
       }
     },
     "closed": 20,
     "completion_days": 236.6,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 19,
     "outcomes": {
@@ -15770,21 +15772,21 @@
       "I_kwDOTIZFgc8AAAABSFRuag": {
         "result": "unanswered"
       },
-      "I_kwDOTIZFgc8AAAABSVtXAA": {
+      "I_kwDOTIZFgc8AAAABSrWA2g": {
         "result": "unanswered"
       },
-      "I_kwDOTIZFgc8AAAABWk7WpQ": {
+      "I_kwDOTIZFgc8AAAABYHZvKA": {
         "result": "unanswered"
       },
-      "I_kwDOTIZFgc8AAAABbEVCHQ": {
+      "I_kwDOTIZFgc8AAAABguRQXw": {
         "result": "unanswered"
       }
     },
     "closed": 14,
     "completion_days": 34.5,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 26,
+    "open": 27,
     "outcomes": {
       "COMPLETED": 6,
       "DUPLICATE": 0,
@@ -15824,9 +15826,9 @@
         "result": "answered"
       }
     },
-    "closed": 57,
-    "completion_days": 0.7,
-    "date": "2026-11-25",
+    "closed": 58,
+    "completion_days": 0.2,
+    "date": "2026-11-27",
     "enabled": true,
     "open": 0,
     "outcomes": {
@@ -15843,34 +15845,34 @@
   "thurbeen/thurbox": {
     "answered": 0,
     "cache": {
-      "I_kwDORO0tS88AAAABgIi8ig": {
-        "result": "unanswered"
-      },
-      "I_kwDORO0tS88AAAABgIi_tw": {
+      "I_kwDORO0tS88AAAABgIi-Gw": {
         "result": "unanswered"
       },
       "I_kwDORO0tS88AAAABgIjDKQ": {
         "result": "unanswered"
       },
-      "I_kwDORO0tS88AAAABgIjE3A": {
-        "result": "unanswered"
-      },
-      "I_kwDORO0tS88AAAABgIjlrA": {
+      "I_kwDORO0tS88AAAABgIjGdQ": {
         "result": "unanswered"
       },
       "I_kwDORO0tS88AAAABgWihLA": {
         "result": "unanswered"
+      },
+      "I_kwDORO0tS88AAAABgcMo5g": {
+        "result": "unanswered"
+      },
+      "I_kwDORO0tS88AAAABgo2IbA": {
+        "result": "unanswered"
       }
     },
-    "closed": 196,
-    "completion_days": 0.7,
-    "date": "2026-11-25",
+    "closed": 197,
+    "completion_days": 0.3,
+    "date": "2026-11-27",
     "enabled": true,
     "open": 7,
     "outcomes": {
-      "COMPLETED": 6,
+      "COMPLETED": 5,
       "DUPLICATE": 0,
-      "NOT_PLANNED": 0,
+      "NOT_PLANNED": 1,
       "UNSPECIFIED": 0
     },
     "reply_hours": null,
@@ -15883,7 +15885,7 @@
     "cache": {},
     "closed": 35,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 0,
     "outcomes": {
@@ -15904,26 +15906,26 @@
         "hours": 160.83583333333334,
         "result": "answered"
       },
-      "I_kwDORfCCWc8AAAABbvluyg": {
+      "I_kwDORfCCWc8AAAABbww9Tw": {
         "result": "unanswered"
       },
-      "I_kwDORfCCWc8AAAABcuOXHg": {
+      "I_kwDORfCCWc8AAAABcx60tg": {
         "result": "unanswered"
       },
-      "I_kwDORfCCWc8AAAABd9usYw": {
+      "I_kwDORfCCWc8AAAABd-magQ": {
         "result": "unanswered"
       },
-      "I_kwDORfCCWc8AAAABf5eD9A": {
-        "hours": 16.0,
+      "I_kwDORfCCWc8AAAABfkLDKw": {
+        "result": "unanswered"
+      },
+      "I_kwDORfCCWc8AAAABguRmzQ": {
+        "hours": 20.825833333333332,
         "result": "answered"
-      },
-      "I_kwDORfCCWc8AAAABfaQ03g": {
-        "result": "unanswered"
       }
     },
     "closed": 142,
     "completion_days": 13.4,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 59,
     "outcomes": {
@@ -15942,7 +15944,7 @@
     "cache": {},
     "closed": 46,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 46,
     "outcomes": {
@@ -15980,11 +15982,11 @@
         "result": "unanswered"
       }
     },
-    "closed": 2726,
-    "completion_days": 53.8,
-    "date": "2026-11-25",
+    "closed": 2727,
+    "completion_days": 53.5,
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 274,
+    "open": 272,
     "outcomes": {
       "COMPLETED": 4,
       "DUPLICATE": 0,
@@ -16001,7 +16003,7 @@
     "cache": {},
     "closed": 37,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 3,
     "outcomes": {
@@ -16024,7 +16026,7 @@
     },
     "closed": 5,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 9,
     "outcomes": {
@@ -16043,7 +16045,7 @@
     "cache": {},
     "closed": 13,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 7,
     "outcomes": {
@@ -16062,13 +16064,13 @@
     "cache": {},
     "closed": 7,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 0,
     "outcomes": {
       "COMPLETED": 0,
       "DUPLICATE": 0,
-      "NOT_PLANNED": 1,
+      "NOT_PLANNED": 0,
       "UNSPECIFIED": 0
     },
     "reply_hours": null,
@@ -16079,31 +16081,31 @@
   "traycerai/traycer": {
     "answered": 1,
     "cache": {
-      "I_kwDOL6Tbrc8AAAABb04RdQ": {
+      "I_kwDOL6Tbrc8AAAABbaIWag": {
         "result": "unanswered"
       },
-      "I_kwDOL6Tbrc8AAAABbOQ0lQ": {
+      "I_kwDOL6Tbrc8AAAABcR0Axg": {
         "result": "unanswered"
       },
-      "I_kwDOL6Tbrc8AAAABda8a6g": {
-        "hours": 0.15777777777777777,
+      "I_kwDOL6Tbrc8AAAABdbyzuA": {
+        "hours": 0.06194444444444445,
         "result": "answered"
       },
-      "I_kwDOL6Tbrc8AAAABdmuYmg": {
+      "I_kwDOL6Tbrc8AAAABeVElKA": {
         "result": "unanswered"
       },
-      "I_kwDOL6Tbrc8AAAABeoTJtA": {
+      "I_kwDOL6Tbrc8AAAABfY6EhA": {
         "result": "unanswered"
       },
-      "I_kwDOL6Tbrc8AAAABgBiXDQ": {
+      "I_kwDOL6Tbrc8AAAABgwHuJw": {
         "result": "unanswered"
       }
     },
     "closed": 531,
     "completion_days": 16.5,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 77,
+    "open": 79,
     "outcomes": {
       "COMPLETED": 5,
       "DUPLICATE": 0,
@@ -16139,7 +16141,7 @@
     },
     "closed": 13,
     "completion_days": 60.4,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 21,
     "outcomes": {
@@ -16158,7 +16160,7 @@
     "cache": {},
     "closed": 0,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 0,
     "outcomes": {
@@ -16181,7 +16183,7 @@
     },
     "closed": 8,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 8,
     "outcomes": {
@@ -16196,56 +16198,53 @@
     "unknown": 0
   },
   "umputun/agterm": {
-    "answered": 4,
+    "answered": 5,
     "cache": {
-      "I_kwDOTBHZZ88AAAABbnzA7Q": {
-        "hours": 1.9372222222222222,
-        "result": "answered"
-      },
-      "I_kwDOTBHZZ88AAAABdM6C3A": {
+      "I_kwDOTBHZZ88AAAABbpwjxg": {
         "result": "unanswered"
       },
-      "I_kwDOTBHZZ88AAAABejGM0w": {
-        "hours": 9.740277777777777,
+      "I_kwDOTBHZZ88AAAABdNPRuw": {
+        "hours": 1.0555555555555556,
         "result": "answered"
       },
-      "I_kwDOTBHZZ88AAAABfdEXjg": {
-        "hours": 2.730277777777778,
+      "I_kwDOTBHZZ88AAAABfDevRw": {
+        "hours": 0.6797222222222222,
         "result": "answered"
       },
-      "I_kwDOTBHZZ88AAAABfq5NHA": {
-        "result": "unanswered"
+      "I_kwDOTBHZZ88AAAABffT5jQ": {
+        "hours": 4.298055555555556,
+        "result": "answered"
       },
-      "I_kwDOTBHZZ88AAAABgUdX7A": {
-        "hours": 0.6711111111111111,
+      "I_kwDOTBHZZ88AAAABgOxiDQ": {
+        "hours": 2.233888888888889,
+        "result": "answered"
+      },
+      "I_kwDOTBHZZ88AAAABgudg6w": {
+        "hours": 3.9363888888888887,
         "result": "answered"
       }
     },
     "closed": 205,
     "completion_days": 0.2,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 2,
+    "open": 3,
     "outcomes": {
       "COMPLETED": 4,
       "DUPLICATE": 1,
       "NOT_PLANNED": 1,
       "UNSPECIFIED": 0
     },
-    "reply_hours": 2.3,
+    "reply_hours": 2.2,
     "sampled": 6,
-    "unanswered": 2,
+    "unanswered": 1,
     "unknown": 0
   },
   "umputun/ralphex": {
-    "answered": 4,
+    "answered": 3,
     "cache": {
       "I_kwDOQ9H_Yc8AAAABO8vkzw": {
         "hours": 11.465277777777779,
-        "result": "answered"
-      },
-      "I_kwDOQ9H_Yc8AAAABOpqNCg": {
-        "hours": 4.608611111111111,
         "result": "answered"
       },
       "I_kwDOQ9H_Yc8AAAABPJ3Ysg": {
@@ -16260,38 +16259,38 @@
         "result": "answered"
       }
     },
-    "closed": 164,
-    "completion_days": 0.4,
-    "date": "2026-11-25",
+    "closed": 165,
+    "completion_days": 0.5,
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 2,
+    "open": 1,
     "outcomes": {
-      "COMPLETED": 6,
+      "COMPLETED": 5,
       "DUPLICATE": 0,
       "NOT_PLANNED": 0,
       "UNSPECIFIED": 0
     },
-    "reply_hours": 4.9,
-    "sampled": 5,
+    "reply_hours": 5.2,
+    "sampled": 4,
     "unanswered": 1,
     "unknown": 0
   },
   "unclebob/swarm-forge": {
     "answered": 0,
     "cache": {
+      "I_kwDOSFZR588AAAABO3vv-A": {
+        "result": "unanswered"
+      },
       "I_kwDOSFZR588AAAABO41Zag": {
         "result": "unanswered"
       },
-      "I_kwDOSFZR588AAAABOlvbMg": {
-        "result": "unanswered"
-      },
-      "I_kwDOSFZR588AAAABPMSWaw": {
+      "I_kwDOSFZR588AAAABPUMn2w": {
         "result": "unanswered"
       },
       "I_kwDOSFZR588AAAABTWarGA": {
         "result": "unanswered"
       },
-      "I_kwDOSFZR588AAAABTWasGg": {
+      "I_kwDOSFZR588AAAABU5Wm7A": {
         "result": "unanswered"
       },
       "I_kwDOSFZR588AAAABaye0Vg": {
@@ -16300,7 +16299,7 @@
     },
     "closed": 10,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 28,
     "outcomes": {
@@ -16317,19 +16316,19 @@
   "unstablebuild/rune": {
     "answered": 0,
     "cache": {
-      "I_kwDOUUw9Ss8AAAABTwMQUQ": {
+      "I_kwDOUUw9Ss8AAAABUACCPQ": {
         "result": "unanswered"
       },
       "I_kwDOUUw9Ss8AAAABUTbReA": {
         "result": "unanswered"
       },
-      "I_kwDOUUw9Ss8AAAABVsHubA": {
+      "I_kwDOUUw9Ss8AAAABWBiPeA": {
         "result": "unanswered"
       },
       "I_kwDOUUw9Ss8AAAABXsIRLg": {
         "result": "unanswered"
       },
-      "I_kwDOUUw9Ss8AAAABZ_fyzA": {
+      "I_kwDOUUw9Ss8AAAABasXiOQ": {
         "result": "unanswered"
       },
       "I_kwDOUUw9Ss8AAAABdDK0PA": {
@@ -16338,9 +16337,9 @@
     },
     "closed": 50,
     "completion_days": 5.2,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 87,
+    "open": 88,
     "outcomes": {
       "COMPLETED": 6,
       "DUPLICATE": 0,
@@ -16359,13 +16358,13 @@
         "result": "unanswered"
       }
     },
-    "closed": 235,
-    "completion_days": 1.1,
-    "date": "2026-11-25",
+    "closed": 236,
+    "completion_days": 1.2,
+    "date": "2026-11-27",
     "enabled": true,
     "open": 20,
     "outcomes": {
-      "COMPLETED": 4,
+      "COMPLETED": 5,
       "DUPLICATE": 0,
       "NOT_PLANNED": 0,
       "UNSPECIFIED": 0
@@ -16393,7 +16392,7 @@
     },
     "closed": 420,
     "completion_days": 156.2,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 19,
     "outcomes": {
@@ -16412,7 +16411,7 @@
     "cache": {},
     "closed": 4,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 4,
     "outcomes": {
@@ -16431,7 +16430,7 @@
     "cache": {},
     "closed": 0,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 1,
     "outcomes": {
@@ -16464,9 +16463,9 @@
         "result": "unanswered"
       }
     },
-    "closed": 17,
-    "completion_days": 4.5,
-    "date": "2026-11-25",
+    "closed": 19,
+    "completion_days": 3.0,
+    "date": "2026-11-27",
     "enabled": true,
     "open": 6,
     "outcomes": {
@@ -16485,7 +16484,7 @@
     "cache": {},
     "closed": 44,
     "completion_days": 0.0,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 2,
     "outcomes": {
@@ -16523,7 +16522,7 @@
     },
     "closed": 8,
     "completion_days": 0.8,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 5,
     "outcomes": {
@@ -16542,7 +16541,7 @@
     "cache": {},
     "closed": 2,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 1,
     "outcomes": {
@@ -16573,7 +16572,7 @@
     },
     "closed": 3,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 1,
     "outcomes": {
@@ -16602,7 +16601,7 @@
     },
     "closed": 17,
     "completion_days": 0.3,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 6,
     "outcomes": {
@@ -16621,7 +16620,7 @@
     "cache": {},
     "closed": 12,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 3,
     "outcomes": {
@@ -16659,7 +16658,7 @@
     },
     "closed": 3,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 7,
     "outcomes": {
@@ -16689,7 +16688,7 @@
     },
     "closed": 189,
     "completion_days": 28.1,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 1,
     "outcomes": {
@@ -16704,16 +16703,24 @@
     "unknown": 0
   },
   "vshulcz/deja-vu": {
-    "answered": 1,
+    "answered": 0,
     "cache": {
-      "I_kwDOTX8R288AAAABgTW0Sg": {
-        "hours": 12.931111111111111,
-        "result": "answered"
+      "I_kwDOTX8R288AAAABg6oqNw": {
+        "result": "unanswered"
+      },
+      "I_kwDOTX8R288AAAABg8ET8w": {
+        "result": "unanswered"
+      },
+      "I_kwDOTX8R288AAAABgx1T4A": {
+        "result": "unanswered"
+      },
+      "I_kwDOTX8R288AAAABhBZ4sQ": {
+        "result": "unanswered"
       }
     },
-    "closed": 2778,
-    "completion_days": 0.3,
-    "date": "2026-11-25",
+    "closed": 2782,
+    "completion_days": 0.1,
+    "date": "2026-11-27",
     "enabled": true,
     "open": 3,
     "outcomes": {
@@ -16723,23 +16730,23 @@
       "UNSPECIFIED": 0
     },
     "reply_hours": null,
-    "sampled": 1,
-    "unanswered": 0,
+    "sampled": 4,
+    "unanswered": 4,
     "unknown": 0
   },
   "wainmann/agent-manager": {
     "answered": 0,
     "cache": {
-      "I_kwDOTZhECc8AAAABfbjYmQ": {
-        "result": "unanswered"
-      },
-      "I_kwDOTZhECc8AAAABfjIM7w": {
-        "result": "unanswered"
-      },
       "I_kwDOTZhECc8AAAABfs44gQ": {
         "result": "unanswered"
       },
-      "I_kwDOTZhECc8AAAABgEJcaQ": {
+      "I_kwDOTZhECc8AAAABg1QsjA": {
+        "result": "unanswered"
+      },
+      "I_kwDOTZhECc8AAAABgEJYvA": {
+        "result": "unanswered"
+      },
+      "I_kwDOTZhECc8AAAABgEitCw": {
         "result": "unanswered"
       },
       "I_kwDOTZhECc8AAAABgP-gUw": {
@@ -16749,11 +16756,11 @@
         "result": "unanswered"
       }
     },
-    "closed": 225,
-    "completion_days": 32.2,
-    "date": "2026-11-25",
+    "closed": 226,
+    "completion_days": 26.1,
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 125,
+    "open": 128,
     "outcomes": {
       "COMPLETED": 5,
       "DUPLICATE": 0,
@@ -16768,15 +16775,15 @@
   "waishnav/devspace": {
     "answered": 2,
     "cache": {
-      "I_kwDOS6lvg88AAAABP6x19A": {
-        "hours": 30.789166666666667,
+      "I_kwDOS6lvg88AAAABQGhQSQ": {
+        "hours": 16.804166666666667,
         "result": "answered"
       },
-      "I_kwDOS6lvg88AAAABQUADCQ": {
-        "hours": 8.824722222222222,
+      "I_kwDOS6lvg88AAAABQqM6Vw": {
+        "hours": 116.35083333333333,
         "result": "answered"
       },
-      "I_kwDOS6lvg88AAAABRV1rbA": {
+      "I_kwDOS6lvg88AAAABRxy-4g": {
         "result": "unanswered"
       },
       "I_kwDOS6lvg88AAAABS0LFuA": {
@@ -16791,9 +16798,9 @@
     },
     "closed": 75,
     "completion_days": 17.9,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 24,
+    "open": 25,
     "outcomes": {
       "COMPLETED": 5,
       "DUPLICATE": 0,
@@ -16810,7 +16817,7 @@
     "cache": {},
     "closed": 5,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 0,
     "outcomes": {
@@ -16829,7 +16836,7 @@
     "cache": {},
     "closed": 10,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 7,
     "outcomes": {
@@ -16848,7 +16855,7 @@
     "cache": {},
     "closed": 0,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 2,
     "outcomes": {
@@ -16867,7 +16874,7 @@
     "cache": {},
     "closed": 3,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 0,
     "outcomes": {
@@ -16902,7 +16909,7 @@
     },
     "closed": 4,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 7,
     "outcomes": {
@@ -16921,7 +16928,7 @@
     "cache": {},
     "closed": 0,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 0,
     "outcomes": {
@@ -16940,7 +16947,7 @@
     "cache": {},
     "closed": 0,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 0,
     "outcomes": {
@@ -16959,7 +16966,7 @@
     "cache": {},
     "closed": 28,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 2,
     "outcomes": {
@@ -16976,9 +16983,6 @@
   "winfunc/opcode": {
     "answered": 0,
     "cache": {
-      "I_kwDOO-cEnM8AAAABOj0eKQ": {
-        "result": "unanswered"
-      },
       "I_kwDOO-cEnM8AAAABY6fuCA": {
         "result": "unanswered"
       },
@@ -16988,7 +16992,7 @@
     },
     "closed": 57,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 266,
     "outcomes": {
@@ -16998,8 +17002,8 @@
       "UNSPECIFIED": 0
     },
     "reply_hours": null,
-    "sampled": 3,
-    "unanswered": 3,
+    "sampled": 2,
+    "unanswered": 2,
     "unknown": 0
   },
   "withastro/flue": {
@@ -17014,19 +17018,19 @@
       "I_kwDORLED888AAAABdEj5cg": {
         "result": "unanswered"
       },
-      "I_kwDORLED888AAAABeESPhg": {
+      "I_kwDORLED888AAAABeVmEEw": {
         "result": "unanswered"
       },
-      "I_kwDORLED888AAAABfz_Fhg": {
+      "I_kwDORLED888AAAABf-G0ZQ": {
         "result": "unanswered"
       },
-      "I_kwDORLED888AAAABgGB4KQ": {
+      "I_kwDORLED888AAAABgfYxiw": {
         "result": "unanswered"
       }
     },
     "closed": 301,
     "completion_days": 15.7,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 74,
     "outcomes": {
@@ -17045,7 +17049,7 @@
     "cache": {},
     "closed": 0,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 0,
     "outcomes": {
@@ -17068,7 +17072,7 @@
     },
     "closed": 1,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 0,
     "outcomes": {
@@ -17087,7 +17091,7 @@
     "cache": {},
     "closed": 0,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 0,
     "outcomes": {
@@ -17102,13 +17106,18 @@
     "unknown": 0
   },
   "y5ez3g/facadecode": {
-    "answered": 0,
-    "cache": {},
+    "answered": 1,
+    "cache": {
+      "I_kwDOVFAem88AAAABglK2ZA": {
+        "hours": 18.85333333333333,
+        "result": "answered"
+      }
+    },
     "closed": 0,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 3,
+    "open": 4,
     "outcomes": {
       "COMPLETED": 0,
       "DUPLICATE": 0,
@@ -17116,7 +17125,7 @@
       "UNSPECIFIED": 0
     },
     "reply_hours": null,
-    "sampled": 0,
+    "sampled": 1,
     "unanswered": 0,
     "unknown": 0
   },
@@ -17125,7 +17134,7 @@
     "cache": {},
     "closed": 0,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 2,
     "outcomes": {
@@ -17163,9 +17172,9 @@
     },
     "closed": 206,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 8,
+    "open": 9,
     "outcomes": {
       "COMPLETED": 0,
       "DUPLICATE": 0,
@@ -17182,7 +17191,7 @@
     "cache": {},
     "closed": 4,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 4,
     "outcomes": {
@@ -17202,25 +17211,25 @@
       "I_kwDOTnic1s8AAAABcmxOhQ": {
         "result": "unanswered"
       },
-      "I_kwDOTnic1s8AAAABd4u19w": {
+      "I_kwDOTnic1s8AAAABd4u2Ag": {
         "result": "unanswered"
       },
-      "I_kwDOTnic1s8AAAABeFWeDw": {
-        "result": "unanswered"
-      },
-      "I_kwDOTnic1s8AAAABeT1Uyg": {
+      "I_kwDOTnic1s8AAAABeKRBNg": {
         "result": "unanswered"
       },
       "I_kwDOTnic1s8AAAABfIVetw": {
+        "result": "unanswered"
+      },
+      "I_kwDOTnic1s8AAAABg0KOLA": {
         "result": "unanswered"
       },
       "I_kwDOTnic1s8AAAABgSQu1A": {
         "result": "unanswered"
       }
     },
-    "closed": 92,
+    "closed": 91,
     "completion_days": 0.9,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 352,
     "outcomes": {
@@ -17235,102 +17244,102 @@
     "unknown": 0
   },
   "yeachan-heo/oh-my-claudecode": {
-    "answered": 5,
+    "answered": 6,
     "cache": {
-      "I_kwDOQ2bIec8AAAABcCG1vA": {
-        "hours": 2.004722222222222,
+      "I_kwDOQ2bIec8AAAABd7qxDw": {
+        "hours": 0.445,
         "result": "answered"
       },
-      "I_kwDOQ2bIec8AAAABcubBHQ": {
-        "hours": 2.1847222222222222,
+      "I_kwDOQ2bIec8AAAABdyhA8Q": {
+        "hours": 0.9658333333333333,
         "result": "answered"
       },
-      "I_kwDOQ2bIec8AAAABdyg_mg": {
-        "hours": 0.9313888888888889,
+      "I_kwDOQ2bIec8AAAABeYywEw": {
+        "hours": 1.1677777777777778,
         "result": "answered"
       },
-      "I_kwDOQ2bIec8AAAABe2UfaQ": {
-        "result": "unanswered"
-      },
-      "I_kwDOQ2bIec8AAAABeRPJqw": {
-        "hours": 5.831944444444445,
+      "I_kwDOQ2bIec8AAAABf8Clpg": {
+        "hours": 1.3486111111111112,
         "result": "answered"
       },
-      "I_kwDOQ2bIec8AAAABf9xkNQ": {
-        "hours": 0.10083333333333333,
+      "I_kwDOQ2bIec8AAAABfitkeQ": {
+        "hours": 0.525,
+        "result": "answered"
+      },
+      "I_kwDOQ2bIec8AAAABhCOpNA": {
+        "hours": 0.1425,
         "result": "answered"
       }
     },
-    "closed": 1597,
-    "completion_days": 2.1,
-    "date": "2026-11-25",
+    "closed": 1600,
+    "completion_days": 5.8,
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 10,
+    "open": 17,
     "outcomes": {
       "COMPLETED": 6,
       "DUPLICATE": 0,
       "NOT_PLANNED": 0,
       "UNSPECIFIED": 0
     },
-    "reply_hours": 2.0,
+    "reply_hours": 0.7,
     "sampled": 6,
-    "unanswered": 1,
+    "unanswered": 0,
     "unknown": 0
   },
   "yeachan-heo/oh-my-codex": {
-    "answered": 4,
+    "answered": 3,
     "cache": {
-      "I_kwDORG3jas8AAAABbH8gmQ": {
-        "hours": 1.5541666666666667,
-        "result": "answered"
-      },
-      "I_kwDORG3jas8AAAABdOvhlA": {
+      "I_kwDORG3jas8AAAABdXyH3A": {
         "result": "unanswered"
       },
-      "I_kwDORG3jas8AAAABdXyG-w": {
+      "I_kwDORG3jas8AAAABdXyIuA": {
         "result": "unanswered"
       },
-      "I_kwDORG3jas8AAAABfXApGA": {
-        "hours": 0.9422222222222222,
+      "I_kwDORG3jas8AAAABfm1sDw": {
+        "hours": 1.313611111111111,
         "result": "answered"
       },
       "I_kwDORG3jas8AAAABfvvNgA": {
         "hours": 0.3022222222222222,
         "result": "answered"
       },
+      "I_kwDORG3jas8AAAABgLe_mg": {
+        "result": "unanswered"
+      },
       "I_kwDORG3jas8AAAABgLfCfw": {
         "hours": 2.312222222222222,
         "result": "answered"
       }
     },
-    "closed": 1350,
+    "closed": 1354,
     "completion_days": 0.1,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 2,
+    "open": 8,
     "outcomes": {
       "COMPLETED": 6,
       "DUPLICATE": 0,
       "NOT_PLANNED": 0,
       "UNSPECIFIED": 0
     },
-    "reply_hours": 1.2,
+    "reply_hours": 1.3,
     "sampled": 6,
-    "unanswered": 2,
+    "unanswered": 3,
     "unknown": 0
   },
   "yicheng47/runner": {
     "answered": 0,
     "cache": {},
-    "closed": 604,
-    "completion_days": 2.9,
-    "date": "2026-11-25",
+    "closed": 616,
+    "completion_days": 0.8,
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 79,
+    "open": 87,
     "outcomes": {
-      "COMPLETED": 6,
+      "COMPLETED": 5,
       "DUPLICATE": 0,
-      "NOT_PLANNED": 0,
+      "NOT_PLANNED": 1,
       "UNSPECIFIED": 0
     },
     "reply_hours": null,
@@ -17343,7 +17352,7 @@
     "cache": {},
     "closed": 2,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 0,
     "outcomes": {
@@ -17362,7 +17371,7 @@
     "cache": {},
     "closed": 0,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 0,
     "outcomes": {
@@ -17381,7 +17390,7 @@
     "cache": {},
     "closed": 61,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 1,
     "outcomes": {
@@ -17410,7 +17419,7 @@
     },
     "closed": 50,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 13,
     "outcomes": {
@@ -17427,16 +17436,16 @@
   "yuuichieguchi/calyx": {
     "answered": 5,
     "cache": {
-      "I_kwDORhar3c8AAAABOrM30w": {
-        "hours": 9.715277777777779,
+      "I_kwDORhar3c8AAAABUBeBsQ": {
+        "hours": 0.09777777777777778,
         "result": "answered"
       },
-      "I_kwDORhar3c8AAAABXK-laQ": {
-        "hours": 2.8275,
+      "I_kwDORhar3c8AAAABXLDeig": {
+        "hours": 2.732222222222222,
         "result": "answered"
       },
-      "I_kwDORhar3c8AAAABXWA0zw": {
-        "hours": 101.17861111111111,
+      "I_kwDORhar3c8AAAABYVx6Ng": {
+        "hours": 19.947777777777777,
         "result": "answered"
       },
       "I_kwDORhar3c8AAAABYVx7TQ": {
@@ -17452,14 +17461,14 @@
       }
     },
     "closed": 48,
-    "completion_days": 0.6,
-    "date": "2026-11-25",
+    "completion_days": 0.8,
+    "date": "2026-11-27",
     "enabled": true,
     "open": 2,
     "outcomes": {
-      "COMPLETED": 4,
+      "COMPLETED": 5,
       "DUPLICATE": 0,
-      "NOT_PLANNED": 2,
+      "NOT_PLANNED": 1,
       "UNSPECIFIED": 0
     },
     "reply_hours": 13.2,
@@ -17476,7 +17485,7 @@
     },
     "closed": 0,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 1,
     "outcomes": {
@@ -17493,9 +17502,9 @@
   "z80dev/lemon": {
     "answered": 0,
     "cache": {},
-    "closed": 355,
+    "closed": 356,
     "completion_days": 7.2,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 4,
     "outcomes": {
@@ -17512,11 +17521,11 @@
   "zajca/pohunek": {
     "answered": 0,
     "cache": {},
-    "closed": 1126,
-    "completion_days": 7.5,
-    "date": "2026-11-25",
+    "closed": 1152,
+    "completion_days": 10.5,
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 205,
+    "open": 219,
     "outcomes": {
       "COMPLETED": 6,
       "DUPLICATE": 0,
@@ -17531,15 +17540,15 @@
   "zaxbyhub/opencode-swarm": {
     "answered": 0,
     "cache": {},
-    "closed": 1339,
-    "completion_days": 3.7,
-    "date": "2026-11-25",
+    "closed": 1345,
+    "completion_days": 3.9,
+    "date": "2026-11-27",
     "enabled": true,
     "open": 115,
     "outcomes": {
-      "COMPLETED": 5,
+      "COMPLETED": 6,
       "DUPLICATE": 0,
-      "NOT_PLANNED": 1,
+      "NOT_PLANNED": 0,
       "UNSPECIFIED": 0
     },
     "reply_hours": null,
@@ -17565,12 +17574,12 @@
       }
     },
     "closed": 27,
-    "completion_days": 33.3,
-    "date": "2026-11-25",
+    "completion_days": 52.7,
+    "date": "2026-11-27",
     "enabled": true,
     "open": 5,
     "outcomes": {
-      "COMPLETED": 6,
+      "COMPLETED": 5,
       "DUPLICATE": 0,
       "NOT_PLANNED": 0,
       "UNSPECIFIED": 0
@@ -17583,11 +17592,11 @@
   "zeroclaw-labs/zeroclaw": {
     "answered": 0,
     "cache": {},
-    "closed": 2898,
-    "completion_days": 20.0,
-    "date": "2026-11-25",
+    "closed": 2903,
+    "completion_days": 44.4,
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 755,
+    "open": 756,
     "outcomes": {
       "COMPLETED": 6,
       "DUPLICATE": 0,
@@ -17602,16 +17611,7 @@
   "zeronsh/zeron": {
     "answered": 0,
     "cache": {
-      "I_kwDOTeMU9s8AAAABfjUBUA": {
-        "result": "unanswered"
-      },
-      "I_kwDOTeMU9s8AAAABflclxA": {
-        "result": "unanswered"
-      },
       "I_kwDOTeMU9s8AAAABftyFfQ": {
-        "result": "unanswered"
-      },
-      "I_kwDOTeMU9s8AAAABgGXUbA": {
         "result": "unanswered"
       },
       "I_kwDOTeMU9s8AAAABgKAoXw": {
@@ -17619,13 +17619,22 @@
       },
       "I_kwDOTeMU9s8AAAABgQRU5Q": {
         "result": "unanswered"
+      },
+      "I_kwDOTeMU9s8AAAABgcms8g": {
+        "result": "unanswered"
+      },
+      "I_kwDOTeMU9s8AAAABge-4GQ": {
+        "result": "unanswered"
+      },
+      "I_kwDOTeMU9s8AAAABgxXM3Q": {
+        "result": "unanswered"
       }
     },
     "closed": 177,
     "completion_days": 58.3,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 125,
+    "open": 128,
     "outcomes": {
       "COMPLETED": 4,
       "DUPLICATE": 0,
@@ -17638,42 +17647,44 @@
     "unknown": 0
   },
   "zhayujie/cowagent": {
-    "answered": 3,
+    "answered": 2,
     "cache": {
-      "I_kwDOHx-ACM8AAAABYkUbIw": {
-        "hours": 18.600555555555555,
+      "I_kwDOHx-ACM8AAAABa5_KmA": {
+        "hours": 0.7216666666666667,
         "result": "answered"
       },
-      "I_kwDOHx-ACM8AAAABaPLg8Q": {
+      "I_kwDOHx-ACM8AAAABbyBVHA": {
         "result": "unanswered"
       },
-      "I_kwDOHx-ACM8AAAABcCSMug": {
+      "I_kwDOHx-ACM8AAAABcGIdow": {
         "result": "unanswered"
       },
       "I_kwDOHx-ACM8AAAABd-AuEA": {
         "hours": 44.1775,
         "result": "answered"
       },
-      "I_kwDOHx-ACM8AAAABgTL-KQ": {
-        "hours": 54.54277777777778,
-        "result": "answered"
+      "I_kwDOHx-ACM8AAAABfVgQ-Q": {
+        "result": "unanswered"
+      },
+      "I_kwDOHx-ACM8AAAABg5DwCg": {
+        "result": "unanswered"
       }
     },
-    "closed": 2295,
+    "closed": 2304,
     "completion_days": 2.5,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 23,
+    "open": 21,
     "outcomes": {
       "COMPLETED": 6,
       "DUPLICATE": 0,
       "NOT_PLANNED": 0,
       "UNSPECIFIED": 0
     },
-    "reply_hours": 44.2,
+    "reply_hours": null,
     "sampled": 6,
-    "unanswered": 2,
-    "unknown": 1
+    "unanswered": 4,
+    "unknown": 0
   },
   "zhnt/loushang": {
     "answered": 0,
@@ -17709,7 +17720,7 @@
     "cache": {},
     "closed": 3,
     "completion_days": null,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 4,
     "outcomes": {
@@ -17751,7 +17762,7 @@
     },
     "closed": 10,
     "completion_days": 21.2,
-    "date": "2026-11-25",
+    "date": "2026-11-27",
     "enabled": true,
     "open": 15,
     "outcomes": {
@@ -17768,20 +17779,16 @@
   "zzunkie/yardlet": {
     "answered": 6,
     "cache": {
-      "I_kwDOSuw1r88AAAABaOeMBA": {
-        "hours": 9.368333333333334,
-        "result": "answered"
-      },
-      "I_kwDOSuw1r88AAAABaOeSRQ": {
-        "hours": 9.366666666666667,
-        "result": "answered"
-      },
-      "I_kwDOSuw1r88AAAABaOfa-w": {
-        "hours": 9.341111111111111,
+      "I_kwDOSuw1r88AAAABaOfmgQ": {
+        "hours": 8.989444444444445,
         "result": "answered"
       },
       "I_kwDOSuw1r88AAAABaPD0qg": {
         "hours": 19.621111111111112,
+        "result": "answered"
+      },
+      "I_kwDOSuw1r88AAAABcNHBIw": {
+        "hours": 0.9116666666666666,
         "result": "answered"
       },
       "I_kwDOSuw1r88AAAABcNIiDA": {
@@ -17791,20 +17798,24 @@
       "I_kwDOSuw1r88AAAABeNzp1w": {
         "hours": 0.12305555555555556,
         "result": "answered"
+      },
+      "I_kwDOSuw1r88AAAABg87Fzw": {
+        "hours": 48.897222222222226,
+        "result": "answered"
       }
     },
-    "closed": 88,
-    "completion_days": 0.7,
-    "date": "2026-11-25",
+    "closed": 90,
+    "completion_days": 1.6,
+    "date": "2026-11-27",
     "enabled": true,
-    "open": 7,
+    "open": 13,
     "outcomes": {
       "COMPLETED": 6,
       "DUPLICATE": 0,
       "NOT_PLANNED": 0,
       "UNSPECIFIED": 0
     },
-    "reply_hours": 9.4,
+    "reply_hours": 5.0,
     "sampled": 6,
     "unanswered": 0,
     "unknown": 0
