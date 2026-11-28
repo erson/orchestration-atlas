@@ -10,13 +10,13 @@ Filter by task, feature, language, or activity and compare up to four projects s
 +----- [ INDEX SNAPSHOT ] ----+
 |                             |
 |  Available projects   639   |
-|  Active in 30 days    457   |
-|  Combined stars       3.7M  |
+|  Active in 30 days    452   |
+|  Combined stars       3.8M  |
 |                             |
 +-----------------------------+
 ```
 
-*Metrics collected 2026-11-21 to 2026-11-27 (UTC). The index tracks 645 projects across 9 categories.*
+*Metrics collected 2026-11-22 to 2026-11-28 (UTC). The index tracks 645 projects across 9 categories.*
 
 ## Choose a task
 
@@ -44,11 +44,11 @@ Use **last commit** for recency, **latest release** for shipping cadence, and **
 
 | Projects tracked | Total stars | Median contributors | Median days since last commit |
 |:-:|:-:|:-:|:-:|
-| **645** | **3,742,898** | **7** | **3** |
+| **645** | **3,760,257** | **7** | **3** |
 
 | 🟢 Active | 🟡 Recent | 🟠 Slow | 🔴 Stale | 📦 Archived | ⚫ Unavailable |
 |:-:|:-:|:-:|:-:|:-:|:-:|
-| **457** | **64** | **110** | **2** | **6** | **6** |
+| **452** | **69** | **110** | **2** | **6** | **6** |
 
 Status is the age of the last commit on the default branch: Active up to 30 days, Recent up to 90, Slow up to a year, Stale beyond that. See [Methodology](#methodology).
 
@@ -92,13 +92,13 @@ Share of the 639 projects whose README, description, or topics mention each feat
 | 1 | [openclaw](https://github.com/openclaw/openclaw) | Assistants | 395,028 | 376 | 🟢 Active |
 | 2 | [hermes-agent](https://github.com/NousResearch/hermes-agent) | Assistants | 265,816 | 399 | 🟢 Active |
 | 3 | [Orca](https://github.com/stablyai/orca) | Desktop & web | 132,493 | 464 | 🟢 Active |
-| 4 | [paperclip](https://github.com/paperclipai/paperclip) | Swarms | 115,587 | 243 | 🟢 Active |
+| 4 | [paperclip](https://github.com/paperclipai/paperclip) | Swarms | 117,726 | 243 | 🟢 Active |
 | 5 | [OpenHands](https://github.com/OpenHands/OpenHands) | Task runners | 94,227 | 456 | 🟢 Active |
 | 6 | [DeerFlow](https://github.com/bytedance/deer-flow) _(new)_ | Adjacent frameworks | 85,793 | 454 | 🟢 Active |
-| 7 | [ruflo](https://github.com/ruvnet/ruflo) | Swarms | 82,196 | 87 | 🟢 Active |
-| 8 | [MetaGPT](https://github.com/FoundationAgents/MetaGPT) | Adjacent frameworks | 71,431 | 116 | 🟠 Slow |
-| 9 | [OmO](https://github.com/code-yeongyu/oh-my-openagent) _(new)_ | Swarms | 71,107 | 333 | 🟢 Active |
-| 10 | [t3code](https://github.com/pingdotgg/t3code) | Desktop & web | 68,744 | 474 | 🟢 Active |
+| 7 | [t3code](https://github.com/pingdotgg/t3code) | Desktop & web | 82,608 | 474 | 🟢 Active |
+| 8 | [ruflo](https://github.com/ruvnet/ruflo) | Swarms | 82,577 | 87 | 🟢 Active |
+| 9 | [MetaGPT](https://github.com/FoundationAgents/MetaGPT) | Adjacent frameworks | 71,431 | 116 | 🟠 Slow |
+| 10 | [OmO](https://github.com/code-yeongyu/oh-my-openagent) _(new)_ | Swarms | 71,107 | 333 | 🟢 Active |
 | 11 | [AutoGen](https://github.com/microsoft/autogen) | Adjacent frameworks | 61,973 | 440 | 📦 Archived |
 | 12 | [crewAI](https://github.com/crewAIInc/crewAI) | Swarms | 61,254 | 367 | 🟢 Active |
 | 13 | [multica](https://github.com/multica-ai/multica) | Task runners | 58,183 | 406 | 🟢 Active |
@@ -111,21 +111,21 @@ Share of the 639 projects whose README, description, or topics mention each feat
 
 | # | Project | Category | Last commit | Commits (90d) | Status |
 |--:|---|---|---|--:|---|
-| 1 | [omnigent](https://github.com/omnigent-ai/omnigent) | Infrastructure | 2026-11-27 | 4,141 | 🟢 Active |
-| 2 | [Nuphos](https://github.com/nuphos/nuphos) | Desktop & web | 2026-11-27 | 3,374 | 🟢 Active |
-| 3 | [Mastra](https://github.com/mastra-ai/mastra) | Adjacent frameworks | 2026-11-27 | 5,464 | 🟢 Active |
-| 4 | [cmux](https://github.com/manaflow-ai/cmux) | Terminal | 2026-11-27 | 9,275 | 🟢 Active |
-| 5 | [OpenMausBot](https://github.com/milind-soni/OpenMausBot) | Assistants | 2026-11-27 | 13,214 | 🟢 Active |
-| 6 | [Novadeck](https://github.com/novadeck-org/novadeck) | Desktop & web | 2026-11-27 | 1,194 | 🟢 Active |
-| 7 | [Ghostex](https://github.com/maddada/Ghostex) | Desktop & web | 2026-11-27 | 8,458 | 🟢 Active |
-| 8 | [Claude Octopus](https://github.com/nyldn/claude-octopus) _(new)_ | Swarms | 2026-11-27 | 356 | 🟢 Active |
-| 9 | [Ling Stack](https://github.com/ling-stack-org/ling-stack) _(new)_ | Desktop & web | 2026-11-27 | 1,029 | 🟢 Active |
-| 10 | [alas](https://github.com/mrmans0n/alas) | Desktop & web | 2026-11-27 | 1,708 | 🟢 Active |
-| 11 | [Taskuary](https://github.com/ldbumble/taskuary) | Task runners | 2026-11-27 | 8,262 | 🟢 Active |
-| 12 | [Cezar](https://github.com/open-mercato/cezar) _(new)_ | Desktop & web | 2026-11-27 | 749 | 🟢 Active |
-| 13 | [leon](https://github.com/leon-ai/leon) | Assistants | 2026-11-27 | 1,234 | 🟢 Active |
-| 14 | [amux (mixpeek)](https://github.com/mixpeek/amux) | Terminal | 2026-11-27 | 5,771 | 🟢 Active |
-| 15 | [MultiCC](https://github.com/lsjwzh/MultiCC) | Desktop & web | 2026-11-27 | 4,813 | 🟢 Active |
+| 1 | [t3code](https://github.com/pingdotgg/t3code) | Desktop & web | 2026-11-28 | 11,903 | 🟢 Active |
+| 2 | [row-bot](https://github.com/siddsachar/row-bot) | Assistants | 2026-11-28 | 4,020 | 🟢 Active |
+| 3 | [Speakeasy control plane](https://github.com/speakeasy-api/gram) | Infrastructure | 2026-11-28 | 2,796 | 🟢 Active |
+| 4 | [Superagent](https://github.com/pungme/superagent-desktop) | Desktop & web | 2026-11-28 | 949 | 🟢 Active |
+| 5 | [bernstein](https://github.com/sipyourdrink-ltd/bernstein) | Loop runners | 2026-11-28 | 1,859 | 🟢 Active |
+| 6 | [paperclip](https://github.com/paperclipai/paperclip) | Swarms | 2026-11-28 | 4,696 | 🟢 Active |
+| 7 | [Termic](https://github.com/simion/termic) _(new)_ | Desktop & web | 2026-11-28 | 978 | 🟢 Active |
+| 8 | [Claudexor](https://github.com/razzant/claudexor) | Infrastructure | 2026-11-28 | 1,909 | 🟢 Active |
+| 9 | [switch](https://github.com/sandbox-quantum/switch) _(new)_ | Assistants | 2026-11-28 | 2,601 | 🟢 Active |
+| 10 | [MulmoTerminal](https://github.com/receptron/mulmoterminal) | Desktop & web | 2026-11-28 | 4,134 | 🟢 Active |
+| 11 | [Codeg](https://github.com/spacering-net/codeg) _(new)_ | Desktop & web | 2026-11-28 | 2,136 | 🟢 Active |
+| 12 | [Althar](https://github.com/AltharIDE/althar) _(new)_ | Desktop & web | 2026-11-28 | 952 | 🟢 Active |
+| 13 | [Happy](https://github.com/slopus/happy) | Desktop & web | 2026-11-28 | 2,778 | 🟢 Active |
+| 14 | [Sesori](https://github.com/sesori-ai/sesori_apps_monorepo) | Desktop & web | 2026-11-28 | 1,698 | 🟢 Active |
+| 15 | [AI4Kanban](https://github.com/wildcrane-ai/wildcrane) | Desktop & web | 2026-11-28 | 108 | 🟢 Active |
 
 </details>
 
@@ -254,7 +254,7 @@ The same parallel-sessions workflow as a desktop app or browser/mobile dashboard
 | [Althar](https://github.com/AltharIDE/althar) _(new)_ | 🟢 Active | TypeScript |
 | [Antumi](https://github.com/flyhero/antumi) | 🟢 Active | TypeScript |
 | [Aperant](https://github.com/AndyMik90/Aperant) | 🟠 Slow | TypeScript |
-| [Arbor](https://github.com/penso/arbor) _(new)_ | 🟢 Active | Rust |
+| [Arbor](https://github.com/penso/arbor) _(new)_ | 🟡 Recent | Rust |
 | [Async Code Agent](https://github.com/ObservedObserver/async-code) _(new)_ | 🔴 Stale | TypeScript |
 | [ateam](https://github.com/clawnify/ateam) | 🟢 Active | TypeScript |
 | [Atlas](https://github.com/tryatlas/atlas) _(new)_ | 🟢 Active | TypeScript |
@@ -293,7 +293,7 @@ The same parallel-sessions workflow as a desktop app or browser/mobile dashboard
 | [FleetCode](https://github.com/built-by-as/FleetCode) _(new)_ | 🟠 Slow | TypeScript |
 | [Fletch](https://github.com/fwdai/fletch) | 🟢 Active | Rust |
 | [Flock](https://github.com/Onelevenvy/flock) _(new)_ | 🟠 Slow | Rust |
-| [Friday](https://github.com/splashxmoon/friday) | 🟢 Active | TypeScript |
+| [Friday](https://github.com/splashxmoon/friday-code) | 🟢 Active | TypeScript |
 | [Garcon](https://github.com/cfal/garcon) | 🟢 Active | TypeScript |
 | [Gas Town GUI](https://github.com/web3dev1337/gastown-gui) _(new)_ | 🟡 Recent | JavaScript |
 | [Ghostex](https://github.com/maddada/Ghostex) | 🟢 Active | Rust |
@@ -318,7 +318,7 @@ The same parallel-sessions workflow as a desktop app or browser/mobile dashboard
 | [iPolloWork](https://github.com/Devin-AXIS/iPolloWork) _(new)_ | 🟢 Active | TypeScript |
 | [ivy-tendril](https://github.com/Ivy-Interactive/Ivy-Tendril) | 🟢 Active | C# |
 | [jean](https://github.com/coollabsio/jean) | 🟢 Active | TypeScript |
-| [JockeyUI](https://github.com/recailai/jockey) _(new)_ | 🟢 Active | Rust |
+| [JockeyUI](https://github.com/recailai/jockey) _(new)_ | 🟡 Recent | Rust |
 | [Kanban](https://github.com/cline/kanban) _(new)_ | 🟢 Active | TypeScript |
 | [Kander](https://github.com/dualface/kander) | 🟢 Active | Go |
 | [kandev](https://github.com/kdlbs/kandev) | 🟢 Active | Go |
@@ -391,7 +391,7 @@ The same parallel-sessions workflow as a desktop app or browser/mobile dashboard
 | [synara](https://github.com/Emanuele-web04/synara) | 🟢 Active | TypeScript |
 | [t3code](https://github.com/pingdotgg/t3code) | 🟢 Active | TypeScript |
 | [takopi](https://github.com/banteg/takopi) | 🟠 Slow | Python |
-| [Talavine Code](https://github.com/scrossen/talavine-code) _(new)_ | 🟢 Active | C# |
+| [Talavine Code](https://github.com/scrossen/talavine-code) _(new)_ | 🟡 Recent | C# |
 | [TaskHandoff](https://github.com/edgestorage/task-handoff) | 🟢 Active | TypeScript |
 | [Tempest](https://github.com/tempestai-dev/tempest) | 🟢 Active | TypeScript |
 | [Termexo](https://github.com/gemron/Termexo) _(new)_ | 🟢 Active | TypeScript |
@@ -569,7 +569,7 @@ The "keep running until done" pattern — a single goal driven through a retry-u
 | [Compound Product](https://github.com/snarktank/compound-product) _(new)_ | 🟠 Slow | Shell |
 | [Continuous Claude](https://github.com/AnandChowdhary/continuous-claude) _(new)_ | 🟢 Active | Shell |
 | [Dex](https://github.com/francescoalemanno/dex) | ⚫ Unavailable | — |
-| [fractal](https://github.com/plasma-ai/fractal) | 🟢 Active | Python |
+| [fractal](https://github.com/plasma-ai/fractal) | 🟡 Recent | Python |
 | [future-os](https://github.com/futuregene/future-os) | 🟢 Active | Rust |
 | [LongHorizon-Harness](https://github.com/AMAP-ML/LongHorizon-Harness) | 🟢 Active | Python |
 | [Loop Engineering](https://github.com/cobusgreyling/loop-engineering) | 🟢 Active | TypeScript |
@@ -756,7 +756,7 @@ Control planes, coordination protocols, harness adapters, and runtimes — the l
 | [Scalekit](https://github.com/scalekit-inc/scalekit-sdk-python) | 🟢 Active | Python |
 | [skillfold](https://github.com/byronxlg/skillfold) | 🟢 Active | TypeScript |
 | [Speakeasy control plane](https://github.com/speakeasy-api/gram) | 🟢 Active | Go |
-| [sub-agents-skills](https://github.com/shinpr/sub-agents-skills) | 🟢 Active | Python |
+| [sub-agents-skills](https://github.com/shinpr/sub-agents-skills) | 🟡 Recent | Python |
 | [Sympozium](https://github.com/sympozium-ai/sympozium) _(new)_ | 🟢 Active | Go |
 | [SynapseOrch](https://github.com/synapseorch-ai/synapse-ai) _(new)_ | 🟢 Active | Python |
 | [Unified AI System](https://github.com/happy520ai/unified-ai-system) | 🟢 Active | JavaScript |
